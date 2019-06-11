@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!-- имена эффектов для вывода их названий в ГУИ (например, в тултипах) -->
+<!-- id - ид эффекта из базы -->
+<!-- name - ид названия эффекта из cm_messages.xml -->
+<!-- direction - влияние эффекта (Positive/Negative) -->
+<effects>
+	<effect id="1" name="701" direction="Positive"/>
+	<effect id="2" name="702" direction="Positive"/>
+	<effect id="3" name="703" direction="Positive"/>
+	<effect id="4" name="704" direction="Positive"/>
+	<effect id="5" name="705" direction="Positive"/>
+	<effect id="6" name="706" direction="Positive"/>
+	<effect id="7" name="707" direction="Positive"/>
+	<effect id="8" name="708" direction="Positive"/>
+	<effect id="9" name="709" direction="Positive"/>
+	<effect id="10" name="710" direction="Positive"/>
+	<effect id="11" name="711" direction="Positive"/>
+	<effect id="12" name="712" direction="Positive"/>
+	<effect id="13" name="713" direction="Negative"/>
+	<effect id="14" name="714" direction="Negative"/>
+	<effect id="15" name="715" direction="Negative"/>
+	<effect id="16" name="716" direction="Negative"/>
+	<effect id="17" name="717" direction="Negative"/>
+	<effect id="18" name="718" direction="Negative"/>
+	<effect id="19" name="719" direction="Positive"/>
+	<effect id="21" name="2437" direction="Positive"/>
+	<effect id="22" name="2438" direction="Positive"/>
+	<effect id="23" name="2439" direction="Positive"/>
+	<effect id="24" name="2440" direction="Positive"/>
+	<effect id="25" name="2441" direction="Positive"/>
+	<effect id="26" name="2442" direction="Positive"/>
+	<effect id="27" name="2502" direction="Positive"/>
+	<effect id="28" name="2503" direction="Positive"/>
+	<effect id="29" name="2504" direction="Positive"/>
+	<effect id="30" name="2505" direction="Positive"/>
+	<effect id="31" name="2506" direction="Positive"/>
+	<effect id="32" name="2507" direction="Positive"/>
+	<effect id="33" name="2508" direction="Positive"/>
+	<effect id="34" name="2509" direction="Positive"/>
+	<effect id="35" name="2510" direction="Positive"/>
+	<effect id="36" name="2511" direction="Positive"/>
+	<effect id="37" name="5122" direction="Positive"/>
+	<effect id="38" name="5121" direction="Positive"/>
+	<effect id="44" name="5407" direction="Positive"/>
+	<effect id="45" name="5771" direction="Positive"/>
+</effects>

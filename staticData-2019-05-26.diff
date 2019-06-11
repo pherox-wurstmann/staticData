@@ -1,0 +1,224 @@
+diff -Nawur staticData-2019-05-19/00000007.xml staticData-2019-05-26/00000007.xml
+--- staticData-2019-05-19/00000007.xml	2019-05-17 10:52:04.093031300 +0200
++++ staticData-2019-05-26/00000007.xml	2019-05-26 20:38:16.764594700 +0200
+@@ -10010,4 +10010,136 @@
+       <slot>9</slot>
+    </slots>
+ </object>
++<object id="2364">
++   <!--name = Black Robe -->
++   <skillID>62</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>2</slot>
++   </slots>
++   <extraSlotsBlock>
++      <slot>3</slot>
++      <slot>5</slot>
++      <slot>6</slot>
++   </extraSlotsBlock>
++   <meshes>
++      <mesh>GM_Robe_Dark</mesh>
++      <mesh>Male_Body_v1_torso_block</mesh>
++      <mesh>Female_Body_v1_torso_block</mesh>
++   </meshes>
++   <cutoffs>
++      <cutoff type="torso" action="off" />
++      <cutoff type="forearms" action="off" />
++      <cutoff type="shoulders" action="off" />
++      <cutoff type="hips" action="off" />
++      <cutoff type="feet" action="off" />
++   </cutoffs>
++   <armor>
++   <multiplier type="slash"  value="0.0" />
++   <multiplier type="pierce" value="0.0" />
++   <multiplier type="chop"   value="0.0" />
++   <multiplier type="blunt"  value="0.0" />
++   <multiplier type="siege"  value="0.0" />
++   <fragility>0.5</fragility>
++   </armor>
++</object>
++<object id="2365">
++   <!--name = White Robe -->
++   <skillID>62</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>2</slot>
++   </slots>
++   <extraSlotsBlock>
++      <slot>3</slot>
++      <slot>5</slot>
++      <slot>6</slot>
++   </extraSlotsBlock>
++   <meshes>
++      <mesh>GM_Robe</mesh>
++      <mesh>Male_Body_v1_torso_block</mesh>
++      <mesh>Female_Body_v1_torso_block</mesh>
++   </meshes>
++   <cutoffs>
++      <cutoff type="torso" action="off" />
++      <cutoff type="forearms" action="off" />
++      <cutoff type="shoulders" action="off" />
++      <cutoff type="hips" action="off" />
++      <cutoff type="feet" action="off" />
++   </cutoffs>
++   <armor>
++   <multiplier type="slash"  value="0.0" />
++   <multiplier type="pierce" value="0.0" />
++   <multiplier type="chop"   value="0.0" />
++   <multiplier type="blunt"  value="0.0" />
++   <multiplier type="siege"  value="0.0" />
++   <fragility>0.5</fragility>
++   </armor>
++</object>
++<object id="2366">
++   <!--name = Pink Tabard -->
++   <skillID>62</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>14</slot>
++   </slots>
++   <connectedSlots>
++      <hideSlot>2</hideSlot>
++   </connectedSlots>
++   <meshes>
++      <mesh>Surcoat_Armor_Pink</mesh>
++      <mesh>Male_Body_v1_torso_block</mesh>
++      <mesh>Female_Body_v1_torso_block</mesh>
++      <altmesh>Surcoat_Armor_Pink</altmesh>
++      <altmesh>Male_Body_v1_torso_block</altmesh>
++      <altmesh>Female_Body_v1_torso_block</altmesh>
++   </meshes>
++   <cutoffs>
++      <cutoff type="torso" action="off" />
++   </cutoffs>
++</object>
++<object id="2367">
++   <!--name = Red Tabard -->
++   <skillID>62</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>14</slot>
++   </slots>
++   <connectedSlots>
++      <hideSlot>2</hideSlot>
++   </connectedSlots>
++   <meshes>
++      <mesh>Surcoat_Armor_Red</mesh>
++      <mesh>Male_Body_v1_torso_block</mesh>
++      <mesh>Female_Body_v1_torso_block</mesh>
++      <altmesh>Surcoat_Armor_Red</altmesh>
++      <altmesh>Male_Body_v1_torso_block</altmesh>
++      <altmesh>Female_Body_v1_torso_block</altmesh>
++   </meshes>
++   <cutoffs>
++      <cutoff type="torso" action="off" />
++   </cutoffs>
++</object>
++<object id="2368">
++   <!--name = Blue Tabard -->
++   <skillID>62</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>14</slot>
++   </slots>
++   <connectedSlots>
++      <hideSlot>2</hideSlot>
++   </connectedSlots>
++   <meshes>
++      <mesh>Surcoat_Armor_Blue</mesh>
++      <mesh>Male_Body_v1_torso_block</mesh>
++      <mesh>Female_Body_v1_torso_block</mesh>
++      <altmesh>Surcoat_Armor_Blue</altmesh>
++      <altmesh>Male_Body_v1_torso_block</altmesh>
++      <altmesh>Female_Body_v1_torso_block</altmesh>
++   </meshes>
++   <cutoffs>
++      <cutoff type="torso" action="off" />
++   </cutoffs>
++</object>
+ </equipment_types>
+diff -Nawur staticData-2019-05-19/00000008.xml staticData-2019-05-26/00000008.xml
+--- staticData-2019-05-19/00000008.xml	2019-05-17 10:52:04.089014500 +0200
++++ staticData-2019-05-26/00000008.xml	2019-05-26 20:38:16.760604300 +0200
+@@ -5816,21 +5816,21 @@
+ <string id="5814">The unsophisticated clothing of the steppe-dwellers: an open tunic with a wide belt. Red is a joyful color, symbolizing happiness, victory, and cordiality. Blue is the color of the Heavenly Blades.</string>
+ <string id="5815">Distance between the items</string>
+ <string id="5816">Automatic sorting</string>
+-<string id="5817"></string>
+-<string id="5818"></string>
+-<string id="5819"></string>
+-<string id="5820"></string>
+-<string id="5821"></string>
+-<string id="5822"></string>
+-<string id="5823"></string>
+-<string id="5824"></string>
+-<string id="5825"></string>
+-<string id="5826"></string>
+-<string id="5827"></string>
+-<string id="5828"></string>
+-<string id="5829"></string>
+-<string id="5830"></string>
+-<string id="5831"></string>
++<string id="5817" important="1">You have no %(o1) that need repair</string>
++<string id="5818" important="2" type="hint" infoHint="InventoryInfo">You need one of the following materials to repair %(o1):</string>
++<string id="5819">Little %(o1) died on birth: this place is too crowded!</string>
++<string id="5820">reserved for shop</string>
++<string id="5821">reserved for shop</string>
++<string id="5822">reserved for shop</string>
++<string id="5823">reserved for shop</string>
++<string id="5824">reserved for shop</string>
++<string id="5825">reserved for shop</string>
++<string id="5826">reserved for shop</string>
++<string id="5827">reserved for shop</string>
++<string id="5828">Ask a player!</string>
++<string id="5829">Enter your credentials</string>
++<string id="5830">reserved for shop</string>
++<string id="5831">reserved for shop</string>
+ <string id="5832"></string>
+ <string id="5833"></string>
+ <string id="5834"></string>
+@@ -6000,4 +6000,10 @@
+ <string id="5998"></string>
+ <string id="5999"></string>
+ <string id="6000"></string>
++<string id="5809">Dyed Gottlung Rags</string>
++<string id="5810">A simple and reliable garment dyed in a woad, buckthorn, and tansy solution. The colors are bright and vibrant, as preferred by the Gottlungs and the unwashed steppe-dwellers, especially among their women.</string>
++<string id="5811">Dyed Northern Rags</string>
++<string id="5812">A rustic, crudely stitched garment worn by the northerners that has been dyed blue and white, the favorite colors of the northern sailors.</string>
++<string id="5813">Dyed Steppe Rags</string>
++<string id="5814">The unsophisticated clothing of the steppe-dwellers: an open tunic with a wide belt. Red is a joyful color, symbolizing happiness, victory, and cordiality. Blue is the color of the Heavenly Blades.</string>
+ </strings>
+diff -Nawur staticData-2019-05-19/00000018.xml staticData-2019-05-26/00000018.xml
+--- staticData-2019-05-19/00000018.xml	2019-05-17 10:52:04.042978200 +0200
++++ staticData-2019-05-26/00000018.xml	2019-05-26 20:38:16.718717300 +0200
+@@ -15248,7 +15248,7 @@
+   </row>
+   <row>
+     <ID>1211</ID>
+-    <Name>Kite Shield</Name>
++    <Name>Kite shield</Name>
+     <Description/>
+     <SkillTypeID>62</SkillTypeID>
+     <SkillLvl>0</SkillLvl>
+@@ -15695,20 +15695,6 @@
+     <CensoredImagePath/>
+   </row>
+   <row>
+-    <ID>1243</ID>
+-    <Name>Door</Name>
+-    <Description/>
+-    <SkillTypeID>18</SkillTypeID>
+-    <SkillLvl>0</SkillLvl>
+-    <ResultObjectTypeID>2360</ResultObjectTypeID>
+-    <SkillDepends>40</SkillDepends>
+-    <Quantity>1</Quantity>
+-    <Autorepeat>0</Autorepeat>
+-    <IsBlueprint>0</IsBlueprint>
+-    <ImagePath>art\2D\Recipes\chair.png</ImagePath>
+-    <CensoredImagePath/>
+-  </row>
+-  <row>
+     <ID>1244</ID>
+     <Name>Heavy Scale Armor Stand</Name>
+     <Description/>

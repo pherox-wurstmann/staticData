@@ -1,0 +1,997 @@
+﻿<quests>
+	<quest id="1">
+		<!-- Apples Country -->
+		<name>4030</name>
+		<description>4030</description>
+		<icon>gui/images/quest/icons/ferryman.png</icon>
+		<tasks>
+			<task id="1">
+				<name>5013</name>
+				<description>5014</description>
+				<marks>
+					<mark>
+						<name>5013</name>
+						<icon>gui/images/quest/marks/ferryman.png</icon>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>202</x>
+							<y>469</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="2">
+				<name>4031</name>
+				<description>4416</description>
+				<marks>
+					<mark>
+						<name>4030</name>
+						<icon>gui/images/quest/marks/ferryman.png</icon>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>202</x>
+							<y>469</y>
+						</coordinates>
+						<!-- <coordinates_yo>
+							<terrainLocal>5</terrainLocal>
+							<x>352</x>
+							<y>145</y>
+						</coordinates_yo> -->
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="2">
+		<!-- The Village of Survivors -->
+		<name>4032</name>
+		<description>4032</description>
+		<icon>gui/images/quest/icons/dahleborne_sourgli.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4033</name>
+				<description>4417</description>
+				<marks>
+					<mark>
+						<name>4033</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>240</x>
+							<y>422</y>
+						</coordinates>
+						<coordinates_yo>
+							<terrainLocal>5</terrainLocal>
+							<x>352</x>
+							<y>145</y>
+						</coordinates_yo>
+					</mark>
+				</marks>
+			</task>
+			<task id="2">
+				<name>4668</name>
+				<description>4668</description>
+				<marks>
+					<mark>
+						<name>4668</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>234</x>
+							<y>429</y>
+						</coordinates>
+					</mark>
+					<mark>
+						<name>4668</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>231</x>
+							<y>432</y>
+						</coordinates>
+					</mark>
+					<mark>
+						<name>4668</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>219</x>
+							<y>444</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="3">
+				<name>4669</name>
+				<description>4669</description>
+				<marks>
+					<mark>
+						<name>4669</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>206</x>
+							<y>450</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="3">
+		<!-- Homecoming -->
+		<name>4034</name>
+		<description>4034</description>
+		<icon>gui/images/quest/icons/solef_oroskarpe.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4035</name>
+				<description>4418</description>
+				<marks>
+					<mark>
+						<name>4035</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>206</x>
+							<y>446</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="2">
+				<name>4990</name>
+				<description>4990</description>
+				<marks>
+					<mark>
+						<name>4990</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>206</x>
+							<y>450</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="4">
+		<!-- Dig a Pit -->
+		<name>4037</name>
+		<description>4037</description>
+		<icon>gui/images/quest/icons/unnwart_the_gravedigger.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4038</name>
+				<description>4419</description>
+			</task>
+			<task id="2">
+				<name>4039</name>
+				<description>4420</description>
+				<marks>
+					<mark>
+						<name>4039</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>348</x>
+							<y>424</y>
+						</coordinates>
+					</mark>
+					<mark>
+						<name>4039</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>387</x>
+							<y>372</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="3">
+				<name>5015</name>
+				<description>4420</description>
+				<marks>
+					<mark>
+						<name>5015</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>348</x>
+							<y>424</y>
+						</coordinates>
+					</mark>
+					<mark>
+						<name>5015</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>387</x>
+							<y>372</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="4">
+				<name>5016</name>
+				<description>4420</description>
+				<marks>
+					<mark>
+						<name>5016</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>348</x>
+							<y>424</y>
+						</coordinates>
+					</mark>
+					<mark>
+						<name>5016</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>387</x>
+							<y>372</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="5">
+				<name>5091</name>
+				<description>5092</description>
+			</task>
+			<task id="6">
+				<name>4040</name>
+				<description>4421</description>
+				<marks>
+					<mark>
+						<name>4040</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>224</x>
+							<y>462</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="5">
+		<!-- Mushrooms for Gravedigger -->
+		<name>4041</name>
+		<description>4041</description>
+		<icon>gui/images/quest/icons/unnwart_the_gravedigger.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4042</name>
+				<description>4422</description>
+			</task>
+			<task id="2">
+				<name>4043</name>
+				<description>4423</description>
+				<marks>
+					<mark>
+						<name>4040</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>224</x>
+							<y>462</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="6">
+		<!-- Fishing -->
+		<name>4044</name>
+		<description>4044</description>
+		<icon>gui/images/quest/icons/wranen_the_hunter.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4045</name>
+				<description>4424</description>
+			</task>
+			<task id="2">
+				<name>4046</name>
+				<description>4425</description>
+			</task>
+			<task id="3">
+				<name>4047</name>
+				<description>4426</description>
+				<marks>
+					<mark>
+						<name>4047</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>191</x>
+							<y>425</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="7">
+		<!-- Hunting -->
+		<name>4048</name>
+		<description>4048</description>
+		<icon>gui/images/quest/icons/wranen_the_hunter.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4049</name>
+				<description>4049</description>
+			</task>
+			<task id="2">
+				<name>5020</name>
+				<description>5020</description>
+			</task>
+			<task id="3">
+				<name>4050</name>
+				<description>4428</description>
+			</task>
+			<task id="4">
+				<name>4051</name>
+				<description>4429</description>
+				<marks>
+					<mark>
+						<name>4047</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>191</x>
+							<y>425</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="8">
+		<!-- Boards for Yermyk -->
+		<name>4052</name>
+		<description>4052</description>
+		<icon>gui/images/quest/icons/yermyk_khtyn.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4053</name>
+				<description>4430</description>
+			</task>
+			<task id="2">
+				<name>4054</name>
+				<description>4431</description>
+			</task>
+			<task id="3">
+				<name>4055</name>
+				<description>4432</description>
+			</task>
+			<task id="4">
+				<name>4056</name>
+				<description>4433</description>
+				<marks>
+					<mark>
+						<name>4056</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>216</x>
+							<y>414</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="9">
+		<!-- Make a Crate -->
+		<name>4057</name>
+		<description>4057</description>
+		<icon>gui/images/quest/icons/yermyk_khtyn.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4058</name>
+				<description>4434</description>
+			</task>
+			<task id="2">
+				<name>4059</name>
+				<description>4435</description>
+			</task>
+			<task id="3">
+				<name>4060</name>
+				<description>4436</description>
+				<marks>
+					<mark>
+						<name>4060</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>216</x>
+							<y>414</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="10">
+		<!-- Hoytuhanir Childrens -->
+		<name>4061</name>
+		<description>4061</description>
+		<icon>gui/images/quest/icons/hoytuhanir.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4062</name>
+				<description>4437</description>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="11">
+		<!-- Shack for Childrens -->
+		<name>4063</name>
+		<description>4063</description>
+		<icon>gui/images/quest/icons/lodur.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4064</name>
+				<description>4438</description>
+			</task>
+			<task id="2">
+				<name>4065</name>
+				<description>4439</description>
+			</task>
+			<task id="3">
+				<name>4066</name>
+				<description>4440</description>
+				<marks>
+					<mark>
+						<name>4066</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>305</x>
+							<y>447</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="12">
+		<!-- Khtynka for Assel -->
+		<name>4067</name>
+		<description>4067</description>
+		<icon>gui/images/quest/icons/assel.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4068</name>
+				<description>4441</description>
+			</task>
+			<task id="2">
+				<name>4069</name>
+				<description>4442</description>
+				<marks>
+					<mark>
+						<name>4069</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>219</x>
+							<y>444</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="13">
+		<!-- Chicken Harvest -->
+		<name>4070</name>
+		<description>4070</description>
+		<icon>gui/images/quest/icons/assel.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4072</name>
+				<description>4444</description>
+				<marks>
+					<mark>
+						<name>4072</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>230</x>
+							<y>443</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="2">
+				<name>4073</name>
+				<description>4445</description>
+				<marks>
+					<mark>
+						<name>4073</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>230</x>
+							<y>443</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="3">
+				<name>4074</name>
+				<description>4446</description>
+				<marks>
+					<mark>
+						<name>4074</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>219</x>
+							<y>444</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="14">
+		<!-- Сlear Сonscience -->
+		<name>4075</name>
+		<description>4075</description>
+		<icon>gui/images/quest/icons/assel.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4077</name>
+				<description>4448</description>
+				<marks>
+					<mark>
+						<name>4077</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>233</x>
+							<y>467</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="2">
+				<name>5026</name>
+				<description>5026</description>
+				<marks>
+					<mark>
+						<name>5026</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>219</x>
+							<y>444</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="15">
+		<!-- For Gloom's Joy -->
+		<name>4078</name>
+		<description>4078</description>
+		<icon>gui/images/quest/icons/assel.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4079</name>
+				<description>4449</description>
+			</task>
+			<task id="2">
+				<name>4080</name>
+				<description>4450</description>
+				<marks>
+					<mark>
+						<name>4080</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>219</x>
+							<y>444</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="16">
+		<!-- Appease the Gods -->
+		<name>4081</name>
+		<description>4081</description>
+		<icon>gui/images/quest/icons/assel.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4054</name>
+				<description>4451</description>
+			</task>
+			<task id="2">
+				<name>4082</name>
+				<description>4452</description>
+				<marks>
+					<mark>
+						<name>4076</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>255</x>
+							<y>509</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="3">
+				<name>4083</name>
+				<description>4453</description>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="17">
+		<!-- Forging -->
+		<name>4084</name>
+		<description>4084</description>
+		<icon>gui/images/quest/icons/ulf.png</icon>
+		<tasks>
+			<task id="1">
+				<name>5037</name>
+				<description>5037</description>
+				<marks>
+					<mark>
+						<name>5037</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>222</x>
+							<y>421</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="2">
+				<name>4090</name>
+				<description>4090</description>
+				<marks>
+					<mark>
+						<name>4090</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>218</x>
+							<y>421</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="3">
+				<name>5038</name>
+				<description>5038</description>
+				<marks>
+					<mark>
+						<name>5038</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>217</x>
+							<y>419</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="18">
+		<!-- Time to Harvest-->
+		<name>4091</name>
+		<description>4091</description>
+		<icon>gui/images/quest/icons/karegast.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4100</name>
+				<description>4460</description>
+			</task>
+			<task id="2">
+				<name>4092</name>
+				<description>4462</description>
+				<marks>
+					<mark>
+						<name>4092</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>286</x>
+							<y>441</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="3">
+				<name>4093</name>
+				<description>4463</description>
+				<marks>
+					<mark>
+						<name>4093</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>272</x>
+							<y>447</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="4">
+				<name>4094</name>
+				<description>4464</description>
+				<marks>
+					<mark>
+						<name>4094</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>293</x>
+							<y>426</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="5">
+				<name>4095</name>
+				<description>4465</description>
+				<marks>
+					<mark>
+						<name>4095</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>267</x>
+							<y>448</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="6">
+				<name>4096</name>
+				<description>4466</description>
+				<marks>
+					<mark>
+						<name>4096</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>276</x>
+							<y>446</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="7">
+				<name>4097</name>
+				<description>4467</description>
+				<marks>
+					<mark>
+						<name>4097</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>281</x>
+							<y>440</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="8">
+				<name>4098</name>
+				<description>4468</description>
+				<marks>
+					<mark>
+						<name>4098</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>271</x>
+							<y>454</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="9">
+				<name>4099</name>
+				<description>4469</description>
+				<marks>
+					<mark>
+						<name>4099</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>294</x>
+							<y>434</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="10">
+				<name>5027</name>
+				<description>5027</description>
+				<marks>
+					<mark>
+						<name>5027</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>231</x>
+							<y>432</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="19">
+		<!-- The Shipwreck -->
+		<name>4661</name>
+		<description>4661</description>
+		<tasks>
+			<task id="1">
+				<name>4662</name>
+				<description>4662</description>
+				<marks>
+					<mark>
+						<name>4662</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>294</x>
+							<y>392</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="20">
+		<!-- Help to Villagers -->
+		<name>4991</name>
+		<description>4991</description>
+		<icon>gui/images/quest/icons/solef_oroskarpe.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4992</name>
+				<description>4992</description>
+				<marks>
+					<mark>
+						<name>4992</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>219</x>
+							<y>444</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="2">
+				<name>4993</name>
+				<description>4993</description>
+				<marks>
+					<mark>
+						<name>4993</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>216</x>
+							<y>414</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="3">
+				<name>4994</name>
+				<description>4994</description>
+				<marks>
+					<mark>
+						<name>4994</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>191</x>
+							<y>425</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="4">
+				<name>4995</name>
+				<description>4995</description>
+				<marks>
+					<mark>
+						<name>4995</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>217</x>
+							<y>419</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="5">
+				<name>4996</name>
+				<description>4996</description>
+				<marks>
+					<mark>
+						<name>4040</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>224</x>
+							<y>462</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="6">
+				<name>4997</name>
+				<description>4997</description>
+				<marks>
+					<mark>
+						<name>4997</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>234</x>
+							<y>430</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="7">
+				<name>4998</name>
+				<description>4998</description>
+				<marks>
+					<mark>
+						<name>4997</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>231</x>
+							<y>432</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="8">
+				<name>4999</name>
+				<description>4999</description>
+				<marks>
+					<mark>
+						<name>4999</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>206</x>
+							<y>450</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+	<quest id="21">
+		<!-- Mining -->
+		<name>5035</name>
+		<description>5035</description>
+		<icon>gui/images/quest/icons/ulf.png</icon>
+		<tasks>
+			<task id="1">
+				<name>4085</name>
+				<description>4454</description>
+			</task>
+			<task id="2">
+				<name>4086</name>
+				<description>4455</description>
+				<marks>
+					<mark>
+						<name>4086</name>
+						<coordinates>
+							<terrainLocal>7</terrainLocal>
+							<x>208</x>
+							<y>011</y>
+						</coordinates>
+					</mark>
+					<mark>
+						<name>4086</name>
+						<coordinates>
+							<terrainLocal>7</terrainLocal>
+							<x>212</x>
+							<y>011</y>
+						</coordinates>
+					</mark>
+					<mark>
+						<name>4086</name>
+						<coordinates>
+							<terrainLocal>7</terrainLocal>
+							<x>216</x>
+							<y>012</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+			<task id="3">
+				<name>5036</name>
+				<description>5036</description>
+				<marks>
+					<mark>
+						<name>5036</name>
+						<coordinates>
+							<terrainLocal>4</terrainLocal>
+							<x>217</x>
+							<y>419</y>
+						</coordinates>
+					</mark>
+				</marks>
+			</task>
+		</tasks>
+	</quest>
+</quests>

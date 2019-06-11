@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<plants>
+	<plant id="1" name="wPotato" type="fast">
+		<nameMsgID>5408</nameMsgID>
+		<regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+		<seed>1027</seed>
+		<seedSubstance>232</seedSubstance>
+		<growthSubstance>233</growthSubstance>
+		<harvestSubstance>234</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.01">
+			<item id="1" quantity="6" chance="1">1027</item>
+			<item id="2" quantity="1" chance="0.01">2044</item>
+		</harvest>
+		<ability>366</ability>
+	</plant>
+	<plant id="2" name="cPotato" type="fast">
+		<nameMsgID>5409</nameMsgID>
+		<regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+		<seed>2044</seed>
+		<seedSubstance>235</seedSubstance>
+		<growthSubstance>236</growthSubstance>
+		<harvestSubstance>237</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.005">
+			<item id="1" quantity="8" chance="1">1027</item>
+			<item id="2" quantity="2" chance="1">2044</item>
+		</harvest>
+		<ability>140</ability>
+	</plant>
+	<plant id="3" name="wFlax" type="complex">
+		<nameMsgID>5410</nameMsgID>
+		<regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+		<seed>1030</seed>
+		<seedSubstance>220</seedSubstance>
+		<growthSubstance>221</growthSubstance>
+		<harvestSubstance>222</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.01">
+			<item id="1" quantity="4" chance="1">361</item>
+			<item id="2" quantity="2" chance="1">1030</item>
+			<item id="3" quantity="1" chance="0.01">2045</item>
+		</harvest>
+		<ability>362</ability>
+	</plant>
+	<plant id="4" name="cFlax" type="complex">
+		<nameMsgID>5411</nameMsgID>
+		<regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+		<seed>2045</seed>
+		<seedSubstance>223</seedSubstance>
+		<growthSubstance>224</growthSubstance>
+		<harvestSubstance>225</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.005">
+			<item id="1" quantity="16" chance="1">361</item>
+			<item id="2" quantity="1" chance="0.4">2045</item>
+		</harvest>
+		<ability>138</ability>
+	</plant>
+	<plant id="5" name="wGrapes" type="complex">
+		<nameMsgID>5412</nameMsgID>
+		<regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+		<seed>2025</seed>
+		<seedSubstance>226</seedSubstance>
+		<growthSubstance>227</growthSubstance>
+		<harvestSubstance>228</harvestSubstance>
+		<endSubstance>227</endSubstance>
+		<harvest qualityChance="0.01">
+			<item id="1" quantity="4" chance="1">359</item>
+			<item id="2" quantity="1" chance="1">2025</item>
+			<item id="3" quantity="1" chance="0.01">2026</item>
+		</harvest>
+		<ability>363</ability>
+	</plant>
+	<plant id="6" name="cGrapes" type="complex">
+		<nameMsgID>5413</nameMsgID>
+		<regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+		<seed>2026</seed>
+		<seedSubstance>229</seedSubstance>
+		<growthSubstance>230</growthSubstance>
+		<harvestSubstance>231</harvestSubstance>
+		<endSubstance>230</endSubstance>
+		<harvest qualityChance="0.005">
+			<item id="1" quantity="8" chance="1">359</item>
+			<item id="2" quantity="1" chance="0.5">2026</item>
+		</harvest>
+		<ability>139</ability>
+	</plant>
+	<plant id="7" name="wWheat" type="fast">
+		<nameMsgID>5414</nameMsgID>
+		<regions>5 10 12 20 24 26 29 30 34 35 37</regions>
+		<seed>352</seed>
+		<seedSubstance>190</seedSubstance>
+		<growthSubstance>191</growthSubstance>
+		<harvestSubstance>192</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.01">
+			<item id="1" quantity="6" chance="1">352</item>
+			<item id="2" quantity="4" chance="1">362</item>
+			<item id="3" quantity="1" chance="0.01">2027</item>
+		</harvest>
+		<ability>367</ability>
+	</plant>
+	<plant id="8" name="cWheat" type="fast">
+		<nameMsgID>5415</nameMsgID>
+		<regions>5 10 12 20 24 26 29 30 34 35 37</regions>
+		<seed>2027</seed>
+		<seedSubstance>193</seedSubstance>
+		<growthSubstance>194</growthSubstance>
+		<harvestSubstance>195</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.005">
+			<item id="1" quantity="8" chance="1">352</item>
+			<item id="2" quantity="6" chance="1">362</item>
+			<item id="3" quantity="2" chance="1">2027</item>
+		</harvest>
+		<ability>133</ability>
+	</plant>
+	<plant id="9" name="wRye" type="fast">
+		<nameMsgID>5416</nameMsgID>
+		<regions>1 4 6 12 25 27 28 31 32 33 36 39</regions>
+		<seed>2028</seed>
+		<seedSubstance>238</seedSubstance>
+		<growthSubstance>239</growthSubstance>
+		<harvestSubstance>240</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.01">
+			<item id="1" quantity="6" chance="1">2028</item>
+			<item id="2" quantity="4" chance="1">362</item>
+			<item id="3" quantity="1" chance="0.01">2029</item>
+		</harvest>
+		<ability>375</ability>
+	</plant>
+	<plant id="10" name="cRye" type="fast">
+		<nameMsgID>5417</nameMsgID>
+		<regions>1 4 6 12 25 27 28 31 32 33 36 39</regions>
+		<seed>2029</seed>
+		<seedSubstance>241</seedSubstance>
+		<growthSubstance>242</growthSubstance>
+		<harvestSubstance>243</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.005">
+			<item id="1" quantity="8" chance="1">2028</item>
+			<item id="2" quantity="6" chance="1">362</item>
+			<item id="3" quantity="2" chance="1">2029</item>
+		</harvest>
+		<ability>376</ability>
+	</plant>
+	<plant id="11" name="wBarley" type="fast">
+		<nameMsgID>5418</nameMsgID>
+		<regions>2 7 9 11 13 14 15 16 17 18 19 21 22 23</regions>
+		<seed>2030</seed>
+		<seedSubstance>244</seedSubstance>
+		<growthSubstance>245</growthSubstance>
+		<harvestSubstance>246</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.01">
+			<item id="1" quantity="6" chance="1">2030</item>
+			<item id="2" quantity="4" chance="1">362</item>
+			<item id="3" quantity="1" chance="0.01">2031</item>
+		</harvest>
+		<ability>377</ability>
+	</plant>
+	<plant id="12" name="cBarley" type="fast">
+		<nameMsgID>5419</nameMsgID>
+		<regions>2 7 9 11 13 14 15 16 17 18 19 21 22 23</regions>
+		<seed>2031</seed>
+		<seedSubstance>247</seedSubstance>
+		<growthSubstance>248</growthSubstance>
+		<harvestSubstance>249</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.005">
+			<item id="1" quantity="8" chance="1">2030</item>
+			<item id="2" quantity="6" chance="1">362</item>
+			<item id="3" quantity="2" chance="1">2031</item>
+		</harvest>
+		<ability>378</ability>
+	</plant>
+	<plant id="13" name="wOat" type="fast">
+		<nameMsgID>5420</nameMsgID>
+		<regions>3 8 13 14 38 40 41 42 43 44 45 46</regions>
+		<seed>2032</seed>
+		<seedSubstance>250</seedSubstance>
+		<growthSubstance>251</growthSubstance>
+		<harvestSubstance>252</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.01">
+			<item id="1" quantity="6" chance="1">2032</item>
+			<item id="2" quantity="4" chance="1">362</item>
+			<item id="3" quantity="1" chance="0.01">2033</item>
+		</harvest>
+		<ability>379</ability>
+	</plant>
+	<plant id="14" name="cOat" type="fast">
+		<nameMsgID>5421</nameMsgID>
+		<regions>3 8 13 14 38 40 41 42 43 44 45 46</regions>
+		<seed>2033</seed>
+		<seedSubstance>253</seedSubstance>
+		<growthSubstance>254</growthSubstance>
+		<harvestSubstance>28</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.005">
+			<item id="1" quantity="8" chance="1">2032</item>
+			<item id="2" quantity="6" chance="1">362</item>
+			<item id="3" quantity="2" chance="1">2033</item>
+		</harvest>
+		<ability>380</ability>
+	</plant>
+	<plant id="15" name="wCabbage" type="normal">
+		<nameMsgID>5422</nameMsgID>
+		<regions>2 7 9 11 12 17 18 19 21 23 25 27 28</regions>
+		<seed>2034</seed>
+		<seedSubstance>202</seedSubstance>
+		<growthSubstance>203</growthSubstance>
+		<harvestSubstance>204</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.01">
+			<item id="1" quantity="6" chance="1">355</item>
+			<item id="2" quantity="4" chance="1">2034</item>
+			<item id="3" quantity="1" chance="0.01">2035</item>
+		</harvest>
+		<ability>360</ability>
+	</plant>
+	<plant id="16" name="cCabbage" type="normal">
+		<nameMsgID>5423</nameMsgID>
+		<regions>2 7 9 11 12 17 18 19 21 23 25 27 28</regions>
+		<seed>2035</seed>
+		<seedSubstance>205</seedSubstance>
+		<growthSubstance>206</growthSubstance>
+		<harvestSubstance>207</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.005">
+			<item id="1" quantity="12" chance="1">2039</item>
+			<item id="2" quantity="2" chance="0.5">2035</item>
+		</harvest>
+		<ability>135</ability>
+	</plant>
+	<plant id="17" name="wCarrot" type="normal">
+		<nameMsgID>5424</nameMsgID>
+		<regions>1 4 6 12 34 35 37 38 40 41 42 43</regions>
+		<seed>2036</seed>
+		<seedSubstance>214</seedSubstance>
+		<growthSubstance>215</growthSubstance>
+		<harvestSubstance>216</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.01">
+			<item id="1" quantity="4" chance="1">2036</item>
+			<item id="2" quantity="6" chance="1">358</item>
+			<item id="3" quantity="1" chance="0.01">2037</item>
+		</harvest>
+		<ability>361</ability>
+	</plant>
+	<plant id="18" name="cCarrot" type="normal">
+		<nameMsgID>5425</nameMsgID>
+		<regions>1 4 6 12 34 35 37 38 40 41 42 43</regions>
+		<seed>2037</seed>
+		<seedSubstance>217</seedSubstance>
+		<growthSubstance>218</growthSubstance>
+		<harvestSubstance>219</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.005">
+			<item id="1" quantity="2" chance="0.5">2037</item>
+			<item id="2" quantity="12" chance="1">2040</item>
+		</harvest>
+		<ability>137</ability>
+	</plant>
+	<plant id="19" name="wOnion" type="normal">
+		<nameMsgID>5426</nameMsgID>
+		<regions>3 8 13 14 31 32 33 36 39 44 45 46</regions>
+		<seed>2038</seed>
+		<seedSubstance>208</seedSubstance>
+		<growthSubstance>209</growthSubstance>
+		<harvestSubstance>210</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.01">
+			<item id="1" quantity="12" chance="1">356</item>
+			<item id="2" quantity="2" chance="1">2038</item>
+		</harvest>
+		<ability>364</ability>
+	</plant>
+	<plant id="20" name="cOnion" type="normal">
+		<nameMsgID>5427</nameMsgID>
+		<regions>3 8 13 14 31 32 33 36 39 44 45 46</regions>
+		<seed>356</seed>
+		<seedSubstance>211</seedSubstance>
+		<growthSubstance>212</growthSubstance>
+		<harvestSubstance>213</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.005">
+			<item id="1" quantity="6" chance="1">2041</item>
+		</harvest>
+		<ability>136</ability>
+	</plant>
+	<plant id="21" name="wPeas" type="normal">
+		<nameMsgID>5428</nameMsgID>
+		<regions>5 10 13 14 15 16 20 22 24 26 29 30</regions>
+		<seed>354</seed>
+		<seedSubstance>196</seedSubstance>
+		<growthSubstance>197</growthSubstance>
+		<harvestSubstance>198</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.01">
+			<item id="1" quantity="12" chance="1">354</item>
+			<item id="2" quantity="1" chance="0.01">2043</item>
+		</harvest>
+		<ability>365</ability>
+	</plant>
+	<plant id="22" name="cPeas" type="normal">
+		<nameMsgID>5429</nameMsgID>
+		<regions>5 10 13 14 15 16 20 22 24 26 29 30</regions>
+		<seed>2043</seed>
+		<seedSubstance>199</seedSubstance>
+		<growthSubstance>200</growthSubstance>
+		<harvestSubstance>201</harvestSubstance>
+		<endSubstance>6</endSubstance>
+		<harvest qualityChance="0.005">
+			<item id="1" quantity="10" chance="1">354</item>
+			<item id="2" quantity="3" chance="1">2043</item>
+			<item id="3" quantity="12" chance="1">354</item>
+			<item id="4" quantity="16" chance="1">2043</item>
+		</harvest>
+		<ability>134</ability>
+	</plant>
+</plants>
