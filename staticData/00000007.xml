@@ -3031,7 +3031,7 @@
       <slot>6</slot>
    </slots>
    <meshes>
-      <mesh>Boot_Eur_v5_Feet</mesh>
+      <mesh>Boot_Eur_v8_Feet</mesh>
    </meshes>
    <cutoffs>
       <cutoff type="feet" action="on" />
@@ -10140,6 +10140,150 @@
    </meshes>
    <cutoffs>
       <cutoff type="torso" action="off" />
+   </cutoffs>
+</object>
+<object id="2369">
+   <!--name = King Outfit A -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot>3</slot>
+      <slot>5</slot>
+   </extraSlotsBlock>
+   <meshes>
+      <mesh>Male_King_Outfit_A</mesh>
+      <mesh>Female_King_Outfit_A</mesh>
+      <mesh>Male_Body_v1_torso_block</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="torso" action="off" />
+      <cutoff type="forearms" action="off" />
+      <cutoff type="shoulders" action="off" />
+      <cutoff type="hips" action="off" />
+   </cutoffs>
+</object>
+<object id="2370">
+   <!--name = King Outfit A Skin A -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot>3</slot>
+      <slot>5</slot>
+   </extraSlotsBlock>
+   <meshes>
+      <mesh>Male_King_Outfit_A_SkinA</mesh>
+      <mesh>Female_King_Outfit_A_SkinA</mesh>
+      <mesh>Male_Body_v1_torso_block</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="torso" action="off" />
+      <cutoff type="forearms" action="off" />
+      <cutoff type="shoulders" action="off" />
+      <cutoff type="hips" action="off" />
+   </cutoffs>
+</object>
+<object id="2371">
+   <!--name = King Outfit A Skin B -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot>3</slot>
+      <slot>5</slot>
+   </extraSlotsBlock>
+   <meshes>
+      <mesh>Male_King_Outfit_A_SkinB</mesh>
+      <mesh>Female_King_Outfit_A_SkinB</mesh>
+      <mesh>Male_Body_v1_torso_block</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="torso" action="off" />
+      <cutoff type="forearms" action="off" />
+      <cutoff type="shoulders" action="off" />
+      <cutoff type="hips" action="off" />
+   </cutoffs>
+</object>
+<object id="2372">
+   <!--name = King Outfit B -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot>3</slot>
+      <slot>5</slot>
+   </extraSlotsBlock>
+   <meshes>
+      <mesh>Male_King_Outfit_B</mesh>
+      <mesh>Female_King_Outfit_B</mesh>
+      <mesh>Male_Body_v1_torso_block</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="torso" action="off" />
+      <cutoff type="forearms" action="off" />
+      <cutoff type="shoulders" action="off" />
+      <cutoff type="hips" action="off" />
+   </cutoffs>
+</object>
+<object id="2373">
+   <!--name = King Outfit B Skin A -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot>3</slot>
+      <slot>5</slot>
+   </extraSlotsBlock>
+   <meshes>
+      <mesh>Male_King_Outfit_B_SkinA</mesh>
+      <mesh>Female_King_Outfit_B_SkinA</mesh>
+      <mesh>Male_Body_v1_torso_block</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="torso" action="off" />
+      <cutoff type="forearms" action="off" />
+      <cutoff type="shoulders" action="off" />
+      <cutoff type="hips" action="off" />
+   </cutoffs>
+</object>
+<object id="2374">
+   <!--name = King Outfit B Skin B -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot>3</slot>
+      <slot>5</slot>
+   </extraSlotsBlock>
+   <meshes>
+      <mesh>Male_King_Outfit_B_SkinB</mesh>
+      <mesh>Female_King_Outfit_B_SkinB</mesh>
+      <mesh>Male_Body_v1_torso_block</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="torso" action="off" />
+      <cutoff type="forearms" action="off" />
+      <cutoff type="shoulders" action="off" />
+      <cutoff type="hips" action="off" />
    </cutoffs>
 </object>
 </equipment_types>

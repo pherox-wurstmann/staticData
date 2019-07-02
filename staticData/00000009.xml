@@ -10356,6 +10356,12 @@
                         <scale x="1" y="1" z="1" />
                     </shape>
                 </shapes>
+                <mountPoints>
+                    <outpostTotem>
+                        <offset x="-8.00113" y="-2.54861" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
+                </mountPoints>
             </state>
             <state type="Damaged">
                 <shapes>
@@ -23168,6 +23174,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="-1.72853" y="1.98052" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -23418,6 +23428,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -23726,6 +23740,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -24069,6 +24087,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="-1.72853" y="1.98052" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -24319,6 +24341,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -24627,6 +24653,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -24963,6 +24993,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -25277,6 +25311,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="-1.72853" y="1.98052" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -25479,6 +25517,10 @@
                             <npc>NPC_slave_Overseer</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="8.96761" y="3.24321" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -25585,6 +25627,10 @@
                             <npc>NPC_slave_Overseer</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="10" y="5" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
                 <particleEmitters>
                     <emitter>
@@ -33360,6 +33406,12 @@
                         <scale x="1" y="1" z="1" />
                     </shape>
                 </shapes>
+                <mountPoints>
+                    <outpostTotem>
+                        <offset x="-8.00113" y="-2.54861" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
+                </mountPoints>
             </state>
 			<state type="Working">
                 <shapes>
@@ -36272,6 +36324,12 @@
                         <scale x="1" y="1" z="1" />
                     </shape>
                 </shapes>
+                <mountPoints>
+                    <outpostTotem>
+                        <offset x="-8.00113" y="-2.54861" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
+                </mountPoints>
             </state>
 			<state type="Working">
                 <shapes>
@@ -36497,7 +36555,12 @@
                         <scale x="1" y="1" z="1" />
                     </shape>
                 </shapes>
-
+                <mountPoints>
+                    <outpostTotem>
+                        <offset x="-8.00113" y="-2.54861" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
+                </mountPoints>
             </state>
             <state type="Working">
                 <shapes>
@@ -37564,6 +37627,11 @@
                             <npc>NPC_Archer</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="-1.14885" y="-2.91535" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+						<scale x="0.5" y="0.5" z="0.5" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
 			<state type="Working">
@@ -37781,6 +37849,10 @@
                             <npc>NPC_Archer</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="-1.14885" y="-2.91535" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
 			<state type="Working">
@@ -38048,6 +38120,10 @@
                             <npc>NPC_Archer</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="-1.14885" y="-2.91535" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
 			<state type="Working">
@@ -39381,5 +39457,288 @@
             </state>
         </states>
     </object>
+	<object id="2342" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = dummyhorsedoll_a1-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a1.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a1.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2343" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = dummyhorsedoll_a2-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a2.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a2.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2344" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = dummyhorsedoll_a3-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a3.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a3.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2345" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = dummyhorsedoll_a4-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a4.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a4.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2346" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = dummyhorsedoll_a5-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a5.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a5.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2347" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = dummyhorsedoll_a6-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a6.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a6.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2348" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = dummyhorsedoll_a7-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a7.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/trophy/dummyhorsedoll_a7.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
 
+    <object id="2363" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="3" noRuins="1" noDecay="1" StreamingMaxDistance="2000">
+        <!--name = Fief's Monument -->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/combatrelated/summontotem/summon_totem.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
 </object_types>

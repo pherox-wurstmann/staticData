@@ -15834,4 +15834,102 @@
     <ImagePath>art\2D\Recipes\stand_06.png</ImagePath>
     <CensoredImagePath/>
   </row>
+  <row>
+    <ID>1254</ID>
+    <Name>Rider in Regular Chainmail Armor</Name>
+    <Description/>
+    <SkillTypeID>62</SkillTypeID>
+    <SkillLvl>0</SkillLvl>
+    <ResultObjectTypeID>2342</ResultObjectTypeID>
+    <SkillDepends>10</SkillDepends>
+    <Quantity>1</Quantity>
+    <Autorepeat>0</Autorepeat>
+    <IsBlueprint>0</IsBlueprint>
+    <ImagePath>art\2D\Recipes\dummyhorsedoll_a1.png</ImagePath>
+    <CensoredImagePath/>
+  </row>
+  <row>
+    <ID>1255</ID>
+    <Name>Rider in Regular Padded Armor</Name>
+    <Description/>
+    <SkillTypeID>62</SkillTypeID>
+    <SkillLvl>0</SkillLvl>
+    <ResultObjectTypeID>2343</ResultObjectTypeID>
+    <SkillDepends>10</SkillDepends>
+    <Quantity>1</Quantity>
+    <Autorepeat>0</Autorepeat>
+    <IsBlueprint>0</IsBlueprint>
+    <ImagePath>art\2D\Recipes\dummyhorsedoll_a2.png</ImagePath>
+    <CensoredImagePath/>
+  </row>
+  <row>
+    <ID>1256</ID>
+    <Name>Rider in Heavy Padded Armor</Name>
+    <Description/>
+    <SkillTypeID>62</SkillTypeID>
+    <SkillLvl>0</SkillLvl>
+    <ResultObjectTypeID>2344</ResultObjectTypeID>
+    <SkillDepends>10</SkillDepends>
+    <Quantity>1</Quantity>
+    <Autorepeat>0</Autorepeat>
+    <IsBlueprint>0</IsBlueprint>
+    <ImagePath>art\2D\Recipes\dummyhorsedoll_a3.png</ImagePath>
+    <CensoredImagePath/>
+  </row>
+  <row>
+    <ID>1257</ID>
+    <Name>Rider in Royal Padded Armor</Name>
+    <Description/>
+    <SkillTypeID>62</SkillTypeID>
+    <SkillLvl>0</SkillLvl>
+    <ResultObjectTypeID>2345</ResultObjectTypeID>
+    <SkillDepends>10</SkillDepends>
+    <Quantity>1</Quantity>
+    <Autorepeat>0</Autorepeat>
+    <IsBlueprint>0</IsBlueprint>
+    <ImagePath>art\2D\Recipes\dummyhorsedoll_a4.png</ImagePath>
+    <CensoredImagePath/>
+  </row>
+  <row>
+    <ID>1258</ID>
+    <Name>Jousting Half Plate Set</Name>
+    <Description/>
+    <SkillTypeID>62</SkillTypeID>
+    <SkillLvl>0</SkillLvl>
+    <ResultObjectTypeID>2346</ResultObjectTypeID>
+    <SkillDepends>10</SkillDepends>
+    <Quantity>1</Quantity>
+    <Autorepeat>0</Autorepeat>
+    <IsBlueprint>0</IsBlueprint>
+    <ImagePath>art\2D\Recipes\dummyhorsedoll_a5.png</ImagePath>
+    <CensoredImagePath/>
+  </row>
+  <row>
+    <ID>1259</ID>
+    <Name>Jousting Full Plate Set</Name>
+    <Description/>
+    <SkillTypeID>62</SkillTypeID>
+    <SkillLvl>0</SkillLvl>
+    <ResultObjectTypeID>2347</ResultObjectTypeID>
+    <SkillDepends>10</SkillDepends>
+    <Quantity>1</Quantity>
+    <Autorepeat>0</Autorepeat>
+    <IsBlueprint>0</IsBlueprint>
+    <ImagePath>art\2D\Recipes\dummyhorsedoll_a6.png</ImagePath>
+    <CensoredImagePath/>
+  </row>
+  <row>
+    <ID>1260</ID>
+    <Name>Jousting Royal Full Plate Set</Name>
+    <Description/>
+    <SkillTypeID>62</SkillTypeID>
+    <SkillLvl>0</SkillLvl>
+    <ResultObjectTypeID>2348</ResultObjectTypeID>
+    <SkillDepends>10</SkillDepends>
+    <Quantity>1</Quantity>
+    <Autorepeat>0</Autorepeat>
+    <IsBlueprint>0</IsBlueprint>
+    <ImagePath>art\2D\Recipes\dummyhorsedoll_a7.png</ImagePath>
+    <CensoredImagePath/>
+  </row>
 </table>
