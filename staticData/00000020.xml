@@ -6305,4 +6305,9 @@
     <RecipeID>1192</RecipeID>
     <StartingToolID>453</StartingToolID>
   </row>
+  <row>
+    <ID>1293</ID>
+    <RecipeID>1243</RecipeID>
+    <StartingToolID>32</StartingToolID>
+  </row>
 </table>

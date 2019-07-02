@@ -10580,6 +10580,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/construction/misc/tombstone/tombstone.dts</shapeName>
+						<censoredShapeName>art/models/3d/construction/misc/tombstone/tombstone_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -10590,6 +10591,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/construction/misc/tombstone/tombstone.dts</shapeName>
+						<censoredShapeName>art/models/3d/construction/misc/tombstone/tombstone_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -10608,6 +10610,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/construction/misc/tombstone/tombstone2.dts</shapeName>
+						<censoredShapeName>art/models/3d/construction/misc/tombstone/tombstone2_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -10618,6 +10621,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/construction/misc/tombstone/tombstone2.dts</shapeName>
+						<censoredShapeName>art/models/3d/construction/misc/tombstone/tombstone2_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -19249,6 +19253,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/construction/decorations/gallows/gallows_a.dts</shapeName>
+						<censoredShapeName>art/models/3d/construction/decorations/gallows/gallows_a_hanged_man_black.dts</censoredShapeName>
                         <animationName>idle1</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
@@ -19276,6 +19281,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/construction/decorations/gallows/gallows_b.dts</shapeName>
+						<censoredShapeName>art/models/3d/construction/decorations/gallows/gallows_b_hanged_man_black.dts</censoredShapeName>
                         <animationName>idle1</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
@@ -19303,6 +19309,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/construction/decorations/gallows/gallows_c.dts</shapeName>
+						<censoredShapeName>art/models/3d/construction/decorations/gallows/gallows_c_hanged_man_black.dts</censoredShapeName>
                         <animationName>idle1</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
@@ -19774,8 +19781,8 @@
                 </shapes>
             </state>
         </states>
-    </object>
-             
+	</object>
+    
     <object id="1510" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
         <!--name = Dahleborne Sourgli -->
         <lockedCells>
@@ -21070,12 +21077,14 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamptorch_v1_native.stbin</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamptorch_v1_native_black.stbin</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
                     </shape>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_torch_v1_native_coal.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_torch_v1_native_coal_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21101,12 +21110,14 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamptorch_v2_native.stbin</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamptorch_v2_native_black.stbin</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
                     </shape>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_torch_v2_native_coal.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_torch_v2_native_coal_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21132,12 +21143,14 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamptorch_v3_native.stbin</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamptorch_v3_native_black.stbin</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
                     </shape>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_torch_v3_native_skull_coal.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_torch_v3_native_coal_back.dts</censoredShapeName>
                         <animationName>Wind</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
@@ -21164,18 +21177,21 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamptorch_v4_native.stbin</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamptorch_v4_native_black.stbin</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
                     </shape>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_torch_v4_native_coal.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_torch_v4_native_coal_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
                     </shape>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_torch_v4_native_cow_carcass.dts</shapeName>
+						<censoredShapeName>art/models/3d/construction/outposts/box.dts</censoredShapeName>
                         <animationName>Wind</animationName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
@@ -21202,12 +21218,14 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamptorch_v5_native.stbin</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamptorch_v5_native_black.stbin</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
                     </shape>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_torch_v5_native_coal.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_torch_v5_native_coal_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21233,6 +21251,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_totem_v1.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_totem_v1_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21251,6 +21270,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_totem_v2.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_totem_v2_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21269,6 +21289,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_shield_v1.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_shield_v1_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21287,6 +21308,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_shield_v2.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_shield_v2_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21305,6 +21327,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_shield_v3.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_shield_v3_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21323,6 +21346,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_shield_v4.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_shield_v4_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21341,6 +21365,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_shield_v5.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_shield_v5_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21360,6 +21385,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_bigshield_v1.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_bigshield_v1_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21379,6 +21405,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_bigshield_v2.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_bigshield_v2_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -21398,6 +21425,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_bigshield_v3.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_bigshield_v3_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -22505,6 +22533,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/trees/oak/native_wall01.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/trees/oak/native_wall01_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -22529,6 +22558,7 @@
                     </shape>
                     <shape>
                         <shapeName>art/models/3d/environment/trees/oak/native_wall01.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/trees/oak/native_wall01_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -22547,6 +22577,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/trees/oak/native_wall02.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/trees/oak/native_wall02_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -22571,6 +22602,7 @@
                     </shape>
                     <shape>
                         <shapeName>art/models/3d/environment/trees/oak/native_wall02.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/trees/oak/native_wall02_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -22595,6 +22627,7 @@
                     </shape>
                     <shape>
                         <shapeName>art/models/3d/environment/trees/oak/native_wall02.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/trees/oak/native_wall02_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -22613,6 +22646,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/trees/oak/native_wall03.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/trees/oak/native_wall03_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -22637,6 +22671,7 @@
                     </shape>
                     <shape>
                         <shapeName>art/models/3d/environment/trees/oak/native_wall03.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/trees/oak/native_wall03_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -22655,6 +22690,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/trees/oak/native_wall04.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/trees/oak/native_wall04_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -22679,6 +22715,7 @@
                     </shape>
                     <shape>
                         <shapeName>art/models/3d/environment/trees/oak/native_wall04.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/trees/oak/native_wall04_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -22697,6 +22734,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/trees/oak/native_wall05.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/trees/oak/native_wall05_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -22715,6 +22753,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/trees/oak/native_wall06.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/trees/oak/native_wall06_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -22733,6 +22772,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/trees/oak/native_wall07.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/trees/oak/native_wall07_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29944,6 +29984,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_tree_v3.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_tree_v3_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="-0.1" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -29962,6 +30003,7 @@
                 <shapes>
                     <shape>
                         <shapeName>art/models/3d/environment/natives/tribecamp_tree_v4.dts</shapeName>
+						<censoredShapeName>art/models/3d/environment/natives/tribecamp_tree_v4_black.dts</censoredShapeName>
                         <offset x="0" y="0" z="0.8" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -36203,6 +36245,9 @@
             <cell x="2" y="-2" />
             <cell x="2" y="-3" />
             <cell x="1" y="-3" />
+            <cell x="0" y="-3" />
+            <cell x="-1" y="-3" />
+            <cell x="-2" y="-3" />
 			<cell x="1" y="0" />
 			<cell x="2" y="0" />
 			<cell x="3" y="0" />
@@ -36752,6 +36797,7 @@
                 <shapes>
                     <shape isDoor="1">
                         <shapeName>art/models/3d/construction/decorations/church/church.dts</shapeName>
+						<censoredShapeName>art/models/3d/construction/decorations/church/church_black.dts</censoredShapeName>
                         <offset x="9.88" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
                         <scale x="1" y="1" z="1" />
@@ -38955,4 +39001,385 @@
             </state>
         </states>
     </object>
+	<object id="2322" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = DummyDoll a1-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a1.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a1.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2323" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = DummyDoll a2-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a2.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a2.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2324" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = DummyDoll a3-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a3.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a3.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2325" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = DummyDoll a4-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a4.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a4.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2326" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = DummyDoll a5-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a5.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a5.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2327" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = DummyDoll a6-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a6.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a6.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2328" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = DummyDoll a7-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a7.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a7.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2329" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = DummyDoll a8-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a8.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a8.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2330" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = DummyDoll a9-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a9.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a9.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+	<object id="2331" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1" noDecay="1">
+        <!--name = DummyDoll a10-->
+        <lockedCells>
+            <cell x="0" y="0" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a10.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/decorations/dummydoll/dummydoll_a10.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+            <state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
+                        <offset x="0" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+
 </object_types>

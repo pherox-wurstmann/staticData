@@ -67,12 +67,14 @@
         <description>2601</description>
         <parameter type="HARD_HP" applytype="CONSUME" value="0.1"/> <!--value="0.5" ignore_magnitude="1"-->
         <icon>art/2D/Effects/Poisoned.png</icon>
+		<censoredIcon>art/2D/Effects/Poisoned_black.png</censoredIcon>
     </effect>
     <effect id="13" name="Poisoned: Numb">
         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="TRUE" />
         <description>2602</description>
         <parameter type="SOFT_HP" applytype="CONSUME" value="0.12"/>
         <icon>art/2D/Effects/Poisoned_Numb.png</icon>
+		<censoredIcon>art/2D/Effects/Poisoned_Numb_black.png</censoredIcon>
     </effect>
     <effect id="14" name="Poisoned: Grave Weight">
         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="TRUE" />
@@ -85,18 +87,21 @@
         <description>2604</description>
         <parameter type="SOFT_STAMINA" applytype="CONSUME" value="0.4"/>
         <icon>art/2D/Effects/Poisoned_Lungs_of_Stone.png</icon>
+		<censoredIcon>art/2D/Effects/Poisoned_Lungs_of_Stone_black.png</censoredIcon>
     </effect>
     <effect id="16" name="Poisoned: Eternal Sleep">
         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="TRUE" />
         <description>2605</description>
         <parameter type="SOFT_HP_MAX" applytype="DECREASE" value="3.6"/>
         <icon>art/2D/Effects/Poisoned_Eternal_Sleep.png</icon>
+		<censoredIcon>art/2D/Effects/Poisoned_Ethernal_Sleep_black.png</censoredIcon>
     </effect>
     <effect id="17" name="Poisoned: Breathtaker">
         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="TRUE" />
         <description>2606</description>
         <parameter type="SOFT_STAMINA_MAX" applytype="DECREASE" value="5.2"/>
         <icon>art/2D/Effects/Poisoned_Breathtaker.png</icon>
+		<censoredIcon>art/2D/Effects/Poisoned_Breathtaker_black.png</censoredIcon>
     </effect>
     <effect id="18" name="Balanced Breath">
         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="TRUE" />
@@ -139,6 +144,7 @@
         <description>2613</description>
         <parameter type="POISON_IMMUNE" applytype="INCREASE" />
         <icon>art/2D/Effects/Poison_Resistance.png</icon>
+		<censoredIcon>art/2D/Effects/Poison_Resistance_black.png</censoredIcon>
     </effect>
     <effect id="25" name="Full">
         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="TRUE" />
@@ -314,6 +320,7 @@
         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
         <description>2642</description>
         <icon>art/2D/Effects/Poison_Duration.png</icon>
+		<censoredIcon>art/2D/Effects/Poison_Duration_black.png</censoredIcon>
     </effect>
     <effect id="54" name="Stopping Power!">
         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
@@ -350,6 +357,7 @@
         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="FALSE" />
         <description>2649</description>
         <icon>art/2D/Effects/Gods_Mercy.png</icon>
+		<censoredIcon>art/2D/Effects/Gods_Mercy_black.png</censoredIcon>
     </effect>
     <effect id="61" name="Iron Grip">
         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="TRUE" />
@@ -377,6 +385,7 @@
         <description>2654</description>
         <parameter type="POISON_IMMUNE" applytype="INCREASE" />
         <icon>art/2D/Effects/Antidote.png</icon>
+		<censoredIcon>art/2D/Effects/Antidote_black.png</censoredIcon>
     </effect>
     <effect id="66" name="Barefooted">
         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="TRUE" />
@@ -433,6 +442,7 @@
         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="TRUE" />
         <description>2665</description>
         <icon>art/2D/Effects/Tightly_Fitted_Armor.png</icon>
+		<censoredIcon>art/2D/Effects/Tightly_Fitted_Armor_black.png</censoredIcon>
     </effect>
     <effect id="77" name="Momentum">
         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="TRUE" />
