@@ -1,0 +1,613 @@
+diff -Nawur staticData-2019-06-11/00000007.xml staticData-2019-07-02/00000007.xml
+--- staticData-2019-06-11/00000007.xml	2019-06-11 15:25:34.873173800 +0200
++++ staticData-2019-07-02/00000007.xml	2019-07-02 20:02:08.874017600 +0200
+@@ -10286,4 +10286,124 @@
+       <cutoff type="hips" action="off" />
+    </cutoffs>
+ </object>
++<object id="2375">
++   <!--name = Hat king outfit A with crown05 -->
++   <skillID>62</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>1</slot>
++   </slots>
++   <meshes>
++      <mesh>Hat_Male_King_Outfit_A</mesh>
++      <mesh>HatCrown05_Male_King_Outfit_A</mesh>
++      <mesh>Hat_Female_King_Outfit_A</mesh>
++      <mesh>HatCrown05_Female_King_Outfit_A</mesh>
++   </meshes>
++   <cutoffs>
++      <cutoff type="ears" action="on" />
++      <cutoff type="hair" action="off" />
++      <cutoff type="beard" action="up" />
++      <cutoff type="head" action="on" />
++   </cutoffs>
++</object>
++<object id="2376">
++   <!--name = Hat king outfit A skin A with crown03 -->
++   <skillID>62</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>1</slot>
++   </slots>
++   <meshes>
++      <mesh>Hat_Male_King_Outfit_A_SkinA</mesh>
++      <mesh>HatCrown03_Male_King_Outfit_A</mesh>
++      <mesh>Hat_Female_King_Outfit_A_SkinA</mesh>
++      <mesh>HatCrown03_Female_King_Outfit_A</mesh>
++   </meshes>
++   <cutoffs>
++      <cutoff type="ears" action="on" />
++      <cutoff type="hair" action="off" />
++      <cutoff type="beard" action="up" />
++      <cutoff type="head" action="on" />
++   </cutoffs>
++</object>
++<object id="2377">
++   <!--name = Hat king outfit A skin B with crown01 -->
++   <skillID>62</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>1</slot>
++   </slots>
++   <meshes>
++      <mesh>Hat_Male_King_Outfit_A_SkinB</mesh>
++      <mesh>HatCrown01_Male_King_Outfit_A</mesh>
++      <mesh>Hat_Female_King_Outfit_A_SkinB</mesh>
++      <mesh>HatCrown01_Female_King_Outfit_A</mesh>
++   </meshes>
++   <cutoffs>
++      <cutoff type="ears" action="on" />
++      <cutoff type="hair" action="off" />
++      <cutoff type="beard" action="up" />
++      <cutoff type="head" action="on" />
++   </cutoffs>
++</object>
++<object id="2378">
++   <!--name = Hat king outfit B with crown01 -->
++   <skillID>62</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>1</slot>
++   </slots>
++   <meshes>
++      <mesh>Hat_Male_King_Outfit_B</mesh>
++      <mesh>HatCrown02_Male_King_Outfit_B</mesh>
++      <mesh>Hat_Female_King_Outfit_B</mesh>
++      <mesh>HatCrown02_Female_King_Outfit_B</mesh>
++   </meshes>
++   <cutoffs>
++      <cutoff type="ears" action="on" />
++      <cutoff type="hair" action="off" />
++      <cutoff type="beard" action="up" />
++      <cutoff type="head" action="on" />
++   </cutoffs>
++</object>
++<object id="2379">
++   <!--name = Hat king outfit B skin A with crown05 -->
++   <skillID>62</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>1</slot>
++   </slots>
++   <meshes>
++      <mesh>Hat_Male_King_Outfit_B_SkinA</mesh>
++      <mesh>HatCrown05_Male_King_Outfit_B</mesh>
++      <mesh>Hat_Female_King_Outfit_B_SkinA</mesh>
++      <mesh>HatCrown05_Female_King_Outfit_B</mesh>
++   </meshes>
++   <cutoffs>
++      <cutoff type="ears" action="on" />
++      <cutoff type="hair" action="off" />
++      <cutoff type="beard" action="up" />
++      <cutoff type="head" action="on" />
++   </cutoffs>
++</object>
++<object id="2380">
++   <!--name = Hat king outfit B skin B with crown05 -->
++   <skillID>62</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>1</slot>
++   </slots>
++   <meshes>
++      <mesh>Hat_Male_King_Outfit_B_SkinB</mesh>
++      <mesh>HatCrown04_Male_King_Outfit_B</mesh>
++      <mesh>Hat_Female_King_Outfit_B_SkinB</mesh>
++      <mesh>HatCrown04_Female_King_Outfit_B</mesh>
++   </meshes>
++   <cutoffs>
++      <cutoff type="ears" action="on" />
++      <cutoff type="hair" action="off" />
++      <cutoff type="beard" action="up" />
++      <cutoff type="head" action="on" />
++   </cutoffs>
++</object>
+ </equipment_types>
+diff -Nawur staticData-2019-06-11/00000008.xml staticData-2019-07-02/00000008.xml
+--- staticData-2019-06-11/00000008.xml	2019-06-11 15:25:34.870140500 +0200
++++ staticData-2019-07-02/00000008.xml	2019-07-02 20:02:08.869035800 +0200
+@@ -743,8 +743,8 @@
+ <string id="741" important="2" type="hint" infoHint="CharacterInfo">You have been kicked from %1</string>
+ <string id="742" important="2" type="hint" infoHint="CharacterInfo">%1 has left our ranks</string>
+ <string id="743" important="2" type="hint" infoHint="CharacterInfo">You have left from %1</string>
+-<string id="744" important="2" type="hint" infoHint="CharacterInfo">%1 has been assigned a new rank of %2</string>
+-<string id="745" important="2" type="hint" infoHint="CharacterInfo">You have been assigned a new rank of %1</string>
++<string id="744" important="2" type="hint" infoHint="CharacterInfo">%1 has been assigned a new rank of %(m2)</string>
++<string id="745" important="2" type="hint" infoHint="CharacterInfo">You have been assigned a new rank of %(m1)</string>
+ <string id="746" important="2" type="hint" infoHint="CharacterInfo">%1 has joined our ranks!</string>
+ <string id="747" important="1" key1="Yes" key2="No" key3="Ignore" DefaultKey="Key2">You have been invited to join the ranks of %1 by %2! Do you want to accept this new allegiance?</string>
+ <string id="748" important="1">You are not allowed to claim lands on this territory!</string>
+@@ -932,7 +932,7 @@
+ <string id="930"important="2" type="hint" infoHint="HuntingInfo">You are placing traps too close to each other</string>
+ <string id="931">siege</string>
+ <string id="932" important="2" type="hint" infoHint="InventoryInfo">You need bandage to stop bleeding</string>
+-<string id="933" important="2" type="hint" infoHint="CharacterInfo">You have successfully stopped bleeding on %1</string>
++<string id="933" important="2" type="hint" infoHint="CharacterInfo">You have successfully stopped bleeding on %(m1)</string>
+ <string id="934" important="2" type="hint" infoHint="InventoryInfo">You need a horse armor to train Heavy Warhorse</string>
+ <string id="935" important="2" type="hint" infoHint="InventoryInfo">You don't have enough place in your inventory to accept this barter</string>
+ <string id="936" important="2" type="hint" infoHint="InventoryInfo">It doesn't need any maintain actions</string>
+@@ -4662,7 +4662,7 @@
+ <string id="4660">Sale on a Starry Night!</string>
+ <string id="4661">The Shipwreck</string>
+ <string id="4662">Go to the campfire</string>
+-<string id="4663" important="2" type="char">You've pleased the %1 and got %(2.2) points. The level of %(s3) gives additional %(4.5) points.</string>
++<string id="4663" important="2" type="char">You've pleased the %(m1) and got %(2.2) points. The level of %(s3) gives additional %(4.5) points.</string>
+ <string id="4664">&lt;spush&gt;&lt;color:666666&gt;You can turn off the tutorial in the Game settings (Esc). The Help window is always available by pressing the&lt;spop&gt; F1 &lt;color:666666&gt;button. There you can also see the basic controls.</string>
+ <string id="4665">Enter the invitation code to access the battle. You can get the code from the commanders of one of the participating guilds.</string>
+ <string id="4666">The battle will be visible in the list of PvP events for ALL players. Any player will be able to enlist.</string>
+@@ -4779,7 +4779,7 @@
+ <string id="4777">Gods have already heard your pray. You can pray for somebody only once in a week.</string>
+ <string id="4778">Better think twice. You can not send this message.</string>
+ <string id="4779" important="1">Waiting for other participants. At most, it will take 30 seconds.</string>
+-<string id="4780">You have prayed for this poor soul and %1 blessed it for %(2.5) points, furthermore %3 favored him for %(4.2). The level of %(s5) gives additional %(6.5) and %(7.5) points.</string>
++<string id="4780">You have prayed for this poor soul and %(m1) blessed it for %(2.5) points, furthermore %(m3) favored him for %(4.2). The level of %(s5) gives additional %(6.5) and %(7.5) points.</string>
+ <string id="4781">The time to create an edict has passed.</string>
+ <string id="4782" important="1">Servers are going down for maintenance in %1 minutes. Expected downtime %2 hour(s). Sorry for the inconvenience!</string>
+ <string id="4783" important="2" type="hint" infoHint="InventoryInfo">Servers are going down for a restart in %1 minutes. Sorry for the inconvenience!</string>
+@@ -4863,7 +4863,7 @@
+ <string id="4861">New Arrivals: Falchion Skins</string>
+ <string id="4862">Feudal World Cup Sale!</string>
+ <string id="4863" important="2" type="">You have successfully claimed the %1. Now the %2 is the owner of it.</string>
+-<string id="4864">You've disappointed the %1 and lost %(2.2) points.</string>
++<string id="4864">You've disappointed the %(m1) and lost %(2.2) points.</string>
+ <string id="4865">Marked as Excommunicated</string>
+ <string id="4866">By this action, you will create a poll to spread your word for the whole World.&#xA;&#xA;The world message rules:&#xA;- No In-game abuse&#xA;- No advertising&#xA;- No Caps Lock&#xA;- No spam&#xA;- No trolling&#xA;- No scamming&#xA;- No sexting&#xA;- No hate speech of any kind is allowed&#xA;Use common sense, think before you speak or you can be banned.&#xA;&#xA;You can create a poll once per day.</string>
+ <string id="4867">By this action, you will create a poll for excommunication of the chosen Guild. If Makthrids will support your decision, then all members of the chosen Guild will become criminals for 20 hours.&#xA;&#xA;In order to excommunicate the Guild, you must enter the Guild name into the textbox and press Excommunicate button.&#xA;&#xA;You can create a poll once per day.</string>
+@@ -5230,7 +5230,7 @@
+ <string id="5228">New Scimitar skins 15%% OFF!</string>
+ <string id="5229">You have no working Jewelers Toolkit to use</string>
+ <string id="5230">Choose Jewelers Toolkit</string>
+-<string id="5231">This ability can't be performed during %1 effect</string>
++<string id="5231">This ability can't be performed during "Gaining reduced (100%%)" effect</string>
+ <string id="5232">Red mittens (Winter Festival)</string>
+ <string id="5233">Experience</string>
+ <string id="5234">Unlocks new equipment (check the "Usable items" tab below to see full info.)</string>
+@@ -5846,9 +5846,9 @@
+ <string id="5844">Mantle Gold and White Capelet</string>
+ <string id="5845">An outfit often worn by the many northern rulers. It features the traditional Slavard cotte with noble vertical stripes, and a botanical design on the mantle's black panels. The capelet, as is tradition, is dyed the lord's heraldic colors.</string>
+ <string id="5846">Construction</string>
+-<string id="5847"></string>
+-<string id="5848"></string>
+-<string id="5849"></string>
++<string id="5847">Battles</string>
++<string id="5848">Taxes</string>
++<string id="5849">Max</string>
+ <string id="5850"></string>
+ <string id="5851"></string>
+ <string id="5852"></string>
+@@ -5861,39 +5861,39 @@
+ <string id="5859"></string>
+ <string id="5860"></string>
+ <string id="5861"></string>
+-<string id="5862"></string>
+-<string id="5863"></string>
+-<string id="5864"></string>
+-<string id="5865"></string>
+-<string id="5866"></string>
+-<string id="5867"></string>
+-<string id="5868"></string>
+-<string id="5869"></string>
+-<string id="5870"></string>
+-<string id="5871"></string>
+-<string id="5872"></string>
+-<string id="5873"></string>
+-<string id="5874"></string>
+-<string id="5875"></string>
+-<string id="5876"></string>
+-<string id="5877"></string>
+-<string id="5878"></string>
+-<string id="5879"></string>
+-<string id="5880"></string>
+-<string id="5881"></string>
+-<string id="5882"></string>
+-<string id="5883"></string>
+-<string id="5884"></string>
+-<string id="5885"></string>
+-<string id="5886"></string>
+-<string id="5887"></string>
+-<string id="5888"></string>
+-<string id="5889"></string>
+-<string id="5890"></string>
+-<string id="5891"></string>
+-<string id="5892"></string>
+-<string id="5893"></string>
+-<string id="5894"></string>
++<string id="5862">d</string>
++<string id="5863">h</string>
++<string id="5864">m</string>
++<string id="5865">s</string>
++<string id="5866">Leader</string>
++<string id="5867">Minor Leader</string>
++<string id="5868">1st Tier Member</string>
++<string id="5869">2nd Tier Member</string>
++<string id="5870">3rd Tier Member</string>
++<string id="5871">Normal Member</string>
++<string id="5872">Recruit</string>
++<string id="5873">War</string>
++<string id="5874">Hostile</string>
++<string id="5875">Neutral</string>
++<string id="5876">Friendly</string>
++<string id="5877">Ally</string>
++<string id="5878">No Standing</string>
++<string id="5879">Kingdom</string>
++<string id="5880">Vassal</string>
++<string id="5881">You have lost the %(o1) to %2</string>
++<string id="5882">Outpost %(o1) was downgraded by %2</string>
++<string id="5883">You have successfully claimed the %(o1). Now the %2 is the owner of it.</string>
++<string id="5884">You have claimed the %(o1) but you're not able to own it due to your monument level limitations, so the claimed fief was destroyed!</string>
++<string id="5885">You have successfully finished the claiming process and downgraded the %(o1).</string>
++<string id="5886">Someone is trying to capture your guild's outpost: %(o1)</string>
++<string id="5887">You have started to claim outpost %(o1). If nobody will interrupt the process, it will be downgraded in %(2.0) minutes </string>
++<string id="5888">You have started to claim outpost %(o1). If nobody will interrupt the process, it will be yours in %(2.0) minutes </string>
++<string id="5889">Left Hand</string>
++<string id="5890">Right Hand</string>
++<string id="5891">Left Leg</string>
++<string id="5892">Right Leg</string>
++<string id="5893">Head</string>
++<string id="5894">Torso</string>
+ <string id="5895"></string>
+ <string id="5896"></string>
+ <string id="5897"></string>
+diff -Nawur staticData-2019-06-11/00000009.xml staticData-2019-07-02/00000009.xml
+--- staticData-2019-06-11/00000009.xml	2019-06-11 15:25:34.855205500 +0200
++++ staticData-2019-07-02/00000009.xml	2019-07-02 20:02:08.850018500 +0200
+@@ -25627,10 +25627,6 @@
+                             <npc>NPC_slave_Overseer</npc>
+                         </npcTypes>
+                     </spawningPoint>
+-                    <outpostTotem>
+-                        <offset x="10" y="5" z="0" />
+-                        <rot x="0" y="0" z="1" angle="1.5687" />
+-                    </outpostTotem>
+                 </mountPoints>
+                 <particleEmitters>
+                     <emitter>
+@@ -30778,6 +30774,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="-1.72853" y="1.98052" z="0" />
++                        <rot x="0" y="0" z="1" angle="1.5687" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -31041,6 +31041,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="0" y="-4.39086" z="0" />
++                        <rot x="0" y="0" z="-1" angle="90" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -31362,6 +31366,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="0" y="-4.39086" z="0" />
++                        <rot x="0" y="0" z="-1" angle="90" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -31719,6 +31727,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="-1.72853" y="1.98052" z="0" />
++                        <rot x="0" y="0" z="1" angle="1.5687" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -31982,6 +31994,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="0" y="-4.39086" z="0" />
++                        <rot x="0" y="0" z="-1" angle="90" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -32303,6 +32319,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="0" y="-4.39086" z="0" />
++                        <rot x="0" y="0" z="-1" angle="90" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -32653,6 +32673,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="0" y="-4.39086" z="0" />
++                        <rot x="0" y="0" z="-1" angle="90" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -32980,6 +33004,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="-1.72853" y="1.98052" z="0" />
++                        <rot x="0" y="0" z="1" angle="1.5687" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -33195,6 +33223,10 @@
+                             <npc>NPC_slave_Overseer</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="8.96761" y="3.24321" z="0" />
++                        <rot x="0" y="0" z="1" angle="1.5687" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -33696,6 +33728,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="-1.72853" y="1.98052" z="0" />
++                        <rot x="0" y="0" z="1" angle="1.5687" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -33959,6 +33995,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="0" y="-4.39086" z="0" />
++                        <rot x="0" y="0" z="-1" angle="90" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -34280,6 +34320,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="0" y="-4.39086" z="0" />
++                        <rot x="0" y="0" z="-1" angle="90" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -34637,6 +34681,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="-1.72853" y="1.98052" z="0" />
++                        <rot x="0" y="0" z="1" angle="1.5687" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -34900,6 +34948,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="0" y="-4.39086" z="0" />
++                        <rot x="0" y="0" z="-1" angle="90" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -35221,6 +35273,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="0" y="-4.39086" z="0" />
++                        <rot x="0" y="0" z="-1" angle="90" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -35571,6 +35627,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="0" y="-4.39086" z="0" />
++                        <rot x="0" y="0" z="-1" angle="90" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -35898,6 +35958,10 @@
+                             <npc>NPC_slave_E</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="-1.72853" y="1.98052" z="0" />
++                        <rot x="0" y="0" z="1" angle="1.5687" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -36113,6 +36177,10 @@
+                             <npc>NPC_slave_Overseer</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="8.96761" y="3.24321" z="0" />
++                        <rot x="0" y="0" z="1" angle="1.5687" />
++                    </outpostTotem>
+                 </mountPoints>
+             </state>
+             <state type="Damaged">
+@@ -39736,6 +39804,7 @@
+                         <shapeName>art/models/3d/construction/combatrelated/summontotem/summon_totem.dts</shapeName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="1" angle="0" />
++                        <scale x="0.8" y="0.8" z="0.8" />
+                     </shape>
+                 </shapes>
+             </state>
+diff -Nawur staticData-2019-06-11/00000022.xml staticData-2019-07-02/00000022.xml
+--- staticData-2019-06-11/00000022.xml	2019-06-11 15:25:34.818306400 +0200
++++ staticData-2019-07-02/00000022.xml	2019-07-02 20:02:08.822404400 +0200
+@@ -5415,7 +5415,6 @@
+ 				<results>
+ 					<cooldowns>
+ 						<cooldown group="formations">30</cooldown>
+-						<cooldown group="global">0.5</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -5433,7 +5432,6 @@
+ 				<results>
+ 					<cooldowns>
+ 						<cooldown group="formations">30</cooldown>
+-						<cooldown group="global">0.5</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -5451,7 +5449,6 @@
+ 				<results>
+ 					<cooldowns>
+ 						<cooldown group="formations">30</cooldown>
+-						<cooldown group="global">0.5</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -5469,7 +5466,6 @@
+ 				<results>
+ 					<cooldowns>
+ 						<cooldown group="orders">10</cooldown>
+-						<cooldown group="global">0.5</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -5487,7 +5483,6 @@
+ 				<results>
+ 					<cooldowns>
+ 						<cooldown group="orders">10</cooldown>
+-						<cooldown group="global">0.5</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -5505,7 +5500,6 @@
+ 				<results>
+ 					<cooldowns>
+ 						<cooldown group="orders">10</cooldown>
+-						<cooldown group="global">0.5</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -6115,7 +6109,6 @@
+ 					<sstam_spent>80</sstam_spent>
+ 					<cooldowns>
+ 						<cooldown group="self">60</cooldown>
+-						<cooldown group="global">0.5</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -6134,7 +6127,6 @@
+ 					<sstam_spent>80</sstam_spent>
+ 					<cooldowns>
+ 						<cooldown group="self">60</cooldown>
+-						<cooldown group="global">0.5</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -6201,7 +6193,6 @@
+ 					<sstam_spent>50</sstam_spent>
+ 					<cooldowns>
+ 						<cooldown group="147">60</cooldown>
+-						<cooldown group="global">0.5</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -6265,9 +6256,6 @@
+ 					<animation>pray</animation>
+ 					<sound sid="91"/>
+ 					<sstam_spent>0</sstam_spent>
+-					<cooldowns>
+-						<cooldown group="global">0.5</cooldown>
+-					</cooldowns>
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Join World" id="353">
+@@ -6281,9 +6269,6 @@
+ 					<animation>pray</animation>
+ 					<sound sid="91"/>
+ 					<sstam_spent>80</sstam_spent>
+-					<cooldowns>
+-						<cooldown group="global">0.5</cooldown>
+-					</cooldowns>
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Pray for..." type="Special" id="349">
+@@ -6303,7 +6288,6 @@
+ 					<sstam_spent>20</sstam_spent>
+ 					<cooldowns>
+ 						<cooldown group="self">60</cooldown>
+-						<cooldown group="global">0.5</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -6320,7 +6304,6 @@
+ 					<sstam_spent>20</sstam_spent>
+ 					<cooldowns>
+ 						<cooldown group="self">60</cooldown>
+-						<cooldown group="global">0.5</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -8384,7 +8367,7 @@
+ 				<entities>
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id" parent="1">74 96 107 109 111 114 115 116 117 118 122 123 131 132 133 134 135 136 137 138 139 140 141 143 144 145 146 147 148 152 153 154 155 174 175 176 177 453 455 472 503 504 507 508 509 512 513 514 515 516 517 518 519 520 521 682 1055 1077 1084 1085 1086 1087 1088 1089 1092 1093 1097 1098 1109 1110 1121 1342 1343 1353 1357 1359 1394 1410 1411 1412 1413 1499 1701</ent_req>
++							<ent_req type="object_type_id" parent="1">96 107 109 111 114 115 116 117 118 122 123 131 132 133 134 135 136 137 138 139 140 141 143 144 145 146 147 148 152 153 154 155 174 175 176 177 453 455 472 503 504 507 508 509 512 513 514 515 516 517 518 519 520 521 682 1055 1077 1084 1085 1086 1087 1088 1089 1092 1093 1097 1098 1109 1110 1121 1342 1343 1353 1357 1359 1394 1410 1411 1412 1413 1499 1701</ent_req>
+ 						</ent_reqs>
+ 					</entity>
+ 				</entities>
