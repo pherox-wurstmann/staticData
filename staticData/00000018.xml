@@ -15248,7 +15248,7 @@
   </row>
   <row>
     <ID>1211</ID>
-    <Name>Kite Shield</Name>
+    <Name>Kite shield</Name>
     <Description/>
     <SkillTypeID>62</SkillTypeID>
     <SkillLvl>0</SkillLvl>
@@ -15692,20 +15692,6 @@
     <Autorepeat>0</Autorepeat>
     <IsBlueprint>0</IsBlueprint>
     <ImagePath>art\2D\Recipes\Idol_Aori.png</ImagePath>
-    <CensoredImagePath/>
-  </row>
-  <row>
-    <ID>1243</ID>
-    <Name>Door</Name>
-    <Description/>
-    <SkillTypeID>18</SkillTypeID>
-    <SkillLvl>0</SkillLvl>
-    <ResultObjectTypeID>2360</ResultObjectTypeID>
-    <SkillDepends>40</SkillDepends>
-    <Quantity>1</Quantity>
-    <Autorepeat>0</Autorepeat>
-    <IsBlueprint>0</IsBlueprint>
-    <ImagePath>art\2D\Recipes\chair.png</ImagePath>
     <CensoredImagePath/>
   </row>
   <row>

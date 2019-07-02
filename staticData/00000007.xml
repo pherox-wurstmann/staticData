@@ -10010,4 +10010,136 @@
       <slot>9</slot>
    </slots>
 </object>
+<object id="2364">
+   <!--name = Black Robe -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot>3</slot>
+      <slot>5</slot>
+      <slot>6</slot>
+   </extraSlotsBlock>
+   <meshes>
+      <mesh>GM_Robe_Dark</mesh>
+      <mesh>Male_Body_v1_torso_block</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="torso" action="off" />
+      <cutoff type="forearms" action="off" />
+      <cutoff type="shoulders" action="off" />
+      <cutoff type="hips" action="off" />
+      <cutoff type="feet" action="off" />
+   </cutoffs>
+   <armor>
+   <multiplier type="slash"  value="0.0" />
+   <multiplier type="pierce" value="0.0" />
+   <multiplier type="chop"   value="0.0" />
+   <multiplier type="blunt"  value="0.0" />
+   <multiplier type="siege"  value="0.0" />
+   <fragility>0.5</fragility>
+   </armor>
+</object>
+<object id="2365">
+   <!--name = White Robe -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>2</slot>
+   </slots>
+   <extraSlotsBlock>
+      <slot>3</slot>
+      <slot>5</slot>
+      <slot>6</slot>
+   </extraSlotsBlock>
+   <meshes>
+      <mesh>GM_Robe</mesh>
+      <mesh>Male_Body_v1_torso_block</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="torso" action="off" />
+      <cutoff type="forearms" action="off" />
+      <cutoff type="shoulders" action="off" />
+      <cutoff type="hips" action="off" />
+      <cutoff type="feet" action="off" />
+   </cutoffs>
+   <armor>
+   <multiplier type="slash"  value="0.0" />
+   <multiplier type="pierce" value="0.0" />
+   <multiplier type="chop"   value="0.0" />
+   <multiplier type="blunt"  value="0.0" />
+   <multiplier type="siege"  value="0.0" />
+   <fragility>0.5</fragility>
+   </armor>
+</object>
+<object id="2366">
+   <!--name = Pink Tabard -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>14</slot>
+   </slots>
+   <connectedSlots>
+      <hideSlot>2</hideSlot>
+   </connectedSlots>
+   <meshes>
+      <mesh>Surcoat_Armor_Pink</mesh>
+      <mesh>Male_Body_v1_torso_block</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh>
+      <altmesh>Surcoat_Armor_Pink</altmesh>
+      <altmesh>Male_Body_v1_torso_block</altmesh>
+      <altmesh>Female_Body_v1_torso_block</altmesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="torso" action="off" />
+   </cutoffs>
+</object>
+<object id="2367">
+   <!--name = Red Tabard -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>14</slot>
+   </slots>
+   <connectedSlots>
+      <hideSlot>2</hideSlot>
+   </connectedSlots>
+   <meshes>
+      <mesh>Surcoat_Armor_Red</mesh>
+      <mesh>Male_Body_v1_torso_block</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh>
+      <altmesh>Surcoat_Armor_Red</altmesh>
+      <altmesh>Male_Body_v1_torso_block</altmesh>
+      <altmesh>Female_Body_v1_torso_block</altmesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="torso" action="off" />
+   </cutoffs>
+</object>
+<object id="2368">
+   <!--name = Blue Tabard -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>14</slot>
+   </slots>
+   <connectedSlots>
+      <hideSlot>2</hideSlot>
+   </connectedSlots>
+   <meshes>
+      <mesh>Surcoat_Armor_Blue</mesh>
+      <mesh>Male_Body_v1_torso_block</mesh>
+      <mesh>Female_Body_v1_torso_block</mesh>
+      <altmesh>Surcoat_Armor_Blue</altmesh>
+      <altmesh>Male_Body_v1_torso_block</altmesh>
+      <altmesh>Female_Body_v1_torso_block</altmesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="torso" action="off" />
+   </cutoffs>
+</object>
 </equipment_types>
