@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<animals>
+   <animal id="1" type="chicken">
+      <!-- Chick -->
+      <item>2115</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>10</maxAge>
+      <food amount="0.025">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.025"/>
+      <sex>0</sex>
+      <nextStage>1052</nextStage>
+      <slaughter>
+         <item quantity="1" chance="1">390</item>
+         <item quantity="2" chance="1">346</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_chicken.png</stableIcon>
+   </animal>
+   <animal id="2" type="chicken">
+      <!-- Chicken -->
+      <item>1052</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>35</maxAge>
+      <food amount="0.05">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.05"/>
+      <sex>3</sex>
+      <nextStage>2116</nextStage>
+      <harvest amount="0.05">338</harvest>
+      <breeding ticks="0" chance="0.163" breedingObject="" qualityChance="0.01">
+         <item quantity="1" chance="0.4">2115</item>
+         <item quantity="1" chance="0.4">2115</item>
+         <item quantity="1" chance="0.4">2115</item>
+      </breeding>
+      <slaughter>
+         <item quantity="4" chance="1">390</item>
+         <item quantity="6" chance="1">346</item>
+         <item quantity="1" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_chicken.png</stableIcon>
+   </animal>
+   <animal id="3" type="chicken">
+      <!-- Old Chicken -->
+      <item>2116</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>50</maxAge>
+      <food amount="0.05">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.05"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="7" chance="1">390</item>
+         <item quantity="10" chance="1">346</item>
+         <item quantity="2" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_chicken.png</stableIcon>
+   </animal>
+   <animal id="4" type="rabbit">
+      <!-- Little Rabbit -->
+      <item>2117</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>15</maxAge>
+      <food amount="0.025">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.025"/>
+      <sex>0</sex>
+      <nextStage>1053</nextStage>
+      <slaughter>
+         <item quantity="1" chance="1">390</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_rabbit.png</stableIcon>
+   </animal>
+   <animal id="5" type="rabbit">
+      <!-- Rabbit -->
+      <item>1053</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>55</maxAge>
+      <food amount="0.05">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.05"/>
+      <sex>3</sex>
+      <nextStage>2118</nextStage>
+      <breeding ticks="0" chance="0.125" breedingObject="" qualityChance="0.01">
+         <item quantity="2" chance="0.2">2117</item>
+         <item quantity="2" chance="0.2">2117</item>
+         <item quantity="2" chance="0.2">2117</item>
+      </breeding>
+      <slaughter>
+         <item quantity="4" chance="1">390</item>
+         <item quantity="1" chance="1">430</item>
+         <item quantity="3" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_rabbit.png</stableIcon>
+   </animal>
+   <animal id="6" type="rabbit">
+      <!-- Old Rabbit -->
+      <item>2118</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>75</maxAge>
+      <food amount="0.05">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.05"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="8" chance="1">390</item>
+         <item quantity="2" chance="1">430</item>
+         <item quantity="5" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_rabbit.png</stableIcon>
+   </animal>
+   <animal id="7" type="pig">
+      <!-- Piglet -->
+      <item>2119</item>
+      <regions>1 4 5 7 9 11 12 16 17 19 21 23 26 28 29 32 33 34 36 37 41 43 46</regions>
+      <maxAge>30</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>0</sex>
+      <nextStage>1048</nextStage>
+      <slaughter>
+         <item quantity="6" chance="1">384</item>
+         <item quantity="1" chance="1">2080</item>
+         <item quantity="2" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_pig.png</stableIcon>
+   </animal>
+   <animal id="8" type="pig">
+      <!-- Pig -->
+      <item>1048</item>
+      <regions>1 4 5 7 9 11 12 16 17 19 21 23 26 28 29 32 33 34 36 37 41 43 46</regions>
+      <maxAge>105</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>2</sex>
+      <nextStage>2120</nextStage>
+      <breeding ticks="15" chance="0.2" breedingObject="2121" qualityChance="0.02">
+         <item quantity="1" chance="0.35">2119</item>
+         <item quantity="1" chance="0.35">2122</item>
+         <item quantity="1" chance="0.35">2119</item>
+         <item quantity="1" chance="0.35">2122</item>
+         <item quantity="1" chance="0.35">2119</item>
+         <item quantity="1" chance="0.35">2122</item>
+         <item quantity="1" chance="0.35">2119</item>
+         <item quantity="1" chance="0.35">2122</item>
+      </breeding>
+      <slaughter>
+         <item quantity="40" chance="1">384</item>
+         <item quantity="2" chance="1">2080</item>
+         <item quantity="10" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>758</tameTypeID>
+      <stableIcon>art/images/stable/stable_pig.png</stableIcon>
+   </animal>
+   <animal id="9" type="pig">
+      <!-- Old Pig -->
+      <item>2120</item>
+      <regions>1 4 5 7 9 11 12 16 17 19 21 23 26 28 29 32 33 34 36 37 41 43 46</regions>
+      <maxAge>150</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="80" chance="1">384</item>
+         <item quantity="3" chance="1">2080</item>
+         <item quantity="15" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_pig.png</stableIcon>
+   </animal>
+   <animal id="10" type="pig">
+      <!-- Pregnant Pig -->
+      <item>2121</item>
+      <regions>1 4 5 7 9 11 12 16 17 19 21 23 26 28 29 32 33 34 36 37 41 43 46</regions>
+      <maxAge>105</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>0</sex>
+      <nextStage>2120</nextStage>
+      <slaughter>
+         <item quantity="40" chance="1">384</item>
+         <item quantity="2" chance="1">2080</item>
+         <item quantity="10" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_pig.png</stableIcon>
+   </animal>
+   <animal id="11" type="pig">
+      <!-- Pigling -->
+      <item>2122</item>
+      <regions>1 4 5 7 9 11 12 16 17 19 21 23 26 28 29 32 33 34 36 37 41 43 46</regions>
+      <maxAge>30</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>0</sex>
+      <nextStage>1049</nextStage>
+      <slaughter>
+         <item quantity="6" chance="1">384</item>
+         <item quantity="1" chance="1">2080</item>
+         <item quantity="2" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_boar.png</stableIcon>
+   </animal>
+   <animal id="12" type="pig">
+      <!-- Boar -->
+      <item>1049</item>
+      <regions>1 4 5 7 9 11 12 16 17 19 21 23 26 28 29 32 33 34 36 37 41 43 46</regions>
+      <maxAge>105</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>1</sex>
+      <nextStage>2123</nextStage>
+      <slaughter>
+         <item quantity="40" chance="1">384</item>
+         <item quantity="2" chance="1">2080</item>
+         <item quantity="15" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>757</tameTypeID>
+      <stableIcon>art/images/stable/stable_boar.png</stableIcon>
+   </animal>
+   <animal id="13" type="pig">
+      <!-- Old Boar -->
+      <item>2123</item>
+      <regions>1 4 5 7 9 11 12 16 17 19 21 23 26 28 29 32 33 34 36 37 41 43 46</regions>
+      <maxAge>150</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="80" chance="1">384</item>
+         <item quantity="3" chance="1">2080</item>
+         <item quantity="20" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_boar.png</stableIcon>
+   </animal>
+   <animal id="14" type="pig">
+      <!-- Mangalica Piglet -->
+      <item>2124</item>
+      <regions>2 3 6 8 10 13 14 15 18 20 22 24 25 27 30 31 35 38 39 40 42 44 45</regions>
+      <maxAge>30</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>0</sex>
+      <nextStage>2072</nextStage>
+      <slaughter>
+         <item quantity="6" chance="1">2055</item>
+         <item quantity="1" chance="1">2081</item>
+         <item quantity="2" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_pig.png</stableIcon>
+   </animal>
+   <animal id="15" type="pig">
+      <!-- Mangalica Pig -->
+      <item>2072</item>
+      <regions>2 3 6 8 10 13 14 15 18 20 22 24 25 27 30 31 35 38 39 40 42 44 45</regions>
+      <maxAge>105</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>2</sex>
+      <nextStage>2125</nextStage>
+      <breeding ticks="15" chance="0.2" breedingObject="2126" qualityChance="0.02">
+         <item quantity="1" chance="0.35">2124</item>
+         <item quantity="1" chance="0.35">2127</item>
+         <item quantity="1" chance="0.35">2124</item>
+         <item quantity="1" chance="0.35">2127</item>
+         <item quantity="1" chance="0.35">2124</item>
+         <item quantity="1" chance="0.35">2127</item>
+         <item quantity="1" chance="0.35">2124</item>
+         <item quantity="1" chance="0.35">2127</item>
+      </breeding>
+      <slaughter>
+         <item quantity="40" chance="1">2055</item>
+         <item quantity="2" chance="1">2081</item>
+         <item quantity="10" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>758</tameTypeID>
+      <stableIcon>art/images/stable/stable_pig.png</stableIcon>
+   </animal>
+   <animal id="16" type="pig">
+      <!-- Old Mangalica Pig -->
+      <item>2125</item>
+      <regions>2 3 6 8 10 13 14 15 18 20 22 24 25 27 30 31 35 38 39 40 42 44 45</regions>
+      <maxAge>150</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="80" chance="1">2055</item>
+         <item quantity="3" chance="1">2081</item>
+         <item quantity="15" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_pig.png</stableIcon>
+   </animal>
+   <animal id="17" type="pig">
+      <!-- Pregnant Mangalica Pig -->
+      <item>2126</item>
+      <regions>2 3 6 8 10 13 14 15 18 20 22 24 25 27 30 31 35 38 39 40 42 44 45</regions>
+      <maxAge>105</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>0</sex>
+      <nextStage>2125</nextStage>
+      <slaughter>
+         <item quantity="40" chance="1">2055</item>
+         <item quantity="2" chance="1">2081</item>
+         <item quantity="10" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_pig.png</stableIcon>
+   </animal>
+   <animal id="18" type="pig">
+      <!-- Mangalica Pigling -->
+      <item>2127</item>
+      <regions>2 3 6 8 10 13 14 15 18 20 22 24 25 27 30 31 35 38 39 40 42 44 45</regions>
+      <maxAge>30</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>0</sex>
+      <nextStage>2073</nextStage>
+      <slaughter>
+         <item quantity="6" chance="1">2055</item>
+         <item quantity="1" chance="1">2081</item>
+         <item quantity="2" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_boar.png</stableIcon>
+   </animal>
+   <animal id="19" type="pig">
+      <!-- Mangalica Boar -->
+      <item>2073</item>
+      <regions>2 3 6 8 10 13 14 15 18 20 22 24 25 27 30 31 35 38 39 40 42 44 45</regions>
+      <maxAge>105</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>1</sex>
+      <nextStage>2128</nextStage>
+      <slaughter>
+         <item quantity="40" chance="1">2055</item>
+         <item quantity="2" chance="1">2081</item>
+         <item quantity="15" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>757</tameTypeID>
+      <stableIcon>art/images/stable/stable_boar.png</stableIcon>
+   </animal>
+   <animal id="20" type="pig">
+      <!-- Old Mangalica Boar -->
+      <item>2128</item>
+      <regions>2 3 6 8 10 13 14 15 18 20 22 24 25 27 30 31 35 38 39 40 42 44 45</regions>
+      <maxAge>150</maxAge>
+      <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.5"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="80" chance="1">2055</item>
+         <item quantity="3" chance="1">2081</item>
+         <item quantity="20" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_boar.png</stableIcon>
+   </animal>
+   <animal id="21" type="sheep">
+      <!-- Poddy -->
+      <item>2129</item>
+      <regions>1 4 5 8 10 12 15 16 17 18 20 23 24 25 26 29 31 35 36 40 44 46</regions>
+      <maxAge>30</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>0</sex>
+      <nextStage>1050</nextStage>
+      <slaughter>
+         <item quantity="4" chance="1">385</item>
+         <item quantity="1" chance="1">431</item>
+         <item quantity="2" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_sheep.png</stableIcon>
+   </animal>
+   <animal id="22" type="sheep">
+      <!-- Sheep -->
+      <item>1050</item>
+      <regions>1 4 5 8 10 12 15 16 17 18 20 23 24 25 26 29 31 35 36 40 44 46</regions>
+      <maxAge>105</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>2</sex>
+      <nextStage>2130</nextStage>
+      <harvest amount="0.5">2051</harvest>
+      <breeding ticks="15" chance="0.25" breedingObject="2131" qualityChance="0.02">
+         <item quantity="1" chance="0.33">2129</item>
+         <item quantity="1" chance="0.33">2135</item>
+         <item quantity="1" chance="0.33">2129</item>
+         <item quantity="1" chance="0.33">2135</item>
+         <item quantity="1" chance="0.33">2129</item>
+         <item quantity="1" chance="0.33">2135</item>
+      </breeding>
+      <slaughter>
+         <item quantity="24" chance="1">385</item>
+         <item quantity="2" chance="1">431</item>
+         <item quantity="7" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>759</tameTypeID>
+      <stableIcon>art/images/stable/stable_sheep.png</stableIcon>
+   </animal>
+   <animal id="23" type="sheep">
+      <!-- Old Sheep -->
+      <item>2130</item>
+      <regions>1 4 5 8 10 12 15 16 17 18 20 23 24 25 26 29 31 35 36 40 44 46</regions>
+      <maxAge>150</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <harvest amount="0.5">2051</harvest>
+      <slaughter>
+         <item quantity="48" chance="1">385</item>
+         <item quantity="3" chance="1">431</item>
+         <item quantity="10" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_sheep.png</stableIcon>
+   </animal>
+   <animal id="24" type="sheep">
+      <!-- Pregnant Sheep -->
+      <item>2131</item>
+      <regions>1 4 5 8 10 12 15 16 17 18 20 23 24 25 26 29 31 35 36 40 44 46</regions>
+      <maxAge>150</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>0</sex>
+      <nextStage>2130</nextStage>
+      <slaughter>
+         <item quantity="24" chance="1">385</item>
+         <item quantity="2" chance="1">431</item>
+         <item quantity="7" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_sheep.png</stableIcon>
+   </animal>
+   <animal id="25" type="sheep">
+      <!-- Yonling -->
+      <item>2135</item>
+      <regions>1 4 5 8 10 12 15 16 17 18 20 23 24 25 26 29 31 35 36 40 44 46</regions>
+      <maxAge>30</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>0</sex>
+      <nextStage>1051</nextStage>
+      <slaughter>
+         <item quantity="4" chance="1">385</item>
+         <item quantity="1" chance="1">431</item>
+         <item quantity="2" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_ram.png</stableIcon>
+   </animal>
+   <animal id="26" type="sheep">
+      <!-- Ram -->
+      <item>1051</item>
+      <regions>1 4 5 8 10 12 15 16 17 18 20 23 24 25 26 29 31 35 36 40 44 46</regions>
+      <maxAge>105</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>1</sex>
+      <nextStage>2136</nextStage>
+      <harvest amount="0.5">2051</harvest>
+      <slaughter>
+         <item quantity="24" chance="1">385</item>
+         <item quantity="2" chance="1">431</item>
+         <item quantity="7" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>759</tameTypeID>
+      <stableIcon>art/images/stable/stable_ram.png</stableIcon>
+   </animal>
+   <animal id="27" type="sheep">
+      <!-- Old Ram -->
+      <item>2136</item>
+      <regions>1 4 5 8 10 12 15 16 17 18 20 23 24 25 26 29 31 35 36 40 44 46</regions>
+      <maxAge>150</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <harvest amount="0.5">2051</harvest>
+      <slaughter>
+         <item quantity="48" chance="1">385</item>
+         <item quantity="3" chance="1">431</item>
+         <item quantity="10" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_ram.png</stableIcon>
+   </animal>
+   <animal id="28" type="sheep">
+      <!-- Mountain Poddy -->
+      <item>2132</item>
+      <regions>2 3 6 7 9 11 13 14 19 21 22 27 28 30 32 33 34 37 38 39 41 42 43 45</regions>
+      <maxAge>30</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>0</sex>
+      <nextStage>2074</nextStage>
+      <slaughter>
+         <item quantity="4" chance="1">2054</item>
+         <item quantity="1" chance="1">2078</item>
+         <item quantity="2" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_sheep.png</stableIcon>
+   </animal>
+   <animal id="29" type="sheep">
+      <!-- Mountain Sheep -->
+      <item>2074</item>
+      <regions>2 3 6 7 9 11 13 14 19 21 22 27 28 30 32 33 34 37 38 39 41 42 43 45</regions>
+      <maxAge>105</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>2</sex>
+      <nextStage>2133</nextStage>
+      <harvest amount="0.5">2050</harvest>
+      <breeding ticks="15" chance="0.25" breedingObject="2134" qualityChance="0.02">
+         <item quantity="1" chance="0.33">2132</item>
+         <item quantity="1" chance="0.33">2137</item>
+         <item quantity="1" chance="0.33">2132</item>
+         <item quantity="1" chance="0.33">2137</item>
+         <item quantity="1" chance="0.33">2132</item>
+         <item quantity="1" chance="0.33">2137</item>
+      </breeding>
+      <slaughter>
+         <item quantity="24" chance="1">2054</item>
+         <item quantity="2" chance="1">2078</item>
+         <item quantity="7" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>759</tameTypeID>
+      <stableIcon>art/images/stable/stable_sheep.png</stableIcon>
+   </animal>
+   <animal id="30" type="sheep">
+      <!-- Old Mountain Sheep -->
+      <item>2133</item>
+      <regions>2 3 6 7 9 11 13 14 19 21 22 27 28 30 32 33 34 37 38 39 41 42 43 45</regions>
+      <maxAge>150</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <harvest amount="0.5">2050</harvest>
+      <slaughter>
+         <item quantity="48" chance="1">2054</item>
+         <item quantity="3" chance="1">2078</item>
+         <item quantity="10" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_sheep.png</stableIcon>
+   </animal>
+   <animal id="31" type="sheep">
+      <!-- Pregnant Moountain Sheep -->
+      <item>2134</item>
+      <regions>2 3 6 7 9 11 13 14 19 21 22 27 28 30 32 33 34 37 38 39 41 42 43 45</regions>
+      <maxAge>150</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>0</sex>
+      <nextStage>2133</nextStage>
+      <slaughter>
+         <item quantity="24" chance="1">2054</item>
+         <item quantity="2" chance="1">2078</item>
+         <item quantity="7" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_sheep.png</stableIcon>
+   </animal>
+   <animal id="32" type="sheep">
+      <!-- Mountain Yonling -->
+      <item>2137</item>
+      <regions>2 3 6 7 9 11 13 14 19 21 22 27 28 30 32 33 34 37 38 39 41 42 43 45</regions>
+      <maxAge>30</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>0</sex>
+      <nextStage>2075</nextStage>
+      <slaughter>
+         <item quantity="4" chance="1">2054</item>
+         <item quantity="1" chance="1">2078</item>
+         <item quantity="2" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_ram.png</stableIcon>
+   </animal>
+   <animal id="33" type="sheep">
+      <!-- Mountain Ram -->
+      <item>2075</item>
+      <regions>2 3 6 7 9 11 13 14 19 21 22 27 28 30 32 33 34 37 38 39 41 42 43 45</regions>
+      <maxAge>105</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>1</sex>
+      <nextStage>2138</nextStage>
+      <harvest amount="0.5">2050</harvest>
+      <slaughter>
+         <item quantity="24" chance="1">2054</item>
+         <item quantity="2" chance="1">2078</item>
+         <item quantity="7" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>759</tameTypeID>
+      <stableIcon>art/images/stable/stable_ram.png</stableIcon>
+   </animal>
+   <animal id="34" type="sheep">
+      <!-- Old Mountain Ram -->
+      <item>2138</item>
+      <regions>2 3 6 7 9 11 13 14 19 21 22 27 28 30 32 33 34 37 38 39 41 42 43 45</regions>
+      <maxAge>150</maxAge>
+      <food amount="0.3">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="0.3"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <harvest amount="0.5">2050</harvest>
+      <slaughter>
+         <item quantity="48" chance="1">2054</item>
+         <item quantity="3" chance="1">2078</item>
+         <item quantity="10" chance="1">342</item>
+         <item quantity="1" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_ram.png</stableIcon>
+   </animal>
+   <animal id="35" type="cow">
+      <!-- Heifer -->
+      <item>2139</item>
+      <regions>2 3 4 6 8 10 12 15 17 18 20 24 25 26 31 34 35 36 38 40 43 44 46</regions>
+      <maxAge>50</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>0</sex>
+      <nextStage>1046</nextStage>
+      <slaughter>
+         <item quantity="25" chance="1">383</item>
+         <item quantity="1" chance="1">2082</item>
+         <item quantity="8" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_cow.png</stableIcon>
+   </animal>
+   <animal id="36" type="cow">
+      <!-- Cow -->
+      <item>1046</item>
+      <regions>2 3 4 6 8 10 12 15 17 18 20 24 25 26 31 34 35 36 38 40 43 44 46</regions>
+      <maxAge>175</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>2</sex>
+      <nextStage>2140</nextStage>
+      <harvest amount="1">339</harvest>
+      <breeding ticks="27" chance="0.3" breedingObject="2141" qualityChance="0.035">
+         <item quantity="1" chance="0.32">2139</item>
+         <item quantity="1" chance="0.32">2145</item>
+         <item quantity="1" chance="0.32">2139</item>
+         <item quantity="1" chance="0.32">2145</item>
+      </breeding>
+      <slaughter>
+         <item quantity="150" chance="1">383</item>
+         <item quantity="3" chance="1">2082</item>
+         <item quantity="50" chance="1">342</item>
+         <item quantity="3" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>761</tameTypeID>
+      <stableIcon>art/images/stable/stable_cow.png</stableIcon>
+   </animal>
+   <animal id="37" type="cow">
+      <!-- Old Cow -->
+      <item>2140</item>
+      <regions>2 3 4 6 8 10 12 15 17 18 20 24 25 26 31 34 35 36 38 40 43 44 46</regions>
+      <maxAge>250</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="300" chance="1">383</item>
+         <item quantity="4" chance="1">2082</item>
+         <item quantity="80" chance="1">342</item>
+         <item quantity="3" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_cow.png</stableIcon>
+   </animal>
+   <animal id="38" type="cow">
+      <!-- Pregnant Cow -->
+      <item>2141</item>
+      <regions>2 3 4 6 8 10 12 15 17 18 20 24 25 26 31 34 35 36 38 40 43 44 46</regions>
+      <maxAge>250</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>0</sex>
+      <nextStage>2140</nextStage>
+      <slaughter>
+         <item quantity="150" chance="1">383</item>
+         <item quantity="3" chance="1">2082</item>
+         <item quantity="50" chance="1">342</item>
+         <item quantity="3" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_cow.png</stableIcon>
+   </animal>
+   <animal id="39" type="cow">
+      <!-- Calf -->
+      <item>2145</item>
+      <regions>2 3 4 6 8 10 12 15 17 18 20 24 25 26 31 34 35 36 38 40 43 44 46</regions>
+      <maxAge>50</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>0</sex>
+      <nextStage>1047</nextStage>
+      <slaughter>
+         <item quantity="25" chance="1">383</item>
+         <item quantity="1" chance="1">2082</item>
+         <item quantity="8" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_bull.png</stableIcon>
+   </animal>
+   <animal id="40" type="cow">
+      <!-- Bull -->
+      <item>1047</item>
+      <regions>2 3 4 6 8 10 12 15 17 18 20 24 25 26 31 34 35 36 38 40 43 44 46</regions>
+      <maxAge>175</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>1</sex>
+      <nextStage>2147</nextStage>
+      <slaughter>
+         <item quantity="150" chance="1">383</item>
+         <item quantity="3" chance="1">2082</item>
+         <item quantity="60" chance="1">342</item>
+         <item quantity="3" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>760</tameTypeID>
+      <stableIcon>art/images/stable/stable_bull.png</stableIcon>
+   </animal>
+   <animal id="41" type="cow">
+      <!-- Old Bull -->
+      <item>2147</item>
+      <regions>2 3 4 6 8 10 12 15 17 18 20 24 25 26 31 34 35 36 38 40 43 44 46</regions>
+      <maxAge>250</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="300" chance="1">383</item>
+         <item quantity="4" chance="1">2082</item>
+         <item quantity="100" chance="1">342</item>
+         <item quantity="3" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_bull.png</stableIcon>
+   </animal>
+   <animal id="42" type="cow">
+      <!-- Hairy Heifer -->
+      <item>2142</item>
+      <regions>1 5 7 9 11 13 14 16 19 21 22 23 27 28 29 30 32 33 37 39 41 42 45</regions>
+      <maxAge>50</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>0</sex>
+      <nextStage>2070</nextStage>
+      <slaughter>
+         <item quantity="25" chance="1">2056</item>
+         <item quantity="1" chance="1">2079</item>
+         <item quantity="8" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_cow.png</stableIcon>
+   </animal>
+   <animal id="43" type="cow">
+      <!-- Hairy Cow -->
+      <item>2070</item>
+      <regions>1 5 7 9 11 13 14 16 19 21 22 23 27 28 29 30 32 33 37 39 41 42 45</regions>
+      <maxAge>175</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>2</sex>
+      <nextStage>2143</nextStage>
+      <harvest amount="1">339</harvest>
+      <breeding ticks="27" chance="0.3" breedingObject="2144" qualityChance="0.035">
+         <item quantity="1" chance="0.32">2142</item>
+         <item quantity="1" chance="0.32">2146</item>
+         <item quantity="1" chance="0.32">2142</item>
+         <item quantity="1" chance="0.32">2146</item>
+      </breeding>
+      <slaughter>
+         <item quantity="150" chance="1">2056</item>
+         <item quantity="3" chance="1">2079</item>
+         <item quantity="50" chance="1">342</item>
+         <item quantity="3" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>761</tameTypeID>
+      <stableIcon>art/images/stable/stable_cow.png</stableIcon>
+   </animal>
+   <animal id="44" type="cow">
+      <!-- Old Hairy Cow -->
+      <item>2143</item>
+      <regions>1 5 7 9 11 13 14 16 19 21 22 23 27 28 29 30 32 33 37 39 41 42 45</regions>
+      <maxAge>250</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="300" chance="1">2056</item>
+         <item quantity="4" chance="1">2079</item>
+         <item quantity="80" chance="1">342</item>
+         <item quantity="3" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_cow.png</stableIcon>
+   </animal>
+   <animal id="45" type="cow">
+      <!-- Pregnant Hairy Cow -->
+      <item>2144</item>
+      <regions>1 5 7 9 11 13 14 16 19 21 22 23 27 28 29 30 32 33 37 39 41 42 45</regions>
+      <maxAge>250</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>0</sex>
+      <nextStage>2143</nextStage>
+      <slaughter>
+         <item quantity="150" chance="1">2056</item>
+         <item quantity="3" chance="1">2079</item>
+         <item quantity="50" chance="1">342</item>
+         <item quantity="3" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_cow.png</stableIcon>
+   </animal>
+   <animal id="46" type="cow">
+      <!-- Hairy Calf -->
+      <item>2146</item>
+      <regions>1 5 7 9 11 13 14 16 19 21 22 23 27 28 29 30 32 33 37 39 41 42 45</regions>
+      <maxAge>50</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>0</sex>
+      <nextStage>2071</nextStage>
+      <slaughter>
+         <item quantity="25" chance="1">2056</item>
+         <item quantity="1" chance="1">2079</item>
+         <item quantity="8" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_bull.png</stableIcon>
+   </animal>
+   <animal id="47" type="cow">
+      <!-- Hairy Bull -->
+      <item>2071</item>
+      <regions>1 5 7 9 11 13 14 16 19 21 22 23 27 28 29 30 32 33 37 39 41 42 45</regions>
+      <maxAge>175</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>1</sex>
+      <nextStage>2148</nextStage>
+      <slaughter>
+         <item quantity="150" chance="1">2056</item>
+         <item quantity="3" chance="1">2079</item>
+         <item quantity="60" chance="1">342</item>
+         <item quantity="3" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>760</tameTypeID>
+      <stableIcon>art/images/stable/stable_bull.png</stableIcon>
+   </animal>
+   <animal id="48" type="cow">
+      <!-- Old Hairy Bull -->
+      <item>2148</item>
+      <regions>1 5 7 9 11 13 14 16 19 21 22 23 27 28 29 30 32 33 37 39 41 42 45</regions>
+      <maxAge>250</maxAge>
+      <food amount="2">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="2"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="300" chance="1">2056</item>
+         <item quantity="4" chance="1">2079</item>
+         <item quantity="100" chance="1">342</item>
+         <item quantity="3" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_bull.png</stableIcon>
+   </animal>
+   <animal id="49" type="horse">
+      <!-- Foal -->
+      <item>2149</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>50</maxAge>
+      <food amount="1.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1.5"/>
+      <sex>0</sex>
+      <nextStage>1039</nextStage>
+      <slaughter>
+         <item quantity="16" chance="1">386</item>
+         <item quantity="5" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_horse.png</stableIcon>
+   </animal>
+   <animal id="50" type="horse">
+      <!-- Horse -->
+      <item>1039</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>175</maxAge>
+      <food amount="1.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1.5"/>
+      <sex>2</sex>
+      <nextStage>2150</nextStage>
+      <breeding ticks="21" chance="0.22" breedingObject="2151" qualityChance="0.03">
+         <item quantity="1" chance="0.32">2149</item>
+         <item quantity="1" chance="0.32">2152</item>
+         <item quantity="1" chance="0.32">2149</item>
+         <item quantity="1" chance="0.32">2152</item>
+      </breeding>
+      <slaughter>
+         <item quantity="100" chance="1">386</item>
+         <item quantity="1" chance="1">427</item>
+         <item quantity="30" chance="1">342</item>
+         <item quantity="2" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>753</tameTypeID>
+      <stableIcon>art/images/stable/stable_horse.png</stableIcon>
+   </animal>
+   <animal id="51" type="horse">
+      <!-- Old Horse -->
+      <item>2150</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>250</maxAge>
+      <food amount="1.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1.5"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="200" chance="1">386</item>
+         <item quantity="2" chance="1">427</item>
+         <item quantity="50" chance="1">342</item>
+         <item quantity="2" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_horse.png</stableIcon>
+   </animal>
+   <animal id="52" type="horse">
+      <!-- Pregnant Horse -->
+      <item>2151</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>250</maxAge>
+      <food amount="1.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1.5"/>
+      <sex>0</sex>
+      <nextStage>2150</nextStage>
+      <slaughter>
+         <item quantity="100" chance="1">386</item>
+         <item quantity="1" chance="1">427</item>
+         <item quantity="30" chance="1">342</item>
+         <item quantity="2" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_horse.png</stableIcon>
+   </animal>
+   <animal id="53" type="horse">
+      <!-- Colt -->
+      <item>2152</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>50</maxAge>
+      <food amount="1.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1.5"/>
+      <sex>0</sex>
+      <nextStage>1040</nextStage>
+      <slaughter>
+         <item quantity="16" chance="1">386</item>
+         <item quantity="5" chance="1">342</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+   </animal>
+   <animal id="54" type="horse">
+      <!-- Stallion -->
+      <item>1040</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>175</maxAge>
+      <food amount="1.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1.5"/>
+      <sex>1</sex>
+      <nextStage>2153</nextStage>
+      <slaughter>
+         <item quantity="100" chance="1">386</item>
+         <item quantity="1" chance="1">427</item>
+         <item quantity="40" chance="1">342</item>
+         <item quantity="2" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>753</tameTypeID>
+      <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+   </animal>
+   <animal id="55" type="horse">
+      <!-- Old Stallion -->
+      <item>2153</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>250</maxAge>
+      <food amount="1.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1.5"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="200" chance="1">386</item>
+         <item quantity="2" chance="1">427</item>
+         <item quantity="60" chance="1">342</item>
+         <item quantity="2" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+   </animal>
+   <animal id="56" type="horse">
+      <!-- Courier Horse -->
+      <item>1685</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>200</maxAge>
+      <food amount="1">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="100" chance="1">386</item>
+         <item quantity="1" chance="1">427</item>
+         <item quantity="40" chance="1">342</item>
+         <item quantity="2" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+   </animal>
+   <animal id="57" type="horse">
+      <!-- Simple Warhorse -->
+      <item>1042</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>200</maxAge>
+      <food amount="1">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="100" chance="1">386</item>
+         <item quantity="1" chance="1">427</item>
+         <item quantity="40" chance="1">342</item>
+         <item quantity="2" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+   </animal>
+   <animal id="58" type="horse">
+      <!-- Hardy Warhorse -->
+      <item>1044</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>200</maxAge>
+      <food amount="1">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="100" chance="1">386</item>
+         <item quantity="1" chance="1">427</item>
+         <item quantity="40" chance="1">342</item>
+         <item quantity="2" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+   </animal>
+   <animal id="59" type="horse">
+      <!-- Spirited Warhorse -->
+      <item>1043</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>200</maxAge>
+      <food amount="1">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="100" chance="1">386</item>
+         <item quantity="1" chance="1">427</item>
+         <item quantity="40" chance="1">342</item>
+         <item quantity="2" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+   </animal>
+   <animal id="60" type="horse">
+      <!-- Heavy Warhorse -->
+      <item>1045</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>200</maxAge>
+      <food amount="1">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="100" chance="1">386</item>
+         <item quantity="1" chance="1">427</item>
+         <item quantity="40" chance="1">342</item>
+         <item quantity="2" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+   </animal>
+   <animal id="61" type="horse">
+      <!-- Royal Warhorse -->
+      <item>1140</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>200</maxAge>
+      <food amount="1">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="100" chance="1">386</item>
+         <item quantity="1" chance="1">427</item>
+         <item quantity="40" chance="1">342</item>
+         <item quantity="2" chance="1">336</item>
+      </slaughter>
+      <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+   </animal>
+   <animal id="62" type="horse">
+      <!-- Riding Moose -->
+      <item>1663</item>
+      <regions>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46</regions>
+      <maxAge>200</maxAge>
+      <food amount="1">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+      <water amount="1"/>
+      <sex>0</sex>
+      <nextStage></nextStage>
+      <slaughter>
+         <item quantity="100" chance="1">386</item>
+         <item quantity="1" chance="1">427</item>
+         <item quantity="40" chance="1">342</item>
+         <item quantity="2" chance="1">336</item>
+      </slaughter>
+      <tameTypeID>756</tameTypeID>
+      <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+   </animal>
+</animals>
