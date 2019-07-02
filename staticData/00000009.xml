@@ -25627,10 +25627,6 @@
                             <npc>NPC_slave_Overseer</npc>
                         </npcTypes>
                     </spawningPoint>
-                    <outpostTotem>
-                        <offset x="10" y="5" z="0" />
-                        <rot x="0" y="0" z="1" angle="1.5687" />
-                    </outpostTotem>
                 </mountPoints>
                 <particleEmitters>
                     <emitter>
@@ -30778,6 +30774,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="-1.72853" y="1.98052" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -31041,6 +31041,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -31362,6 +31366,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -31719,6 +31727,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="-1.72853" y="1.98052" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -31982,6 +31994,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -32303,6 +32319,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -32653,6 +32673,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -32980,6 +33004,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="-1.72853" y="1.98052" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -33195,6 +33223,10 @@
                             <npc>NPC_slave_Overseer</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="8.96761" y="3.24321" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -33696,6 +33728,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="-1.72853" y="1.98052" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -33959,6 +33995,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -34280,6 +34320,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -34637,6 +34681,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="-1.72853" y="1.98052" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -34900,6 +34948,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -35221,6 +35273,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -35571,6 +35627,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="0" y="-4.39086" z="0" />
+                        <rot x="0" y="0" z="-1" angle="90" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -35898,6 +35958,10 @@
                             <npc>NPC_slave_E</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="-1.72853" y="1.98052" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -36113,6 +36177,10 @@
                             <npc>NPC_slave_Overseer</npc>
                         </npcTypes>
                     </spawningPoint>
+                    <outpostTotem>
+                        <offset x="8.96761" y="3.24321" z="0" />
+                        <rot x="0" y="0" z="1" angle="1.5687" />
+                    </outpostTotem>
                 </mountPoints>
             </state>
             <state type="Damaged">
@@ -39736,6 +39804,7 @@
                         <shapeName>art/models/3d/construction/combatrelated/summontotem/summon_totem.dts</shapeName>
                         <offset x="0" y="0" z="0" />
                         <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="0.8" y="0.8" z="0.8" />
                     </shape>
                 </shapes>
             </state>

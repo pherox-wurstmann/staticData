@@ -10286,4 +10286,124 @@
       <cutoff type="hips" action="off" />
    </cutoffs>
 </object>
+<object id="2375">
+   <!--name = Hat king outfit A with crown05 -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <meshes>
+      <mesh>Hat_Male_King_Outfit_A</mesh>
+      <mesh>HatCrown05_Male_King_Outfit_A</mesh>
+      <mesh>Hat_Female_King_Outfit_A</mesh>
+      <mesh>HatCrown05_Female_King_Outfit_A</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="ears" action="on" />
+      <cutoff type="hair" action="off" />
+      <cutoff type="beard" action="up" />
+      <cutoff type="head" action="on" />
+   </cutoffs>
+</object>
+<object id="2376">
+   <!--name = Hat king outfit A skin A with crown03 -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <meshes>
+      <mesh>Hat_Male_King_Outfit_A_SkinA</mesh>
+      <mesh>HatCrown03_Male_King_Outfit_A</mesh>
+      <mesh>Hat_Female_King_Outfit_A_SkinA</mesh>
+      <mesh>HatCrown03_Female_King_Outfit_A</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="ears" action="on" />
+      <cutoff type="hair" action="off" />
+      <cutoff type="beard" action="up" />
+      <cutoff type="head" action="on" />
+   </cutoffs>
+</object>
+<object id="2377">
+   <!--name = Hat king outfit A skin B with crown01 -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <meshes>
+      <mesh>Hat_Male_King_Outfit_A_SkinB</mesh>
+      <mesh>HatCrown01_Male_King_Outfit_A</mesh>
+      <mesh>Hat_Female_King_Outfit_A_SkinB</mesh>
+      <mesh>HatCrown01_Female_King_Outfit_A</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="ears" action="on" />
+      <cutoff type="hair" action="off" />
+      <cutoff type="beard" action="up" />
+      <cutoff type="head" action="on" />
+   </cutoffs>
+</object>
+<object id="2378">
+   <!--name = Hat king outfit B with crown01 -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <meshes>
+      <mesh>Hat_Male_King_Outfit_B</mesh>
+      <mesh>HatCrown02_Male_King_Outfit_B</mesh>
+      <mesh>Hat_Female_King_Outfit_B</mesh>
+      <mesh>HatCrown02_Female_King_Outfit_B</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="ears" action="on" />
+      <cutoff type="hair" action="off" />
+      <cutoff type="beard" action="up" />
+      <cutoff type="head" action="on" />
+   </cutoffs>
+</object>
+<object id="2379">
+   <!--name = Hat king outfit B skin A with crown05 -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <meshes>
+      <mesh>Hat_Male_King_Outfit_B_SkinA</mesh>
+      <mesh>HatCrown05_Male_King_Outfit_B</mesh>
+      <mesh>Hat_Female_King_Outfit_B_SkinA</mesh>
+      <mesh>HatCrown05_Female_King_Outfit_B</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="ears" action="on" />
+      <cutoff type="hair" action="off" />
+      <cutoff type="beard" action="up" />
+      <cutoff type="head" action="on" />
+   </cutoffs>
+</object>
+<object id="2380">
+   <!--name = Hat king outfit B skin B with crown05 -->
+   <skillID>62</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>1</slot>
+   </slots>
+   <meshes>
+      <mesh>Hat_Male_King_Outfit_B_SkinB</mesh>
+      <mesh>HatCrown04_Male_King_Outfit_B</mesh>
+      <mesh>Hat_Female_King_Outfit_B_SkinB</mesh>
+      <mesh>HatCrown04_Female_King_Outfit_B</mesh>
+   </meshes>
+   <cutoffs>
+      <cutoff type="ears" action="on" />
+      <cutoff type="hair" action="off" />
+      <cutoff type="beard" action="up" />
+      <cutoff type="head" action="on" />
+   </cutoffs>
+</object>
 </equipment_types>
