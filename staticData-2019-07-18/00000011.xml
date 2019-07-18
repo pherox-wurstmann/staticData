@@ -1,0 +1,25 @@
+<scene_objects>
+	<scene_object type="player">
+		<img>gui\images\shape_info\user.png</img>
+	</scene_object>
+	<scene_object type="animal">
+		<object_id id="752 755">
+			<img>gui\images\shape_info\preadator_animal.png</img>
+		</object_id>
+		<object_id id="753 754 756 757 758 759 760 761 762 763">
+			<img>gui\images\shape_info\herbivore_animal.png</img>
+		</object_id>
+	</scene_object>
+	<scene_object type="horse">
+		<img>gui\images\shape_info\horse.png</img>
+	</scene_object>
+	<scene_object type="complex_object">
+		<img>gui\images\shape_info\complex_object.png</img>
+	</scene_object>
+	<scene_object type="tree">
+		<img>gui\images\shape_info\tree.png</img>
+	</scene_object>
+	<scene_object type="herb">
+		<img>gui\images\shape_info\herb.png</img>
+	</scene_object>
+</scene_objects>

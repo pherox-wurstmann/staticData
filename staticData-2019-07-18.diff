@@ -1,0 +1,1582 @@
+diff -Nawur staticData/00000001.xml staticData-2019-07-18/00000001.xml
+--- staticData/00000001.xml	2019-07-02 20:02:08.883990800 +0200
++++ staticData-2019-07-18/00000001.xml	2019-07-18 18:08:37.140553600 +0200
+@@ -25,7 +25,7 @@
+       <sex>3</sex>
+       <nextStage>2116</nextStage>
+       <harvest amount="0.05">338</harvest>
+-      <breeding ticks="0" chance="0.163" breedingObject="" qualityChance="0.01">
++      <breeding ticks="0" chance="0.163" breedingObject="" qualityChance="0.10">
+          <item quantity="1" chance="0.4">2115</item>
+          <item quantity="1" chance="0.4">2115</item>
+          <item quantity="1" chance="0.4">2115</item>
+@@ -76,7 +76,7 @@
+       <water amount="0.05"/>
+       <sex>3</sex>
+       <nextStage>2118</nextStage>
+-      <breeding ticks="0" chance="0.125" breedingObject="" qualityChance="0.01">
++      <breeding ticks="0" chance="0.125" breedingObject="" qualityChance="0.10">
+          <item quantity="2" chance="0.2">2117</item>
+          <item quantity="2" chance="0.2">2117</item>
+          <item quantity="2" chance="0.2">2117</item>
+@@ -129,7 +129,7 @@
+       <water amount="0.5"/>
+       <sex>2</sex>
+       <nextStage>2120</nextStage>
+-      <breeding ticks="15" chance="0.2" breedingObject="2121" qualityChance="0.02">
++      <breeding ticks="15" chance="0.2" breedingObject="2121" qualityChance="0.20">
+          <item quantity="1" chance="0.35">2119</item>
+          <item quantity="1" chance="0.35">2122</item>
+          <item quantity="1" chance="0.35">2119</item>
+@@ -258,7 +258,7 @@
+       <water amount="0.5"/>
+       <sex>2</sex>
+       <nextStage>2125</nextStage>
+-      <breeding ticks="15" chance="0.2" breedingObject="2126" qualityChance="0.02">
++      <breeding ticks="15" chance="0.2" breedingObject="2126" qualityChance="0.20">
+          <item quantity="1" chance="0.35">2124</item>
+          <item quantity="1" chance="0.35">2127</item>
+          <item quantity="1" chance="0.35">2124</item>
+@@ -388,7 +388,7 @@
+       <sex>2</sex>
+       <nextStage>2130</nextStage>
+       <harvest amount="0.5">2051</harvest>
+-      <breeding ticks="15" chance="0.25" breedingObject="2131" qualityChance="0.02">
++      <breeding ticks="15" chance="0.25" breedingObject="2131" qualityChance="0.20">
+          <item quantity="1" chance="0.33">2129</item>
+          <item quantity="1" chance="0.33">2135</item>
+          <item quantity="1" chance="0.33">2129</item>
+@@ -519,7 +519,7 @@
+       <sex>2</sex>
+       <nextStage>2133</nextStage>
+       <harvest amount="0.5">2050</harvest>
+-      <breeding ticks="15" chance="0.25" breedingObject="2134" qualityChance="0.02">
++      <breeding ticks="15" chance="0.25" breedingObject="2134" qualityChance="0.20">
+          <item quantity="1" chance="0.33">2132</item>
+          <item quantity="1" chance="0.33">2137</item>
+          <item quantity="1" chance="0.33">2132</item>
+@@ -650,7 +650,7 @@
+       <sex>2</sex>
+       <nextStage>2140</nextStage>
+       <harvest amount="1">339</harvest>
+-      <breeding ticks="27" chance="0.3" breedingObject="2141" qualityChance="0.035">
++      <breeding ticks="27" chance="0.3" breedingObject="2141" qualityChance="0.35">
+          <item quantity="1" chance="0.32">2139</item>
+          <item quantity="1" chance="0.32">2145</item>
+          <item quantity="1" chance="0.32">2139</item>
+@@ -776,7 +776,7 @@
+       <sex>2</sex>
+       <nextStage>2143</nextStage>
+       <harvest amount="1">339</harvest>
+-      <breeding ticks="27" chance="0.3" breedingObject="2144" qualityChance="0.035">
++      <breeding ticks="27" chance="0.3" breedingObject="2144" qualityChance="0.35">
+          <item quantity="1" chance="0.32">2142</item>
+          <item quantity="1" chance="0.32">2146</item>
+          <item quantity="1" chance="0.32">2142</item>
+@@ -900,7 +900,7 @@
+       <water amount="1.5"/>
+       <sex>2</sex>
+       <nextStage>2150</nextStage>
+-      <breeding ticks="21" chance="0.22" breedingObject="2151" qualityChance="0.03">
++      <breeding ticks="21" chance="0.22" breedingObject="2151" qualityChance="0.30">
+          <item quantity="1" chance="0.32">2149</item>
+          <item quantity="1" chance="0.32">2152</item>
+          <item quantity="1" chance="0.32">2149</item>
+diff -Nawur staticData/00000006.xml staticData-2019-07-18/00000006.xml
+--- staticData/00000006.xml	2019-07-02 20:02:08.876980400 +0200
++++ staticData-2019-07-18/00000006.xml	2019-07-18 18:08:37.132575400 +0200
+@@ -571,7 +571,7 @@
+         <parameter type="EXP_TO_SKILL_GAIN_BONUS" skill="17 3 4 5" applytype="INCREASE_COEFF" />
+         <icon>art/2D/Effects/aori.png</icon>
+     </effect>
+-    <effect id="100" name="Cavalry and Slinger skills gain boost">
++    <effect id="100" name="Cavalry and Thrower skills gain boost">
+         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="FALSE" RealTime="TRUE" />
+         <description>5758</description>
+         <parameter type="EXP_TO_SKILL_GAIN_BONUS" skill="28 29 30" applytype="INCREASE_COEFF" />
+@@ -628,4 +628,116 @@
+         <parameter type="SPEED" applytype="MULTIPLY" value="0.7" ignore_magnitude="1" />        
+         <icon>art/2D/Effects/Exhausted.png</icon>
+     </effect>    
++    <effect id="109" name="Skill Raised: Artisan">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5898</description>
++        <parameter type="SKILL" skill="1" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Artisan.png</icon>
++    </effect>
++    <effect id="110" name="Skill Raised: Construction">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5899</description>
++        <parameter type="SKILL" skill="18" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Construction.png</icon>
++    </effect>
++    <effect id="111" name="Skill Raised: Masonry">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5900</description>
++        <parameter type="SKILL" skill="19" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Masonry.png</icon>
++    </effect>
++    <effect id="112" name="Skill Raised: Mining">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5901</description>
++        <parameter type="SKILL" skill="2" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Mining.png</icon>
++    </effect>
++    <effect id="113" name="Skill Raised: Materials Processing">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5902</description>
++        <parameter type="SKILL" skill="16" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Materials_Processing.png</icon>
++    </effect>
++    <effect id="114" name="Skill Raised: Precious Prospecting">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5903</description>
++        <parameter type="SKILL" skill="31" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Precious_Prospecting.png</icon>
++    </effect>
++    <effect id="115" name="Skill Raised: Jewelry">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5904</description>
++        <parameter type="SKILL" skill="52" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Jewelry.png</icon>
++    </effect>
++    <effect id="116" name="Skill Raised: Forestry">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5905</description>
++        <parameter type="SKILL" skill="6" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Forestry.png</icon>
++    </effect>
++    <effect id="117" name="Skill Raised: Kilning">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5906</description>
++        <parameter type="SKILL" skill="17" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Kilning.png</icon>
++    </effect>
++    <effect id="118" name="Skill Raised: Weaponsmithing">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5907</description>
++        <parameter type="SKILL" skill="4" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Weaponsmithing.png</icon>
++    </effect>
++    <effect id="119" name="Skill Raised: Household">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5908</description>
++        <parameter type="SKILL" skill="32" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Household.png</icon>
++    </effect>
++    <effect id="120" name="Skill Raised: Farming">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5909</description>
++        <parameter type="SKILL" skill="21" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Farming.png</icon>
++    </effect>
++    <effect id="121" name="Skill Raised: Tailoring">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5910</description>
++        <parameter type="SKILL" skill="25" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Tailoring.png</icon>
++    </effect>
++    <effect id="122" name="Skill Raised: Gathering">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5911</description>
++        <parameter type="SKILL" skill="11" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Gathering.png</icon>
++    </effect>
++    <effect id="123" name="Skill Raised: Hunting">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5912</description>
++        <parameter type="SKILL" skill="51" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Hunting.png</icon>
++    </effect>
++    <effect id="124" name="Skill Raised: Animal Lore">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5913</description>
++        <parameter type="SKILL" skill="22" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Animal_Lore.png</icon>
++    </effect>
++    <effect id="125" name="Skill Raised: Warhorse Training">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="TRUE" RemovedOnDeath="TRUE" />
++        <description>5914</description>
++        <parameter type="SKILL" skill="26" applytype="INCREASE" />
++        <icon>art/2D/Effects/Skill_Raised_Warhorse_Training.png</icon>
++    </effect>
++    <effect id="126" name="Prayer of Comradery Cooldown">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="FALSE" RealTime="TRUE"  />
++        <description>5933</description>
++        <icon>art/2D/Effects/Power_Hour_Cooldown_Combat.png</icon>
++    </effect>
++    <effect id="127" name="Prayer of Wandering Cooldown">
++        <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="FALSE" RealTime="TRUE"  />
++        <description>5934</description>
++        <icon>art/2D/Effects/Power_Hour_Cooldown_Combat.png</icon>
++    </effect>
+ </effects>
+diff -Nawur staticData/00000007.xml staticData-2019-07-18/00000007.xml
+--- staticData/00000007.xml	2019-07-02 20:02:08.874017600 +0200
++++ staticData-2019-07-18/00000007.xml	2019-07-18 18:08:37.129584600 +0200
+@@ -664,8 +664,8 @@
+    </armor>
+ </object>
+ <object id="305">
+-   <!--name = Alchemist's outfit -->
+-   <skillID>15</skillID>
++   <!--name = Herbalist's outfit -->
++   <skillID>12</skillID>
+    <skillAmount>60</skillAmount>
+    <slots>
+       <slot>2</slot>
+@@ -715,7 +715,7 @@
+ </object>
+ <object id="306">
+    <!--name = Engineer's outfit -->
+-   <skillID>10</skillID>
++   <skillID>18</skillID>
+    <skillAmount>60</skillAmount>
+    <slots>
+       <slot>2</slot>
+@@ -765,7 +765,7 @@
+ </object>
+ <object id="307">
+    <!--name = Cook's outfit -->
+-   <skillID>24</skillID>
++   <skillID>21</skillID>
+    <skillAmount>60</skillAmount>
+    <slots>
+       <slot>2</slot>
+@@ -10010,6 +10010,73 @@
+       <slot>9</slot>
+    </slots>
+ </object>
++<object id="2357">
++   <!--name = Stonecutter's Outfit -->
++   <skillID>16</skillID>
++   <skillAmount>60</skillAmount>
++   <slots>
++      <slot>2</slot>
++   </slots>
++   <extraSlotsBlock>
++      <slot>3</slot>
++      <slot>4</slot>
++      <slot>5</slot>
++      <slot>6</slot>
++   </extraSlotsBlock>
++   <meshes>
++      <mesh>Male_Craft90_All_Miner</mesh>
++      <mesh>Female_Craft90_All_Miner</mesh>
++      <mesh>Female_Body_v1_torso_block</mesh>
++      <mesh>Male_Body_v1_torso_block</mesh>
++   </meshes>
++   <cutoffs>
++      <cutoff type="torso" action="off" />
++      <cutoff type="hips" action="off" />
++      <cutoff type="arms" action="cut" />
++      <cutoff type="feet" action="off" />
++   </cutoffs>
++   <armor>
++      <multiplier type="slash" value="0.12" />
++      <multiplier type="pierce" value="0.17" />
++      <multiplier type="chop" value="0.12" />
++      <multiplier type="blunt" value="0.17" />
++      <multiplier type="siege" value="0.19" />
++      <fragility>3.99</fragility>
++   </armor>
++</object>
++<object id="2358">
++   <!--name = Breeder's Outfit -->
++   <skillID>23</skillID>
++   <skillAmount>60</skillAmount>
++   <slots>
++      <slot>2</slot>
++   </slots>
++   <extraSlotsBlock>
++      <slot>3</slot>
++      <slot>5</slot>
++      <slot>6</slot>
++   </extraSlotsBlock>
++   <meshes>
++      <mesh>Male_Craft90_All_Cattleman</mesh>
++      <mesh>Female_Craft90_All_Cattleman</mesh>
++      <mesh>Female_Body_v1_torso_block</mesh>
++      <mesh>Male_Body_v1_torso_block</mesh>
++   </meshes>
++   <cutoffs>
++      <cutoff type="torso" action="off" />
++      <cutoff type="hips" action="off" />
++      <cutoff type="shoulders" action="off" />
++      <cutoff type="feet" action="off" />
++   </cutoffs>
++   <armor>
++      <multiplier type="slash" value="0.12" />
++      <multiplier type="pierce" value="0.17" />
++      <multiplier type="chop" value="0.12" />
++      <multiplier type="blunt" value="0.17" />
++      <multiplier type="siege" value="0.19" />
++      <fragility>3.99</fragility>
++   </armor>
++</object>
+ <object id="2364">
+    <!--name = Black Robe -->
+    <skillID>62</skillID>
+diff -Nawur staticData/00000008.xml staticData-2019-07-18/00000008.xml
+--- staticData/00000008.xml	2019-07-02 20:02:08.869035800 +0200
++++ staticData-2019-07-18/00000008.xml	2019-07-18 18:08:37.126591600 +0200
+@@ -5894,46 +5894,46 @@
+ <string id="5892">Right Leg</string>
+ <string id="5893">Head</string>
+ <string id="5894">Torso</string>
+-<string id="5895"></string>
+-<string id="5896"></string>
+-<string id="5897"></string>
+-<string id="5898"></string>
+-<string id="5899"></string>
+-<string id="5900"></string>
+-<string id="5901"></string>
+-<string id="5902"></string>
+-<string id="5903"></string>
+-<string id="5904"></string>
+-<string id="5905"></string>
+-<string id="5906"></string>
+-<string id="5907"></string>
+-<string id="5908"></string>
+-<string id="5909"></string>
+-<string id="5910"></string>
+-<string id="5911"></string>
+-<string id="5912"></string>
+-<string id="5913"></string>
+-<string id="5914"></string>
+-<string id="5915"></string>
+-<string id="5916"></string>
+-<string id="5917"></string>
+-<string id="5918"></string>
+-<string id="5919"></string>
+-<string id="5920"></string>
+-<string id="5921"></string>
+-<string id="5922"></string>
+-<string id="5923"></string>
+-<string id="5924"></string>
+-<string id="5925"></string>
+-<string id="5926"></string>
+-<string id="5927"></string>
+-<string id="5928"></string>
+-<string id="5929"></string>
+-<string id="5930"></string>
+-<string id="5931"></string>
+-<string id="5932"></string>
+-<string id="5933"></string>
+-<string id="5934"></string>
++<string id="5895">k</string>
++<string id="5896">M</string>
++<string id="5897">"%1" declared %(m2) on the neutral province "%3"!</string>
++<string id="5898">You feel more proficient!</string>
++<string id="5899">You feel more proficient!</string>
++<string id="5900">You feel more proficient!</string>
++<string id="5901">You feel more proficient!</string>
++<string id="5902">You feel more proficient!</string>
++<string id="5903">You feel more proficient!</string>
++<string id="5904">You feel more proficient!</string>
++<string id="5905">You feel more proficient!</string>
++<string id="5906">You feel more proficient!</string>
++<string id="5907">You feel more proficient!</string>
++<string id="5908">You feel more proficient!</string>
++<string id="5909">You feel more proficient!</string>
++<string id="5910">You feel more proficient!</string>
++<string id="5911">You feel more proficient!</string>
++<string id="5912">You feel more proficient!</string>
++<string id="5913">You feel more proficient!</string>
++<string id="5914">You feel more proficient!</string>
++<string id="5915">"%1" has taken the neutral province "%2"!</string>
++<string id="5916">You will be disconnected in&#xA;</string>
++<string id="5917" important="1">The Guest code you've used is incorrect. Please, check it and try again.</string>
++<string id="5918">&lt;font:Open Sans Bold Italic:16&gt;Pray of Comradery&lt;font:Open Sans:16&gt; — Allows you to transfer directly to a claim of the guild that recruited you. You will need a Guild code.&#xA;Ask your Counselor for a code or find a guild in the #lfg channel!&#xA;Feudal life is severe, so better find some companions to start your adventure on Abella. &#xA; &#xA; &#xA; &lt;font:Open Sans Bold Italic:16&gt;Pray of Wandering&lt;font:Open Sans:16&gt; — Allows you to travel to another village in Protectorate zone. Meet your friends or start your journey from another region.&#xA; &#xA; &#xA; &lt;font:Open Sans Bold Italic:16&gt;Warning!&#xA;—  Using transfer, you will lose entire inventory, including the equipped items!&#xA;—  Choose your destination wisely, you can use the Idol's services next time only after 48 hours.</string>
++<string id="5919">Pray of Comradery</string>
++<string id="5920">Pray of Wandering</string>
++<string id="5921">Remember, you will lose your entire inventory, &#xA;including the items you have equipped!</string>
++<string id="5922">Guest code</string>
++<string id="5923">Guest code should be at least three characters long.</string>
++<string id="5924" important="1" key1="Yes" key2="No" DefaultKey="Key2">After the transfer, your inventory and equipment will be lost. Only the items with effect "No Drop" will remain. Alignment, skillset, characteristics will be unaffected. Are you sure you want to proceed?</string>
++<string id="5925">Please choose the village you wish&#xA;to travel to</string>
++<string id="5926">Zathum-Zar (serv. 31)</string>
++<string id="5927">Leinost (serv. 58)</string>
++<string id="5928">Hatkaat (serv. 63)</string>
++<string id="5929">Skittenord  (serv. 106)</string>
++<string id="5930">Choose the Village</string>
++<string id="5931">Holza the Spinner</string>
++<string id="5932">You can enter the Guest code to go directly to the territory of the inviting Guild.</string>
++<string id="5933">You are unable to teleport to guild monument for the duration of effect</string>
++<string id="5934">You are unable to teleport to a starting village for the duration of effect</string>
+ <string id="5935"></string>
+ <string id="5936"></string>
+ <string id="5937"></string>
+diff -Nawur staticData/00000009.xml staticData-2019-07-18/00000009.xml
+--- staticData/00000009.xml	2019-07-02 20:02:08.850018500 +0200
++++ staticData-2019-07-18/00000009.xml	2019-07-18 18:08:37.099663600 +0200
+@@ -24925,6 +24925,7 @@
+                 <shapes>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_black.dts</censoredShapeName>
+                         <offset x="0" y="0" z="-0.0215446" />
+                         <rot x="0" y="0" z="1" angle="0" />
+                         <scale x="1" y="1" z="1" />
+@@ -25003,6 +25004,7 @@
+                 <shapes>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_dmg.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_dmg_black.dts</censoredShapeName>
+                         <offset x="0" y="0" z="-0.0215446" />
+                         <rot x="0" y="0" z="1" angle="0" />
+                         <scale x="1" y="1" z="1" />
+@@ -25077,6 +25079,7 @@
+                 <shapes>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_black.dts</censoredShapeName>
+                         <offset x="0" y="0" z="-0.0215446" />
+                         <rot x="0" y="0" z="1" angle="0" />
+                         <scale x="1" y="1" z="1" />
+@@ -25503,6 +25506,7 @@
+                     </shape>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_slavers.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_slavers_black.dts</censoredShapeName>
+                         <animationName>Wind</animationName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="0" angle="0" />
+@@ -25533,6 +25537,7 @@
+                     </shape>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_slavers_dmg.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_slavers_dmg_black.dts</censoredShapeName>
+                         <animationName>Wind</animationName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="0" angle="0" />
+@@ -25607,6 +25612,7 @@
+                     </shape>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_slavers.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_slavers_black.dts</censoredShapeName>
+                         <animationName>Wind</animationName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="0" angle="0" />
+@@ -25627,6 +25633,10 @@
+                             <npc>NPC_slave_Overseer</npc>
+                         </npcTypes>
+                     </spawningPoint>
++                    <outpostTotem>
++                        <offset x="10" y="5" z="0" />
++                        <rot x="0" y="0" z="1" angle="1.5687" />
++                    </outpostTotem>
+                 </mountPoints>
+                 <particleEmitters>
+                     <emitter>
+@@ -27238,6 +27248,7 @@
+                 <shapes>
+                     <shape>
+                         <shapeName>art/models/3d/construction/altars/altar_svefni.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/altars/altar_svefni_black.dts</censoredShapeName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="1" angle="0" />
+                         <scale x="1" y="1" z="1" />
+@@ -32605,6 +32616,7 @@
+                 <shapes>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_black.dts</censoredShapeName>
+                         <offset x="0" y="0" z="-0.0215446" />
+                         <rot x="0" y="0" z="1" angle="0" />
+                         <scale x="1" y="1" z="1" />
+@@ -32683,6 +32695,7 @@
+                 <shapes>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_dmg.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_dmg_black.dts</censoredShapeName>
+                         <offset x="0" y="0" z="-0.0215446" />
+                         <rot x="0" y="0" z="1" angle="0" />
+                         <scale x="1" y="1" z="1" />
+@@ -32757,6 +32770,7 @@
+                 <shapes>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_black.dts</censoredShapeName>
+                         <offset x="0" y="0" z="-0.0215446" />
+                         <rot x="0" y="0" z="1" angle="0" />
+                         <scale x="1" y="1" z="1" />
+@@ -33209,6 +33223,7 @@
+                     </shape>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_t2_slavers.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_t2_slavers_black.dts</censoredShapeName>
+                         <animationName>Wind</animationName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="0" angle="0" />
+@@ -33239,6 +33254,7 @@
+                     </shape>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_slavers_t2_dmg.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_slavers_t2_dmg_black.dts</censoredShapeName>
+                         <animationName>Wind</animationName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="0" angle="0" />
+@@ -33313,6 +33329,7 @@
+                     </shape>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_t2_slavers.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_t2_slavers_black.dts</censoredShapeName>
+                         <animationName>Wind</animationName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="0" angle="0" />
+@@ -33378,6 +33395,7 @@
+                     </shape>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_t2_slavers.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_t2_slavers_black.dts</censoredShapeName>
+                         <animationName>Wind</animationName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="0" angle="0" />
+@@ -35559,6 +35577,7 @@
+                 <shapes>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_black.dts</censoredShapeName>
+                         <offset x="0" y="0" z="-0.0215446" />
+                         <rot x="0" y="0" z="1" angle="0" />
+                         <scale x="1" y="1" z="1" />
+@@ -35637,6 +35656,7 @@
+                 <shapes>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_dmg.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_dmg_black.dts</censoredShapeName>
+                         <offset x="0" y="0" z="-0.0215446" />
+                         <rot x="0" y="0" z="1" angle="0" />
+                         <scale x="1" y="1" z="1" />
+@@ -35711,6 +35731,7 @@
+                 <shapes>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_black.dts</censoredShapeName>
+                         <offset x="0" y="0" z="-0.0215446" />
+                         <rot x="0" y="0" z="1" angle="0" />
+                         <scale x="1" y="1" z="1" />
+@@ -36163,6 +36184,7 @@
+                     </shape>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_t3_slavers.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_t3_slavers_black.dts</censoredShapeName>
+                         <animationName>Wind</animationName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="0" angle="0" />
+@@ -36193,6 +36215,7 @@
+                     </shape>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_slavers_t3_dmg.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_slavers_t3_dmg_black.dts</censoredShapeName>
+                         <animationName>Wind</animationName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="0" angle="0" />
+@@ -36267,6 +36290,7 @@
+                     </shape>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_t3_slavers.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_t3_slavers_black.dts</censoredShapeName>
+                         <animationName>Wind</animationName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="0" angle="0" />
+@@ -36332,6 +36356,7 @@
+                     </shape>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_t3_slavers.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/slaversoutpost/outpostflag_t3_slavers_black.dts</censoredShapeName>
+                         <animationName>Wind</animationName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="0" angle="0" />
+@@ -39810,4 +39835,31 @@
+             </state>
+         </states>
+     </object>
++	
++	<object id="2381" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="1" noRuins="1">
++    <!--name = Traveler's Idol-->
++        <lockedCells>
++            <cell x="0" y="0" />
++        </lockedCells>
++        <states>
++            <state type="Complete">
++                <shapes>
++                    <shape>
++                        <shapeName>art/models/3d/construction/idols/idol_holza_a70.dts</shapeName>
++                        <offset x="0" y="0" z="0" />
++                        <rot x="0" y="0" z="1" angle="0" />
++                        <scale x="1" y="1" z="1" />
++                    </shape>
++                </shapes>
++                
++                <pointLights>
++                    <light>
++                        <prototype>Ferryman_Light01</prototype>
++                        <offset x="0.31538" y="-1.01554" z="5.37602" />
++                        <radius>15</radius>
++                    </light>
++                </pointLights>
++            </state>
++        </states>
++    </object>
+ </object_types>
+\ No newline at end of file
+diff -Nawur staticData/00000012.xml staticData-2019-07-18/00000012.xml
+--- staticData/00000012.xml	2019-07-02 20:02:08.842040500 +0200
++++ staticData-2019-07-18/00000012.xml	2019-07-18 18:08:37.091684900 +0200
+@@ -43,4 +43,27 @@
+ 	<effect id="38" name="5121" direction="Positive"/>
+ 	<effect id="44" name="5407" direction="Positive"/>
+ 	<effect id="45" name="5771" direction="Positive"/>
++	<effect id="46" name="5778" direction="Positive"/>
++	<effect id="47" name="5779" direction="Positive"/>
++	<effect id="48" name="5780" direction="Positive"/>
++	<effect id="49" name="5781" direction="Positive"/>
++	<effect id="50" name="5782" direction="Positive"/>
++	<effect id="51" name="5783" direction="Positive"/>
++	<effect id="52" name="5784" direction="Positive"/>
++	<effect id="53" name="5785" direction="Positive"/>
++	<effect id="54" name="5786" direction="Positive"/>
++	<effect id="55" name="5787" direction="Positive"/>
++	<effect id="56" name="5788" direction="Positive"/>
++	<effect id="57" name="5789" direction="Positive"/>
++	<effect id="58" name="5790" direction="Positive"/>
++	<effect id="59" name="5791" direction="Positive"/>
++	<effect id="60" name="5792" direction="Positive"/>
++	<effect id="61" name="5793" direction="Positive"/>
++	<effect id="62" name="5794" direction="Positive"/>
++	<effect id="63" name="5795" direction="Positive"/>
++	<effect id="64" name="5796" direction="Positive"/>
++	<effect id="65" name="5797" direction="Positive"/>
++	<effect id="66" name="5798" direction="Positive"/>
++	<effect id="67" name="5799" direction="Positive"/>
++	<effect id="68" name="5800" direction="Positive"/>
+ </effects>
+\ No newline at end of file
+diff -Nawur staticData/00000013.xml staticData-2019-07-18/00000013.xml
+--- staticData/00000013.xml	2019-07-02 20:02:08.841071400 +0200
++++ staticData-2019-07-18/00000013.xml	2019-07-18 18:08:37.087696200 +0200
+@@ -5843,7 +5843,7 @@
+   <row>
+     <ID>305</ID>
+     <ParentID>225</ParentID>
+-    <Name>Alchemist's Outfit</Name>
++    <Name>Herbalist's Outfit</Name>
+     <IsContainer>0</IsContainer>
+     <IsMovableObject>0</IsMovableObject>
+     <IsUnmovableobject>0</IsUnmovableobject>
+@@ -32097,7 +32097,7 @@
+     <UnitWeight>80000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Items\slave.png</FaceImage>
+-    <CensoredFaceImage/>
++    <CensoredFaceImage>art\2D\Items\slave_black.png</CensoredFaceImage>
+     <Description/>
+   </row>
+   <row>
+@@ -32257,7 +32257,7 @@
+     <UnitWeight>1400000</UnitWeight>
+     <BackgndImage>art\images\universal</BackgndImage>
+     <FaceImage>art\2D\Objects\Knackery.png</FaceImage>
+-    <CensoredFaceImage/>
++    <CensoredFaceImage>art\2D\Objects\Knackery_black.png</CensoredFaceImage>
+     <Description/>
+   </row>
+   <row>
+@@ -35777,9 +35777,4 @@
+     <UnitWeight>1000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage/>
+-    <CensoredFaceImage/>
+-    <Description/>
+-  </row>
+-  <row>
+-    <ID>1886</ID>
+-    <ParentID>1457</Paren
+\ No newline at end of file
++    <Censo
+\ No newline at end of file
+diff -Nawur staticData/00000014.xml staticData-2019-07-18/00000014.xml
+--- staticData/00000014.xml	2019-07-02 20:02:08.837364800 +0200
++++ staticData-2019-07-18/00000014.xml	2019-07-18 18:08:37.082707900 +0200
+@@ -8,7 +8,7 @@
+ 		<growthSubstance>233</growthSubstance>
+ 		<harvestSubstance>234</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.01">
++		<harvest qualityChance="0.10">
+ 			<item id="1" quantity="6" chance="1">1027</item>
+ 			<item id="2" quantity="1" chance="0.01">2044</item>
+ 		</harvest>
+@@ -22,7 +22,7 @@
+ 		<growthSubstance>236</growthSubstance>
+ 		<harvestSubstance>237</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.005">
++		<harvest qualityChance="0.05">
+ 			<item id="1" quantity="8" chance="1">1027</item>
+ 			<item id="2" quantity="2" chance="1">2044</item>
+ 		</harvest>
+@@ -36,7 +36,7 @@
+ 		<growthSubstance>221</growthSubstance>
+ 		<harvestSubstance>222</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.01">
++		<harvest qualityChance="0.10">
+ 			<item id="1" quantity="4" chance="1">361</item>
+ 			<item id="2" quantity="2" chance="1">1030</item>
+ 			<item id="3" quantity="1" chance="0.01">2045</item>
+@@ -51,7 +51,7 @@
+ 		<growthSubstance>224</growthSubstance>
+ 		<harvestSubstance>225</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.005">
++		<harvest qualityChance="0.05">
+ 			<item id="1" quantity="16" chance="1">361</item>
+ 			<item id="2" quantity="1" chance="0.4">2045</item>
+ 		</harvest>
+@@ -65,7 +65,7 @@
+ 		<growthSubstance>227</growthSubstance>
+ 		<harvestSubstance>228</harvestSubstance>
+ 		<endSubstance>227</endSubstance>
+-		<harvest qualityChance="0.01">
++		<harvest qualityChance="0.10">
+ 			<item id="1" quantity="4" chance="1">359</item>
+ 			<item id="2" quantity="1" chance="1">2025</item>
+ 			<item id="3" quantity="1" chance="0.01">2026</item>
+@@ -80,7 +80,7 @@
+ 		<growthSubstance>230</growthSubstance>
+ 		<harvestSubstance>231</harvestSubstance>
+ 		<endSubstance>230</endSubstance>
+-		<harvest qualityChance="0.005">
++		<harvest qualityChance="0.05">
+ 			<item id="1" quantity="8" chance="1">359</item>
+ 			<item id="2" quantity="1" chance="0.5">2026</item>
+ 		</harvest>
+@@ -94,7 +94,7 @@
+ 		<growthSubstance>191</growthSubstance>
+ 		<harvestSubstance>192</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.01">
++		<harvest qualityChance="0.10">
+ 			<item id="1" quantity="6" chance="1">352</item>
+ 			<item id="2" quantity="4" chance="1">362</item>
+ 			<item id="3" quantity="1" chance="0.01">2027</item>
+@@ -109,7 +109,7 @@
+ 		<growthSubstance>194</growthSubstance>
+ 		<harvestSubstance>195</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.005">
++		<harvest qualityChance="0.05">
+ 			<item id="1" quantity="8" chance="1">352</item>
+ 			<item id="2" quantity="6" chance="1">362</item>
+ 			<item id="3" quantity="2" chance="1">2027</item>
+@@ -124,7 +124,7 @@
+ 		<growthSubstance>239</growthSubstance>
+ 		<harvestSubstance>240</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.01">
++		<harvest qualityChance="0.10">
+ 			<item id="1" quantity="6" chance="1">2028</item>
+ 			<item id="2" quantity="4" chance="1">362</item>
+ 			<item id="3" quantity="1" chance="0.01">2029</item>
+@@ -139,7 +139,7 @@
+ 		<growthSubstance>242</growthSubstance>
+ 		<harvestSubstance>243</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.005">
++		<harvest qualityChance="0.05">
+ 			<item id="1" quantity="8" chance="1">2028</item>
+ 			<item id="2" quantity="6" chance="1">362</item>
+ 			<item id="3" quantity="2" chance="1">2029</item>
+@@ -154,7 +154,7 @@
+ 		<growthSubstance>245</growthSubstance>
+ 		<harvestSubstance>246</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.01">
++		<harvest qualityChance="0.10">
+ 			<item id="1" quantity="6" chance="1">2030</item>
+ 			<item id="2" quantity="4" chance="1">362</item>
+ 			<item id="3" quantity="1" chance="0.01">2031</item>
+@@ -169,7 +169,7 @@
+ 		<growthSubstance>248</growthSubstance>
+ 		<harvestSubstance>249</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.005">
++		<harvest qualityChance="0.05">
+ 			<item id="1" quantity="8" chance="1">2030</item>
+ 			<item id="2" quantity="6" chance="1">362</item>
+ 			<item id="3" quantity="2" chance="1">2031</item>
+@@ -184,7 +184,7 @@
+ 		<growthSubstance>251</growthSubstance>
+ 		<harvestSubstance>252</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.01">
++		<harvest qualityChance="0.10">
+ 			<item id="1" quantity="6" chance="1">2032</item>
+ 			<item id="2" quantity="4" chance="1">362</item>
+ 			<item id="3" quantity="1" chance="0.01">2033</item>
+@@ -199,7 +199,7 @@
+ 		<growthSubstance>254</growthSubstance>
+ 		<harvestSubstance>28</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.005">
++		<harvest qualityChance="0.05">
+ 			<item id="1" quantity="8" chance="1">2032</item>
+ 			<item id="2" quantity="6" chance="1">362</item>
+ 			<item id="3" quantity="2" chance="1">2033</item>
+@@ -214,7 +214,7 @@
+ 		<growthSubstance>203</growthSubstance>
+ 		<harvestSubstance>204</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.01">
++		<harvest qualityChance="0.10">
+ 			<item id="1" quantity="6" chance="1">355</item>
+ 			<item id="2" quantity="4" chance="1">2034</item>
+ 			<item id="3" quantity="1" chance="0.01">2035</item>
+@@ -229,7 +229,7 @@
+ 		<growthSubstance>206</growthSubstance>
+ 		<harvestSubstance>207</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.005">
++		<harvest qualityChance="0.05">
+ 			<item id="1" quantity="12" chance="1">2039</item>
+ 			<item id="2" quantity="2" chance="0.5">2035</item>
+ 		</harvest>
+@@ -243,7 +243,7 @@
+ 		<growthSubstance>215</growthSubstance>
+ 		<harvestSubstance>216</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.01">
++		<harvest qualityChance="0.10">
+ 			<item id="1" quantity="4" chance="1">2036</item>
+ 			<item id="2" quantity="6" chance="1">358</item>
+ 			<item id="3" quantity="1" chance="0.01">2037</item>
+@@ -258,7 +258,7 @@
+ 		<growthSubstance>218</growthSubstance>
+ 		<harvestSubstance>219</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.005">
++		<harvest qualityChance="0.05">
+ 			<item id="1" quantity="2" chance="0.5">2037</item>
+ 			<item id="2" quantity="12" chance="1">2040</item>
+ 		</harvest>
+@@ -272,7 +272,7 @@
+ 		<growthSubstance>209</growthSubstance>
+ 		<harvestSubstance>210</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.01">
++		<harvest qualityChance="0.10">
+ 			<item id="1" quantity="12" chance="1">356</item>
+ 			<item id="2" quantity="2" chance="1">2038</item>
+ 		</harvest>
+@@ -286,7 +286,7 @@
+ 		<growthSubstance>212</growthSubstance>
+ 		<harvestSubstance>213</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.005">
++		<harvest qualityChance="0.05">
+ 			<item id="1" quantity="6" chance="1">2041</item>
+ 		</harvest>
+ 		<ability>136</ability>
+@@ -299,7 +299,7 @@
+ 		<growthSubstance>197</growthSubstance>
+ 		<harvestSubstance>198</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.01">
++		<harvest qualityChance="0.10">
+ 			<item id="1" quantity="12" chance="1">354</item>
+ 			<item id="2" quantity="1" chance="0.01">2043</item>
+ 		</harvest>
+@@ -313,7 +313,7 @@
+ 		<growthSubstance>200</growthSubstance>
+ 		<harvestSubstance>201</harvestSubstance>
+ 		<endSubstance>6</endSubstance>
+-		<harvest qualityChance="0.005">
++		<harvest qualityChance="0.05">
+ 			<item id="1" quantity="10" chance="1">354</item>
+ 			<item id="2" quantity="3" chance="1">2043</item>
+ 			<item id="3" quantity="12" chance="1">354</item>
+diff -Nawur staticData/00000016.xml staticData-2019-07-18/00000016.xml
+--- staticData/00000016.xml	2019-07-02 20:02:08.835369400 +0200
++++ staticData-2019-07-18/00000016.xml	2019-07-18 18:08:37.076724300 +0200
+@@ -147,4 +147,11 @@
+ 		<init quest="21" conversation="1" />
+ 		<answersHeader>2892</answersHeader>
+ 	</subject>
++	<subject id="22" entity="complex_obj" typeID="2381"> <!-- Ferryman Idol Green Zone -->
++		<name>5931</name>
++		<typeName>5931</typeName>
++		<icon>gui/images/quest/icons/holza.png</icon>
++		<init quest="22" conversation="1" />
++		<answersHeader>4399</answersHeader>
++	</subject>
+ </quests_subjects>
+diff -Nawur staticData/00000018.xml staticData-2019-07-18/00000018.xml
+--- staticData/00000018.xml	2019-07-02 20:02:08.833374100 +0200
++++ staticData-2019-07-18/00000018.xml	2019-07-18 18:08:37.071737900 +0200
+@@ -2116,7 +2116,7 @@
+   </row>
+   <row>
+     <ID>224</ID>
+-    <Name>Alchemist's Outfit</Name>
++    <Name>Herbalist's Outfit</Name>
+     <Description/>
+     <SkillTypeID>25</SkillTypeID>
+     <SkillLvl>60</SkillLvl>
+@@ -12066,7 +12066,7 @@
+     <Autorepeat>0</Autorepeat>
+     <IsBlueprint>0</IsBlueprint>
+     <ImagePath>art\2D\Recipes\Idol_Jode_B70.png</ImagePath>
+-    <CensoredImagePath/>
++    <CensoredImagePath>art\2D\Recipes\Idol_Jode_B70_black.png</CensoredImagePath>
+   </row>
+   <row>
+     <ID>967</ID>
+@@ -13116,7 +13116,7 @@
+     <Autorepeat>0</Autorepeat>
+     <IsBlueprint>0</IsBlueprint>
+     <ImagePath>art\2D\Recipes\Knackery.png</ImagePath>
+-    <CensoredImagePath/>
++    <CensoredImagePath>art\2D\Recipes\Knackery_black.png</CensoredImagePath>
+   </row>
+   <row>
+     <ID>1056</ID>
+@@ -13144,7 +13144,7 @@
+     <Autorepeat>0</Autorepeat>
+     <IsBlueprint>0</IsBlueprint>
+     <ImagePath>art\2D\Recipes\Slavers_Camp.png</ImagePath>
+-    <CensoredImagePath/>
++    <CensoredImagePath>art\2D\Recipes\Slavers_Camp_black.png</CensoredImagePath>
+   </row>
+   <row>
+     <ID>1059</ID>
+@@ -13592,7 +13592,7 @@
+     <Autorepeat>0</Autorepeat>
+     <IsBlueprint>0</IsBlueprint>
+     <ImagePath>art\2D\Recipes\altar_svefni.png</ImagePath>
+-    <CensoredImagePath/>
++    <CensoredImagePath>art\2D\Recipes\altar_svefni_black.png</CensoredImagePath>
+   </row>
+   <row>
+     <ID>1091</ID>
+@@ -15248,7 +15248,7 @@
+   </row>
+   <row>
+     <ID>1211</ID>
+-    <Name>Kite shield</Name>
++    <Name>Kite Shield</Name>
+     <Description/>
+     <SkillTypeID>62</SkillTypeID>
+     <SkillLvl>0</SkillLvl>
+@@ -15932,4 +15932,32 @@
+     <ImagePath>art\2D\Recipes\dummyhorsedoll_a7.png</ImagePath>
+     <CensoredImagePath/>
+   </row>
++  <row>
++    <ID>1261</ID>
++    <Name>Stonecutter's outfit</Name>
++    <Description/>
++    <SkillTypeID>25</SkillTypeID>
++    <SkillLvl>60</SkillLvl>
++    <ResultObjectTypeID>2357</ResultObjectTypeID>
++    <SkillDepends>50</SkillDepends>
++    <Quantity>1</Quantity>
++    <Autorepeat>0</Autorepeat>
++    <IsBlueprint>0</IsBlueprint>
++    <ImagePath>art\2D\Items\miner.png</ImagePath>
++    <CensoredImagePath/>
++  </row>
++  <row>
++    <ID>1262</ID>
++    <Name>Breeder's outfit</Name>
++    <Description/>
++    <SkillTypeID>25</SkillTypeID>
++    <SkillLvl>60</SkillLvl>
++    <ResultObjectTypeID>2358</ResultObjectTypeID>
++    <SkillDepends>50</SkillDepends>
++    <Quantity>1</Quantity>
++    <Autorepeat>0</Autorepeat>
++    <IsBlueprint>0</IsBlueprint>
++    <ImagePath>art\2D\Items\breeder.png</ImagePath>
++    <CensoredImagePath/>
++  </row>
+ </table>
+diff -Nawur staticData/00000020.xml staticData-2019-07-18/00000020.xml
+--- staticData/00000020.xml	2019-07-02 20:02:08.826421900 +0200
++++ staticData-2019-07-18/00000020.xml	2019-07-18 18:08:37.064757700 +0200
+@@ -6305,14 +6305,4 @@
+     <RecipeID>1192</RecipeID>
+     <StartingToolID>453</StartingToolID>
+   </row>
+-  <row>
+-    <ID>1294</ID>
+-    <RecipeID>1261</RecipeID>
+-    <StartingToolID>295</StartingToolID>
+-  </row>
+-  <row>
+-    <ID>1295</ID>
+-    <RecipeID>1262</RecipeID>
+-    <StartingToolID>295</StartingToolID>
+-  </row>
+ </table>
+diff -Nawur staticData/00000022.xml staticData-2019-07-18/00000022.xml
+--- staticData/00000022.xml	2019-07-02 20:02:08.822404400 +0200
++++ staticData-2019-07-18/00000022.xml	2019-07-18 18:08:37.060768200 +0200
+@@ -222,6 +222,7 @@
+ 				<autorepeat>possible</autorepeat>
+ 			</ability>
+ 			<ability lvl="0" name="Deconstruct" type="Special" id="181">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">3</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -750,6 +751,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="60" name="Set a Trap" type="Special" id="173">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">1</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -4015,6 +4017,7 @@
+ 		<ExpToSkillMult>3</ExpToSkillMult>
+ 		<abilities>
+ 			<ability lvl="0" name="Patient" type="Treat" id="54">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>2500</ability_exp>
+ 				<chance>0.1</chance>
+@@ -4031,6 +4034,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="to Revive" type="Treat" id="55">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>2000</ability_exp>
+ 				<chance>0.1</chance>
+@@ -4046,6 +4050,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="30" name="Wounds" type="Treat" id="56">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>2500</ability_exp>
+ 				<chance>0.1</chance>
+@@ -4062,6 +4067,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="60" name="Fractures" type="Treat" id="57">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>5000</ability_exp>
+ 				<chance>0.1</chance>
+@@ -4080,6 +4086,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="90" name="Severe Injuries" type="Treat" id="58">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">10</duration>
+ 				<ability_exp>5000</ability_exp>
+ 				<chance>0.1</chance>
+@@ -4098,6 +4105,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Inspect patient" type="Special" id="267">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">1</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -4856,6 +4864,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Coup de Grace" id="250">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">6</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\coup_de_grace.png</icon>
+@@ -5114,7 +5123,7 @@
+ 	<!--Ranged line-->
+ 	<row>
+ 		<ID>47</ID>
+-		<Name>Slinger</Name>
++		<Name>Thrower</Name>
+ 		<Parent>0</Parent>
+ 		<Group>2</Group>
+ 		<PrimaryStat>Agi</PrimaryStat>
+@@ -5239,6 +5248,7 @@
+ 		<ExpToSkillMult>5</ExpToSkillMult>
+ 		<abilities>
+ 			<ability lvl="30" name="Use Pavise" type="Special" id="269">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">3</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -5267,6 +5277,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="90" name="Volley" id="240">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\volley.png</icon>
+@@ -5296,6 +5307,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="60" name="Defensive Fence" type="Create" id="293">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="15 10"/>
+ 				<ability_exp>30</ability_exp>
+ 				<entities>
+@@ -5525,6 +5537,7 @@
+ 		<ExpToSkillMult>3</ExpToSkillMult>
+ 		<abilities>
+ 			<ability lvl="90" name="Apply a Poison" id="207">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">3</duration>
+ 				<ability_exp>1500</ability_exp>
+ 				<entities>
+@@ -5612,6 +5625,7 @@
+ 		<ExpToSkillMult>3</ExpToSkillMult>
+ 		<abilities>
+ 			<ability lvl="0" name="Bleeding" type="Treat" id="235">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="15 10"/>
+ 				<ability_exp>1000</ability_exp>
+ 				<entities>
+@@ -5673,6 +5687,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="60" name="Rotate Trebuchet" type="Special" id="216">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">1</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -5712,6 +5727,7 @@
+ 				<results/>
+ 			</ability>
+ 			<ability lvl="0" name="Light on Wick" type="Special" id="259">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">3</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -5729,6 +5745,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Extinguish Wick" type="Special" id="260">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">3</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -5746,6 +5763,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Stone Ammo" type="Create" id="61">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="15 10"/>
+ 				<ability_exp>20</ability_exp>
+ 				<entities>
+@@ -5944,6 +5962,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="100" name="Proper Taunt" id="243">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\taunt_gesture.png</icon>
+@@ -6098,6 +6117,7 @@
+ 		<ExpToSkillMult>3</ExpToSkillMult>
+ 		<abilities>
+ 			<ability lvl="0" name="Prayer for Homecoming" id="146">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">20</duration>
+ 				<ability_exp>2500</ability_exp>
+ 				<icon>art\2D\skills\abilities\Recall.png</icon>
+@@ -6126,7 +6146,7 @@
+ 					<sound node="Head">Voice_Prayer</sound>
+ 					<sstam_spent>80</sstam_spent>
+ 					<cooldowns>
+-						<cooldown group="self">60</cooldown>
++						<cooldown group="self">30</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -6148,7 +6168,7 @@
+ 					<sound node="Head">Voice_Prayer</sound>
+ 					<sstam_spent>30</sstam_spent>
+ 					<cooldowns>
+-						<cooldown group="248">60</cooldown>
++						<cooldown group="248">30</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -6170,7 +6190,7 @@
+ 					<sound node="Head">Voice_Prayer</sound>
+ 					<sstam_spent>30</sstam_spent>
+ 					<cooldowns>
+-						<cooldown group="248">60</cooldown>
++						<cooldown group="248">30</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -6218,6 +6238,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Idol" type="Build" id="330">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>500</ability_exp>
+ 				<entities>
+@@ -6245,6 +6266,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Prayer for a Far Journey" id="340">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">1</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\change_the_world.png</icon>
+@@ -6259,6 +6281,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Join World" id="353">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">20</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities/>
+@@ -6409,6 +6432,7 @@
+ 		<ExpToSkillMult>1</ExpToSkillMult>
+ 		<abilities>
+ 			<ability lvl="0" name="Lift Object" type="Special" id="96">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">1</duration>
+ 				<ability_exp>1000</ability_exp>
+ 				<entities>
+@@ -6431,6 +6455,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Drop Object" id="97">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">1</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -6458,6 +6483,7 @@
+ 				<results/>
+ 			</ability>
+ 			<ability lvl="0" name="Drop Object" id="357">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">1</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -6534,6 +6560,7 @@
+ 		<ExpToSkillMult>1</ExpToSkillMult>
+ 		<abilities>
+ 			<ability lvl="0" name="Eat" id="43">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">4</duration>
+ 				<ability_exp>500</ability_exp>
+ 				<entities>
+@@ -6553,6 +6580,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Look in the Bag" id="95">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">1</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -6568,6 +6596,7 @@
+ 				<results/>
+ 			</ability>
+ 			<ability lvl="0" name="Look in Inventory" type="Special" id="108">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">1</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -6597,6 +6626,7 @@
+ 				<results/>
+ 			</ability>
+ 			<ability lvl="0" name="Look in Inventory" type="Special" id="350">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">1</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -6617,6 +6647,7 @@
+ 				<results/>
+ 			</ability>
+ 			<ability lvl="0" name="Look in Inventory" type="Special" id="351">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">1</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -6661,6 +6692,7 @@
+ 				<autorepeat>possible</autorepeat>
+ 			</ability>
+ 			<ability lvl="0" name="Drop from Inventory" id="110">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">0.5</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -6694,6 +6726,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Equip" id="126">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">3</duration>
+ 				<priority>5</priority>
+ 				<ability_exp>0</ability_exp>
+@@ -6716,6 +6749,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Open/Close Door" type="Special" id="144">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">0</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<enable_movement>1</enable_movement>
+@@ -6776,6 +6810,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Loot" type="Special" id="152">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">0</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -6792,6 +6827,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Stuck" id="168">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">30</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<enable_movement>1</enable_movement>
+@@ -7040,6 +7076,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Drink" id="205">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">1</duration>
+ 				<enable_movement>1</enable_movement>
+ 				<ability_exp>1000</ability_exp>
+@@ -7063,6 +7100,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Eat the Preparation" id="206">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">1</duration>
+ 				<enable_movement>1</enable_movement>
+ 				<ability_exp>1000</ability_exp>
+@@ -7086,6 +7124,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Inspect" id="208"  priority="10.0">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">2</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -7130,6 +7169,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Remove the Ruins" type="Special" id="251">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">4</duration>
+ 				<ability_exp>2000</ability_exp>
+ 				<entities>
+@@ -7292,6 +7332,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Harness" type="Special" id="288">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="20 10"/>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -7314,6 +7355,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Unharness" type="Special" id="289">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="20 10"/>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -7383,6 +7425,7 @@
+ 				<results/>
+ 			</ability>
+ 			<ability lvl="0" name="Gloomelindhe" id="299">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\suicide.png</icon>
+@@ -7399,6 +7442,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Put in Cart" type="Special" id="300">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -7426,6 +7470,7 @@
+ 				<results/>
+ 			</ability>
+ 			<ability lvl="0" name="Pull from Cart" type="Special" id="301">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -7822,6 +7867,7 @@
+ 		<ExpToSkillMult>1</ExpToSkillMult>
+ 		<abilities>
+ 			<ability lvl="0" name="Release" id="220">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -7837,6 +7883,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Get Horse" type="Special" id="221">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">2</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -7879,6 +7926,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Hide" type="Special" id="223">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -7946,6 +7994,7 @@
+ 				<results/>
+ 			</ability>
+ 			<ability lvl="0" name="Refresh Horse" type="Special" id="368">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">2</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -8007,6 +8056,7 @@
+ 		<ExpToSkillMult>3</ExpToSkillMult>
+ 		<abilities>
+ 			<ability lvl="0" name="the Monument" type="Build" id="185">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="15 10"/>
+ 				<ability_exp>10000</ability_exp>
+ 				<entities>
+@@ -8155,6 +8205,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Destroy" type="Special" id="203">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">20</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -8173,6 +8224,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Upgrade Building" type="Special" id="204">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>5000</ability_exp>
+ 				<entities>
+@@ -8192,6 +8244,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Start Building Upgrade" type="Special" id="392">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>2000</ability_exp>
+ 				<entities>
+@@ -8238,6 +8291,7 @@
+ 				<results/>
+ 			</ability>
+ 			<ability lvl="0" name="Private Land" type="Claim" id="290">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -8262,6 +8316,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Resize" type="Claim" id="291">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -8281,6 +8336,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Remove!" type="Claim" id="292">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -8329,6 +8385,7 @@
+ 				<results/>
+ 			</ability>
+ 			<ability lvl="0" name="Declare the Battle" id="303">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">60</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -8412,6 +8469,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Undo Claim Resize" id="329">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">5</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -8430,6 +8488,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="the Outpost" type="Build" id="341">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">10</duration>
+ 				<ability_exp>7500</ability_exp>
+ 				<entities>
+@@ -8459,6 +8518,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Claim Outpost" type="Special" id="342">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">20</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -8475,6 +8535,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Stop Outpost Claiming" type="Special" id="343">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">40</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -8509,6 +8570,7 @@
+ 				<results/>
+ 			</ability>
+ 			<ability lvl="0" name="Enslave" id="345">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">6</duration>
+ 				<ability_exp>1500</ability_exp>
+ 				<icon>art\2D\skills\abilities\coup_de_grace.png</icon>
+@@ -8528,6 +8590,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Initiate a Holy Judgement" id="387">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">10</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>
+@@ -8545,6 +8608,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Increase the Fief" id="389">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">10</duration>
+ 				<ability_exp>100</ability_exp>
+ 				<entities>
+@@ -8562,6 +8626,7 @@
+ 				</results>
+ 			</ability>
+ 			<ability lvl="0" name="Remote Outposts Support" id="391">
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<duration const="">10</duration>
+ 				<ability_exp>0</ability_exp>
+ 				<entities>

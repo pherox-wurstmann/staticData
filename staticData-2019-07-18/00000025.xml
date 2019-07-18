@@ -1,0 +1,685 @@
+<?xml version="1.0"?>
+<root>
+
+<!-- 
+пример описания хинта
+<hint id="" textID = "">               ид хинта и ид заголовка(для окна помощи)
+	<start>                            триггеры старта (может быть несколько)
+		<trigger name="" param=""/>
+	</start>
+	<end>                              триггеры окончания (может быть несколько)
+		<trigger name="" param=""/>
+	</end>
+	<info id=""/>                      название инфо-окна, которое вызывается при закрытии хинта триггером (если игрок сам закроет хинт, то окно не появится)
+	<content>                          содержимое хинта
+		<text id="" />                 текст  (ид текста из cm_messages.xml)
+		<spacing pix="" />             промежуток (указывается кол-во пикселей)
+		<pic path=""/>                 путь к картинке (локализация аналогично cm_messages.xml)
+	</content>
+</hint>
+
+теги контента могут быть в любом порядке и каком угодно количестве
+каждый триггер с одним и тем же параметром может стартовать только один хинт, но завершать сколько угодно (т.е. в хинтах стартовые триггеры с одним и тем же параметром не должны повторяться)
+хинты, для которых не указаны стартовые триггеры - будут показаваться по очереди, с временным интервалом, указанным в теге <wait ms=""/>
+
+список триггеров:
+EnterWorld                          Вход игрока в мир
+KeyPress                            Нажатие кнопки клавиатуры
+MouseButton                         Нажатие кнопки мышки
+NewItemInInventory                  Появление предмета в инвентаре
+Equip                               Экипировка предмета
+OpenInventoryCraft                  Открытие окна инвентарного крафта
+Hunger                              Показатель 'Hunger' меньше определенного значения
+Revival                             Воскрешение игрока
+Ability                             Применение абилки
+NpcDialog                           Открытие диалога с NPC
+PlayerEffect                        Наложение эффекта на игрока
+SelectableChanged                   Объект в селекте
+Run                                 Смена бег\ходьба
+-->
+
+	<!-- время ожидания между показами простых хинтов -->
+	<wait ms="2000"/>
+
+	<!-- содержимое простых хинтов -->
+	<simple>
+		<hint id="1">
+			<end>
+			<!--
+				<trigger name="KeyPress" param="W"/>
+				<trigger name="KeyPress" param="A"/>
+				<trigger name="KeyPress" param="S"/>
+				<trigger name="KeyPress" param="D"/>
+			-->
+				<trigger name="Run"/>
+			</end>
+			<content>
+				<text id="3018" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_1.png"/>
+				<spacing pix="10" />
+				<text id="3019" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_2.png"/>
+			</content>
+		</hint>
+		<hint id="2">
+			<end>
+				<trigger name="KeyPress" param="tab"/>
+			</end>
+			<info id="FreelookModeInfo"/>
+			<content>
+				<text id="3023" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_4.png"/>
+			</content>
+		</hint>
+		<hint id="3">
+			<start>
+				<trigger name="NewItemInInventory" param="7"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="i"/>
+			</end>
+			<info id="InventoryInfo"/>
+			<content>
+				<text id="3024" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_5.png"/>
+			</content>
+		</hint>
+		<hint id="4">
+			<start>
+				<trigger name="NewItemInInventory" param="5"/>
+			</start>
+			<end>
+				<trigger name="Equip" param="5"/>
+			</end>
+			<content>
+				<text id="3025" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_6.png"/>
+			</content>
+		</hint>
+		<hint id="6">
+			<start>
+				<trigger name="KeyPress" param="1"/>
+				<trigger name="KeyPress" param="2"/>
+				<trigger name="KeyPress" param="2"/>
+				<trigger name="KeyPress" param="4"/>
+				<trigger name="KeyPress" param="r"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="r"/>
+			</end>
+			<content>
+				<text id="3020" />
+				<spacing pix="10" />
+				<text id="3021" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_3.png"/>
+				<spacing pix="10" />
+				<text id="3022" />
+			</content>
+		</hint>
+		<hint id="7">
+			<start>
+				<trigger name="Equip" param="5"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="p"/>
+			</end>
+			<info id="CharacterInfo"/>
+			<content>
+				<text id="3027" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_8.png"/>
+			</content>
+		</hint>
+		<hint id="9">
+			<start>
+				<trigger name="SelectableChanged" param="1199" />
+				<trigger name="SelectableChanged" param="1533" />
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<info id="GameObjectsInfo"/>
+			<content>
+				<text id="3029" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_10.png"/>
+				<spacing pix="10" />
+				<text id="4664" />
+			</content>
+		</hint>
+		<hint id="11">
+			<start>
+				<trigger name="NewItemInInventory" param="216"/>
+				<trigger name="NewItemInInventory" param="237"/>
+				<trigger name="NewItemInInventory" param="244"/>
+				<trigger name="NewItemInInventory" param="246"/>
+				<trigger name="NewItemInInventory" param="261"/>
+				<trigger name="NewItemInInventory" param="293"/>
+				<trigger name="NewItemInInventory" param="295"/>
+				<trigger name="NewItemInInventory" param="348"/>
+				<trigger name="NewItemInInventory" param="471"/>
+				<trigger name="NewItemInInventory" param="527"/>
+			</start>
+			<end>
+				<trigger name="OpenInventoryCraft"/>
+			</end>
+			<info id="InventoryCraftInfo" />
+			<content>
+				<text id="3045" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_11.png"/>
+			</content>
+		</hint>
+		<hint id="12">
+			<start>
+				<trigger name="Hunger" param="20"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<info id="HungerInfo" />
+			<content>
+				<text id="3046" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_12.png"/>
+			</content>
+		</hint>
+		<hint id="13">
+			<start>
+				<trigger name="Revival"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<info id="RevivalInfo" />
+			<content>
+				<text id="3047" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_10.png"/>
+			</content>
+		</hint>
+		<hint id="14">
+			<start>
+				<trigger name="SelectableChanged" param="72" />
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<info id="HomecomingInfo" />
+			<content>
+				<text id="3048" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_10.png"/>
+			</content>
+		</hint>
+		<hint id="15">
+			<start>
+				<trigger name="Equip" param="8"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<info id="CombatInfo" />
+			<content>
+				<text id="3049" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_10.png"/>
+			</content>
+		</hint>
+		<hint id="16">
+			<start>
+				<trigger name="NewItemInInventory" param="31"/>
+				<trigger name="Ability" param="7"/> 
+				<trigger name="Ability" param="70"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<info id="TerraformingInfo" />
+			<content>
+				<text id="3050" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_10.png"/>
+			</content>
+		</hint>
+		<hint id="17">
+			<start>
+				<trigger name="NewItemInInventory" param="32"/>
+				<trigger name="Ability" param="18"/>
+				<trigger name="Ability" param="23"/> 
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<info id="ConstructionInfo" />
+			<content>
+				<text id="3051" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_10.png"/>
+			</content>
+		</hint>
+		<hint id="18">
+			<start>
+				<trigger name="NewItemInInventory" param="34"/>
+				<trigger name="Ability" param="34"/>
+				<trigger name="Ability" param="36"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<info id="ToolsResourcesGatheringInfo" />
+			<content>
+				<text id="3052" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_10.png"/>
+			</content>
+		</hint>
+		<hint id="19">
+			<start>
+				<trigger name="NewItemInInventory" param="35"/>
+				<trigger name="Ability" param="1"/>
+				<trigger name="Ability" param="3"/>
+				<trigger name="Ability" param="12"/>
+				<trigger name="Ability" param="13"/>
+				<trigger name="Ability" param="14"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<info id="ProspectingAndMiningInfo" />
+			<content>
+				<text id="3053" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_10.png"/>
+			</content>
+		</hint>
+		<hint id="20">
+			<start>
+				<trigger name="NewItemInInventory" param="683"/>
+				<trigger name="Ability" param="53"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<info id="AlchemyInfo" />
+			<content>
+				<text id="3116" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_10.png"/>
+			</content>
+		</hint>
+		<hint id="21">
+			<start>
+				<trigger name="Ability" param="77"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<info id="AnimalHusbandryInfo" />
+			<content>
+				<text id="3117" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/hint_10.png"/>
+			</content>
+		</hint>
+
+		<!-- rare items -->
+		<hint id="22">
+			<start>
+				<trigger name="NewItemInInventory" param="2068 2066 2067 2069 2061 2060 2063 2062 2097 393 391 394 392 2098 2027 2029 2031 2033 355 358 2041 354 2056 2046 383 2047 2055 2048 384 2049 385 2048 2050 2054 2049 2051"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<content>
+				<text id="5626" />
+			</content>
+		</hint>
+
+		<hint id="23">
+			<start>
+				<trigger name="NewRegionalItemInInventory"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<content>
+				<text id="5625" />
+			</content>
+		</hint>
+
+		<hint id="24">
+			<start>
+				<trigger name="OpenTradePostWindow"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<content>
+				<text id="5627" />
+			</content>
+		</hint>
+
+		<hint id="25">
+			<start>
+				<trigger name="TradePostOverweightStore"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<content>
+				<text id="5631" />
+			</content>
+		</hint>
+
+		<hint id="26">
+			<start>
+				<trigger name="Ability" param="76"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<content>
+				<text id="5633" />
+			</content>
+		</hint>
+
+		<hint id="27">
+			<start>
+				<trigger name="OutpostCompleted"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<content>
+				<text id="5632" />
+			</content>
+		</hint>
+
+		<hint id="28">
+			<start>
+				<trigger name="QuestCompleted"/>
+			</start>
+			<end>
+				<trigger name="KeyPress" param="backspace"/>
+			</end>
+			<content>
+				<text id="5628" />
+			</content>
+		</hint>
+	</simple>
+
+	<!-- содержимое инфо-окон -->
+	<info>
+		<hint id="FreelookModeInfo" textID = "3054">
+			<content>
+				<text id="3054"/>
+				<spacing pix="20"/>
+				<pic path="gui/images/tutorial/info_1.png"/>
+				<spacing pix="10"/>
+				<text id="3055"/>
+				<spacing pix="10"/>
+				<pic path="gui/images/tutorial/hint_4.png"/>
+				<spacing pix="10"/>
+				<text id="3056"/>
+				<spacing pix="10"/>
+				<pic path="gui/images/tutorial/info_2.png"/>
+				<spacing pix="10"/>
+				<text id="3057"/>
+			</content>
+		</hint>
+		<hint id="InventoryInfo" textID = "3058">
+			<content>
+				<text id="3058" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_5.png"/>
+				<spacing pix="10" />
+				<text id="3059" />
+			</content>
+		</hint>
+		<hint id="CharacterInfo" textID = "3061">
+			<content>
+				<text id="3061" />
+				<spacing pix="10" />
+				<text id="3062" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_6.png"/>
+				<spacing pix="10" />
+				<text id="3063" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_7.png"/>
+			</content>
+		</hint>
+		<hint id="GameObjectsInfo" textID = "3064">
+			<content>
+				<text id="3064" />
+				<spacing pix="10" />
+				<text id="3065" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_8.png"/>
+				<!-- <spacing pix="10" />
+				<text id="3066" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_9.png"/> -->
+			</content>
+		</hint>
+		<hint id="BaseResourcesGatheringInfo" textID = "3067">
+			<content>
+				<text id="3067" />
+				<spacing pix="10" />
+				<text id="3068" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_3.png"/>
+				<spacing pix="10" />
+				<text id="3069" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_4.png"/>
+			</content>
+		</hint>
+		<hint id="InventoryCraftInfo" textID = "3070">
+			<content>
+				<text id="3070" />
+				<spacing pix="10" />
+				<text id="3071" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_10.png"/>
+			</content>
+		</hint>
+		<hint id="TerraformingInfo" textID = "3072">
+			<content>
+				<text id="3072" />
+				<spacing pix="10" />
+				<text id="3073" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_11.png"/>
+				<spacing pix="10" />
+				<text id="3074" />
+				<spacing pix="10" />
+				<text id="3075" />
+			</content>
+		</hint>
+		<hint id="ConstructionInfo" textID = "3076">
+			<content>
+				<text id="3076" />
+				<spacing pix="10" />
+				<text id="3077" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_12.png"/>
+				<spacing pix="10" />
+				<text id="3078" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_13.png"/>
+			</content>
+		</hint>
+		<hint id="ToolsResourcesGatheringInfo" textID = "3079">
+			<content>
+				<text id="3079" />
+				<spacing pix="10" />
+				<text id="3080" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_14.png"/>
+				<spacing pix="10" />
+				<text id="3081" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_15.png"/>
+			</content>
+		</hint>
+		<hint id="ProspectingAndMiningInfo" textID = "3082">
+			<content>
+				<text id="3082" />
+				<spacing pix="10" />
+				<text id="3083" />
+				<text id="3084" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_16.png"/>
+				<text id="3085" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_17.png"/>
+			</content>
+		</hint>
+		<hint id="CombatInfo" textID = "3086">
+			<content>
+				<text id="3086" />
+				<spacing pix="10" />
+				<text id="3087" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_18.png"/>
+				<spacing pix="10" />
+				<text id="3088" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_19.png"/>
+				<spacing pix="10" />
+				<text id="3089" />
+				<spacing pix="10" />
+				<text id="3090" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_20.png"/>
+			</content>
+		</hint>
+		<hint id="HungerInfo" textID = "3091">
+			<content>
+				<text id="3091" />
+				<spacing pix="10" />
+				<text id="3092" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_21.png"/>
+				<spacing pix="10" />
+				<text id="3093" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_22.png"/>
+				<spacing pix="10" />
+				<text id="3094" />
+			</content>
+		</hint>
+		<hint id="RevivalInfo" textID = "3095">
+			<content>
+				<text id="3095" />
+				<spacing pix="10" />
+				<text id="3096" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_23.png"/>
+			</content>
+		</hint>
+		<hint id="AlignmentInfo" textID = "3097">
+			<content>
+				<text id="3097" />
+				<spacing pix="10" />
+				<text id="3098" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_24.png" bbPath="gui/images/tutorial/info_24_black.png"/>
+				<spacing pix="10" />
+				<text id="3099" />
+				<text id="3100" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_25.png"/>
+			</content>
+		</hint>
+		<hint id="HomecomingInfo" textID = "3101">
+			<content>
+				<text id="3101" />
+				<spacing pix="10" />
+				<text id="3102" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_26.png"/>
+				<spacing pix="10" />
+				<text id="3103" />
+			</content>
+		</hint>
+		<hint id="HuntingInfo" textID = "3104">
+			<content>
+				<text id="3104" />
+				<spacing pix="10" />
+				<text id="3105" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_28.png"/>
+				<spacing pix="10" />
+				<text id="3106" />
+			</content>
+		</hint>
+		<hint id="FishingInfo" textID = "3107">
+			<content>
+				<text id="3107" />
+				<spacing pix="10" />
+				<text id="3108" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_27.png"/>
+			</content>
+		</hint>
+		<hint id="AnimalHusbandryInfo" textID = "3109">
+			<content>
+				<text id="3109" />
+				<spacing pix="10" />
+				<text id="3110" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_29.png"/>
+				<spacing pix="10" />
+				<text id="3111" />
+				<spacing pix="10" />
+				<text id="3112" />
+			</content>
+		</hint>
+		<hint id="AlchemyInfo" textID = "3113">
+			<content>
+				<text id="3113" />
+				<spacing pix="10" />
+				<text id="3114" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_30.png"/>
+				<spacing pix="10" />
+				<text id="3115" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_31.png"/>
+			</content>
+		</hint>
+		<hint id="GuildClaimsInfo" textID = "4472">
+			<content>
+				<text id="4472" />
+				<spacing pix="10" />
+				<text id="4473" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_32.png"/>
+				<spacing pix="10" />
+				<text id="4474" />
+			</content>
+		</hint>
+		<hint id="MiniMapInfo" textID = "4694">
+			<content>
+				<text id="4694" />
+				<spacing pix="10" />
+				<text id="4695" />
+				<spacing pix="10" />
+				<text id="4696" />
+				<spacing pix="10" />
+				<pic path="gui/images/tutorial/info_15.png"/>
+				<spacing pix="10" />
+				<text id="4697" />
+			</content>
+		</hint>
+	</info>
+</root>
