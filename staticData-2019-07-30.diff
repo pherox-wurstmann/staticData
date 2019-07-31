@@ -1,0 +1,671 @@
+diff -Nawur staticData-2019-07-18/00000001.xml staticData-2019-07-30/00000001.xml
+--- staticData-2019-07-18/00000001.xml	2019-07-18 18:08:37.140553600 +0200
++++ staticData-2019-07-30/00000001.xml	2019-07-31 17:33:53.358542900 +0200
+@@ -34,6 +34,7 @@
+          <item quantity="4" chance="1">390</item>
+          <item quantity="6" chance="1">346</item>
+          <item quantity="1" chance="1">342</item>
++         <item quantity="1" skillRequired="90" chance="0.1">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_chicken.png</stableIcon>
+    </animal>
+@@ -85,6 +86,7 @@
+          <item quantity="4" chance="1">390</item>
+          <item quantity="1" chance="1">430</item>
+          <item quantity="3" chance="1">342</item>
++         <item quantity="1" skillRequired="90" chance="0.1">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_rabbit.png</stableIcon>
+    </animal>
+@@ -144,6 +146,8 @@
+          <item quantity="2" chance="1">2080</item>
+          <item quantity="10" chance="1">342</item>
+          <item quantity="1" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
+       </slaughter>
+       <tameTypeID>758</tameTypeID>
+       <stableIcon>art/images/stable/stable_pig.png</stableIcon>
+@@ -169,7 +173,7 @@
+       <!-- Pregnant Pig -->
+       <item>2121</item>
+       <regions>1 4 5 7 9 11 12 16 17 19 21 23 26 28 29 32 33 34 36 37 41 43 46</regions>
+-      <maxAge>105</maxAge>
++      <maxAge>150</maxAge>
+       <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+       <water amount="0.5"/>
+       <sex>0</sex>
+@@ -179,6 +183,8 @@
+          <item quantity="2" chance="1">2080</item>
+          <item quantity="10" chance="1">342</item>
+          <item quantity="1" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.35">669</item>
++         <item quantity="1" skillRequired="90" chance="0.35">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_pig.png</stableIcon>
+    </animal>
+@@ -212,6 +218,8 @@
+          <item quantity="2" chance="1">2080</item>
+          <item quantity="15" chance="1">342</item>
+          <item quantity="1" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
+       </slaughter>
+       <tameTypeID>757</tameTypeID>
+       <stableIcon>art/images/stable/stable_boar.png</stableIcon>
+@@ -273,6 +281,8 @@
+          <item quantity="2" chance="1">2081</item>
+          <item quantity="10" chance="1">342</item>
+          <item quantity="1" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
+       </slaughter>
+       <tameTypeID>758</tameTypeID>
+       <stableIcon>art/images/stable/stable_pig.png</stableIcon>
+@@ -298,7 +308,7 @@
+       <!-- Pregnant Mangalica Pig -->
+       <item>2126</item>
+       <regions>2 3 6 8 10 13 14 15 18 20 22 24 25 27 30 31 35 38 39 40 42 44 45</regions>
+-      <maxAge>105</maxAge>
++      <maxAge>150</maxAge>
+       <food amount="0.5">354 355 352 667 362 360 1027 358 1026 356 375 1030</food>
+       <water amount="0.5"/>
+       <sex>0</sex>
+@@ -308,6 +318,8 @@
+          <item quantity="2" chance="1">2081</item>
+          <item quantity="10" chance="1">342</item>
+          <item quantity="1" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.35">669</item>
++         <item quantity="1" skillRequired="90" chance="0.35">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_pig.png</stableIcon>
+    </animal>
+@@ -341,6 +353,8 @@
+          <item quantity="2" chance="1">2081</item>
+          <item quantity="15" chance="1">342</item>
+          <item quantity="1" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
+       </slaughter>
+       <tameTypeID>757</tameTypeID>
+       <stableIcon>art/images/stable/stable_boar.png</stableIcon>
+@@ -401,6 +415,8 @@
+          <item quantity="2" chance="1">431</item>
+          <item quantity="7" chance="1">342</item>
+          <item quantity="1" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
+       </slaughter>
+       <tameTypeID>759</tameTypeID>
+       <stableIcon>art/images/stable/stable_sheep.png</stableIcon>
+@@ -437,6 +453,8 @@
+          <item quantity="2" chance="1">431</item>
+          <item quantity="7" chance="1">342</item>
+          <item quantity="1" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.35">669</item>
++         <item quantity="1" skillRequired="90" chance="0.35">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_sheep.png</stableIcon>
+    </animal>
+@@ -471,6 +489,8 @@
+          <item quantity="2" chance="1">431</item>
+          <item quantity="7" chance="1">342</item>
+          <item quantity="1" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
+       </slaughter>
+       <tameTypeID>759</tameTypeID>
+       <stableIcon>art/images/stable/stable_ram.png</stableIcon>
+@@ -532,6 +552,8 @@
+          <item quantity="2" chance="1">2078</item>
+          <item quantity="7" chance="1">342</item>
+          <item quantity="1" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
+       </slaughter>
+       <tameTypeID>759</tameTypeID>
+       <stableIcon>art/images/stable/stable_sheep.png</stableIcon>
+@@ -568,6 +590,8 @@
+          <item quantity="2" chance="1">2078</item>
+          <item quantity="7" chance="1">342</item>
+          <item quantity="1" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.35">669</item>
++         <item quantity="1" skillRequired="90" chance="0.35">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_sheep.png</stableIcon>
+    </animal>
+@@ -602,6 +626,8 @@
+          <item quantity="2" chance="1">2078</item>
+          <item quantity="7" chance="1">342</item>
+          <item quantity="1" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
++         <item quantity="1" skillRequired="90" chance="0.25">669</item>
+       </slaughter>
+       <tameTypeID>759</tameTypeID>
+       <stableIcon>art/images/stable/stable_ram.png</stableIcon>
+@@ -661,6 +687,10 @@
+          <item quantity="3" chance="1">2082</item>
+          <item quantity="50" chance="1">342</item>
+          <item quantity="3" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
+       </slaughter>
+       <tameTypeID>761</tameTypeID>
+       <stableIcon>art/images/stable/stable_cow.png</stableIcon>
+@@ -696,6 +726,10 @@
+          <item quantity="3" chance="1">2082</item>
+          <item quantity="50" chance="1">342</item>
+          <item quantity="3" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.65">669</item>
++         <item quantity="1" skillRequired="90" chance="0.65">669</item>
++         <item quantity="1" skillRequired="90" chance="0.65">669</item>
++         <item quantity="1" skillRequired="90" chance="0.65">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_cow.png</stableIcon>
+    </animal>
+@@ -729,6 +763,10 @@
+          <item quantity="3" chance="1">2082</item>
+          <item quantity="60" chance="1">342</item>
+          <item quantity="3" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
+       </slaughter>
+       <tameTypeID>760</tameTypeID>
+       <stableIcon>art/images/stable/stable_bull.png</stableIcon>
+@@ -787,6 +825,10 @@
+          <item quantity="3" chance="1">2079</item>
+          <item quantity="50" chance="1">342</item>
+          <item quantity="3" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
+       </slaughter>
+       <tameTypeID>761</tameTypeID>
+       <stableIcon>art/images/stable/stable_cow.png</stableIcon>
+@@ -822,6 +864,10 @@
+          <item quantity="3" chance="1">2079</item>
+          <item quantity="50" chance="1">342</item>
+          <item quantity="3" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.65">669</item>
++         <item quantity="1" skillRequired="90" chance="0.65">669</item>
++         <item quantity="1" skillRequired="90" chance="0.65">669</item>
++         <item quantity="1" skillRequired="90" chance="0.65">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_cow.png</stableIcon>
+    </animal>
+@@ -855,6 +901,10 @@
+          <item quantity="3" chance="1">2079</item>
+          <item quantity="60" chance="1">342</item>
+          <item quantity="3" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
+       </slaughter>
+       <tameTypeID>760</tameTypeID>
+       <stableIcon>art/images/stable/stable_bull.png</stableIcon>
+@@ -911,6 +961,10 @@
+          <item quantity="1" chance="1">427</item>
+          <item quantity="30" chance="1">342</item>
+          <item quantity="2" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
+       </slaughter>
+       <tameTypeID>753</tameTypeID>
+       <stableIcon>art/images/stable/stable_horse.png</stableIcon>
+@@ -946,6 +1000,10 @@
+          <item quantity="1" chance="1">427</item>
+          <item quantity="30" chance="1">342</item>
+          <item quantity="2" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.65">669</item>
++         <item quantity="1" skillRequired="90" chance="0.65">669</item>
++         <item quantity="1" skillRequired="90" chance="0.65">669</item>
++         <item quantity="1" skillRequired="90" chance="0.65">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_horse.png</stableIcon>
+    </animal>
+@@ -978,6 +1036,10 @@
+          <item quantity="1" chance="1">427</item>
+          <item quantity="40" chance="1">342</item>
+          <item quantity="2" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
+       </slaughter>
+       <tameTypeID>753</tameTypeID>
+       <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+@@ -1013,6 +1075,10 @@
+          <item quantity="1" chance="1">427</item>
+          <item quantity="40" chance="1">342</item>
+          <item quantity="2" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+    </animal>
+@@ -1030,6 +1096,10 @@
+          <item quantity="1" chance="1">427</item>
+          <item quantity="40" chance="1">342</item>
+          <item quantity="2" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+    </animal>
+@@ -1047,6 +1117,10 @@
+          <item quantity="1" chance="1">427</item>
+          <item quantity="40" chance="1">342</item>
+          <item quantity="2" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+    </animal>
+@@ -1064,6 +1138,10 @@
+          <item quantity="1" chance="1">427</item>
+          <item quantity="40" chance="1">342</item>
+          <item quantity="2" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+    </animal>
+@@ -1081,6 +1159,10 @@
+          <item quantity="1" chance="1">427</item>
+          <item quantity="40" chance="1">342</item>
+          <item quantity="2" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+    </animal>
+@@ -1098,6 +1180,10 @@
+          <item quantity="1" chance="1">427</item>
+          <item quantity="40" chance="1">342</item>
+          <item quantity="2" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
+       </slaughter>
+       <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+    </animal>
+@@ -1115,6 +1201,11 @@
+          <item quantity="1" chance="1">427</item>
+          <item quantity="40" chance="1">342</item>
+          <item quantity="2" chance="1">336</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.5">669</item>
++         <item quantity="1" skillRequired="90" chance="0.75">344</item>
+       </slaughter>
+       <tameTypeID>756</tameTypeID>
+       <stableIcon>art/images/stable/stable_stallion.png</stableIcon>
+diff -Nawur staticData-2019-07-18/00000006.xml staticData-2019-07-30/00000006.xml
+--- staticData-2019-07-18/00000006.xml	2019-07-18 18:08:37.132575400 +0200
++++ staticData-2019-07-30/00000006.xml	2019-07-31 17:33:53.352559300 +0200
+@@ -733,11 +733,11 @@
+     <effect id="126" name="Prayer of Comradery Cooldown">
+         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="FALSE" RealTime="TRUE"  />
+         <description>5933</description>
+-        <icon>art/2D/Effects/Power_Hour_Cooldown_Combat.png</icon>
++        <icon>art/2D/Effects/Pray_of_Comradery_Cooldown.png</icon>
+     </effect>
+     <effect id="127" name="Prayer of Wandering Cooldown">
+         <flags CanMove="TRUE" CanRun="TRUE" CanJump="TRUE" CanRotate="TRUE" CanRotateHead="TRUE" CanOperate="TRUE" CanBeCanceled="FALSE" RemovedOnDeath="FALSE" RealTime="TRUE"  />
+         <description>5934</description>
+-        <icon>art/2D/Effects/Power_Hour_Cooldown_Combat.png</icon>
++        <icon>art/2D/Effects/Pray_of_Wandering_Cooldown.png</icon>
+     </effect>
+ </effects>
+diff -Nawur staticData-2019-07-18/00000008.xml staticData-2019-07-30/00000008.xml
+--- staticData-2019-07-18/00000008.xml	2019-07-18 18:08:37.126591600 +0200
++++ staticData-2019-07-30/00000008.xml	2019-07-31 17:33:53.345583700 +0200
+@@ -5934,22 +5934,22 @@
+ <string id="5932">You can enter the Guest code to go directly to the territory of the inviting Guild.</string>
+ <string id="5933">You are unable to teleport to guild monument for the duration of effect</string>
+ <string id="5934">You are unable to teleport to a starting village for the duration of effect</string>
+-<string id="5935"></string>
+-<string id="5936"></string>
+-<string id="5937"></string>
+-<string id="5938"></string>
+-<string id="5939"></string>
+-<string id="5940"></string>
+-<string id="5941"></string>
+-<string id="5942"></string>
+-<string id="5943"></string>
+-<string id="5944"></string>
+-<string id="5945"></string>
+-<string id="5946"></string>
+-<string id="5947"></string>
+-<string id="5948"></string>
+-<string id="5949"></string>
+-<string id="5950"></string>
++<string id="5935">Arena info</string>
++<string id="5936">Kills</string>
++<string id="5937">Deaths</string>
++<string id="5938">Score</string>
++<string id="5939">Enter new name</string>
++<string id="5940">Disease</string>
++<string id="5941">Battle info</string>
++<string id="5942">Archimancurus name</string>
++<string id="5943">Archimancurus God name</string>
++<string id="5944">Makthrid name</string>
++<string id="5945">Makthrid God name</string>
++<string id="5946">Unknown</string>
++<string id="5947">Siege info</string>
++<string id="5948">Poll</string>
++<string id="5949">Attackers</string>
++<string id="5950">Defenders</string>
+ <string id="5951"></string>
+ <string id="5952"></string>
+ <string id="5953"></string>
+diff -Nawur staticData-2019-07-18/00000009.xml staticData-2019-07-30/00000009.xml
+--- staticData-2019-07-18/00000009.xml	2019-07-18 18:08:37.099663600 +0200
++++ staticData-2019-07-30/00000009.xml	2019-07-31 17:33:53.326630100 +0200
+@@ -32878,6 +32878,7 @@
+                 <shapes>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_black.dts</censoredShapeName>
+                         <offset x="0" y="0" z="-0.0215446" />
+                         <rot x="0" y="0" z="1" angle="0" />
+                         <scale x="1" y="1" z="1" />
+@@ -35839,6 +35840,7 @@
+                 <shapes>
+                     <shape>
+                         <shapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost.dts</shapeName>
++                        <censoredShapeName>art/models/3d/construction/outposts/stablefarmoutpost/stablefarmoutpost_black.dts</censoredShapeName>
+                         <offset x="0" y="0" z="-0.0215446" />
+                         <rot x="0" y="0" z="1" angle="0" />
+                         <scale x="1" y="1" z="1" />
+diff -Nawur staticData-2019-07-18/00000013.xml staticData-2019-07-30/00000013.xml
+--- staticData-2019-07-18/00000013.xml	2019-07-18 18:08:37.087696200 +0200
++++ staticData-2019-07-30/00000013.xml	2019-07-31 17:33:53.320644400 +0200
+@@ -3314,7 +3314,7 @@
+     <MaxContSize>0</MaxContSize>
+     <Length>0</Length>
+     <MaxStackSize>0</MaxStackSize>
+-    <UnitWeight>400000</UnitWeight>
++    <UnitWeight>150000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Objects\palisade_wall.png</FaceImage>
+     <CensoredFaceImage/>
+@@ -3394,7 +3394,7 @@
+     <MaxContSize>0</MaxContSize>
+     <Length>0</Length>
+     <MaxStackSize>0</MaxStackSize>
+-    <UnitWeight>400000</UnitWeight>
++    <UnitWeight>150000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Objects\wooden_scout_tower.png</FaceImage>
+     <CensoredFaceImage/>
+@@ -8694,7 +8694,7 @@
+     <MaxContSize>0</MaxContSize>
+     <Length>0</Length>
+     <MaxStackSize>0</MaxStackSize>
+-    <UnitWeight>400000</UnitWeight>
++    <UnitWeight>150000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Objects\wooden_wall.png</FaceImage>
+     <CensoredFaceImage/>
+@@ -8714,7 +8714,7 @@
+     <MaxContSize>0</MaxContSize>
+     <Length>0</Length>
+     <MaxStackSize>0</MaxStackSize>
+-    <UnitWeight>400000</UnitWeight>
++    <UnitWeight>150000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Objects\wooden_wall_with_stairs.png</FaceImage>
+     <CensoredFaceImage/>
+@@ -8734,7 +8734,7 @@
+     <MaxContSize>0</MaxContSize>
+     <Length>0</Length>
+     <MaxStackSize>0</MaxStackSize>
+-    <UnitWeight>400000</UnitWeight>
++    <UnitWeight>150000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Objects\wooden_gates.png</FaceImage>
+     <CensoredFaceImage/>
+@@ -8754,7 +8754,7 @@
+     <MaxContSize>0</MaxContSize>
+     <Length>0</Length>
+     <MaxStackSize>0</MaxStackSize>
+-    <UnitWeight>400000</UnitWeight>
++    <UnitWeight>150000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Objects\wooden_gatehouse.png</FaceImage>
+     <CensoredFaceImage/>
+@@ -20014,7 +20014,7 @@
+     <MaxContSize>0</MaxContSize>
+     <Length>0</Length>
+     <MaxStackSize>0</MaxStackSize>
+-    <UnitWeight>400000</UnitWeight>
++    <UnitWeight>150000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Objects\palisade_wall_diagonal.png</FaceImage>
+     <CensoredFaceImage/>
+@@ -26174,7 +26174,7 @@
+     <MaxContSize>0</MaxContSize>
+     <Length>0</Length>
+     <MaxStackSize>0</MaxStackSize>
+-    <UnitWeight>400000</UnitWeight>
++    <UnitWeight>150000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Objects\wooden_wall.png</FaceImage>
+     <CensoredFaceImage/>
+@@ -26194,7 +26194,7 @@
+     <MaxContSize>0</MaxContSize>
+     <Length>0</Length>
+     <MaxStackSize>0</MaxStackSize>
+-    <UnitWeight>400000</UnitWeight>
++    <UnitWeight>150000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Objects\palisade_wall_diagonal.png</FaceImage>
+     <CensoredFaceImage/>
+@@ -26214,7 +26214,7 @@
+     <MaxContSize>0</MaxContSize>
+     <Length>0</Length>
+     <MaxStackSize>0</MaxStackSize>
+-    <UnitWeight>400000</UnitWeight>
++    <UnitWeight>150000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Objects\palisade_wall_diagonal.png</FaceImage>
+     <CensoredFaceImage/>
+@@ -26274,7 +26274,7 @@
+     <MaxContSize>0</MaxContSize>
+     <Length>0</Length>
+     <MaxStackSize>0</MaxStackSize>
+-    <UnitWeight>400000</UnitWeight>
++    <UnitWeight>150000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Objects\wooden_wall.png</FaceImage>
+     <CensoredFaceImage/>
+@@ -26294,7 +26294,7 @@
+     <MaxContSize>0</MaxContSize>
+     <Length>0</Length>
+     <MaxStackSize>0</MaxStackSize>
+-    <UnitWeight>400000</UnitWeight>
++    <UnitWeight>150000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Objects\wooden_wall.png</FaceImage>
+     <CensoredFaceImage/>
+@@ -26314,7 +26314,7 @@
+     <MaxContSize>0</MaxContSize>
+     <Length>0</Length>
+     <MaxStackSize>0</MaxStackSize>
+-    <UnitWeight>400000</UnitWeight>
++    <UnitWeight>150000</UnitWeight>
+     <BackgndImage/>
+     <FaceImage>art\2D\Objects\wooden_wall_with_stairs.png</FaceImage>
+     <CensoredFaceImage/>
+diff -Nawur staticData-2019-07-18/00000020.xml staticData-2019-07-30/00000020.xml
+--- staticData-2019-07-18/00000020.xml	2019-07-18 18:08:37.064757700 +0200
++++ staticData-2019-07-30/00000020.xml	2019-07-31 17:33:53.307680000 +0200
+@@ -6305,4 +6305,14 @@
+     <RecipeID>1192</RecipeID>
+     <StartingToolID>453</StartingToolID>
+   </row>
++  <row>
++    <ID>1294</ID>
++    <RecipeID>1261</RecipeID>
++    <StartingToolID>295</StartingToolID>
++  </row>
++  <row>
++    <ID>1295</ID>
++    <RecipeID>1262</RecipeID>
++    <StartingToolID>295</StartingToolID>
++  </row>
+ </table>
+diff -Nawur staticData-2019-07-18/00000022.xml staticData-2019-07-30/00000022.xml
+--- staticData-2019-07-18/00000022.xml	2019-07-18 18:08:37.060768200 +0200
++++ staticData-2019-07-30/00000022.xml	2019-07-31 17:33:53.303688900 +0200
+@@ -835,6 +835,7 @@
+ 		<abilities>
+ 			<ability lvl="0" name="Simple Construction" type="Build" id="18">
+ 				<duration const="15 10"/>
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<ability_exp>2500</ability_exp>
+ 				<entities>
+ 					<entity type="cell">
+@@ -975,6 +976,7 @@
+ 		<abilities>
+ 			<ability lvl="0" name="Construction" type="Build" id="19">
+ 				<duration const="15 10"/>
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<ability_exp>3500</ability_exp>
+ 				<entities>
+ 					<entity type="cell">
+@@ -1023,6 +1025,7 @@
+ 		<abilities>
+ 			<ability lvl="0" name="Complex Construction" type="Build" id="20">
+ 				<duration const="15 10"/>
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<ability_exp>5000</ability_exp>
+ 				<entities>
+ 					<entity type="cell">
+@@ -5427,6 +5430,7 @@
+ 				<results>
+ 					<cooldowns>
+ 						<cooldown group="formations">30</cooldown>
++						<cooldown group="global">0.5</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -6128,7 +6132,8 @@
+ 					<sound node="Head">Voice_Prayer</sound>
+ 					<sstam_spent>80</sstam_spent>
+ 					<cooldowns>
+-						<cooldown group="self">60</cooldown>
++						<cooldown group="self">30</cooldown>
++						<cooldown group="global">0.5</cooldown>
+ 					</cooldowns>
+ 				</results>
+ 			</ability>
+@@ -6901,6 +6906,7 @@
+ 			</ability>
+ 			<ability lvl="0" name="Approve" id="189">
+ 				<duration const="">3</duration>
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\approval.png</icon>
+ 				<entities/>
+@@ -6919,6 +6925,7 @@
+ 			</ability>
+ 			<ability lvl="0" name="Courtesy" id="190">
+ 				<duration const="">2.5</duration>
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\courtesy.png</icon>
+ 				<entities/>
+@@ -6936,6 +6943,7 @@
+ 			</ability>
+ 			<ability lvl="0" name="Dance" id="191">
+ 				<duration const="">4</duration>
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\dance.png</icon>
+ 				<entities/>
+@@ -6953,6 +6961,7 @@
+ 			</ability>
+ 			<ability lvl="0" name="Disapproval" id="192">
+ 				<duration const="">5</duration>
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\disapproval.png</icon>
+ 				<entities/>
+@@ -6971,6 +6980,7 @@
+ 			</ability>
+ 			<ability lvl="0" name="Fright" id="193">
+ 				<duration const="">5</duration>
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\fright.png</icon>
+ 				<entities/>
+@@ -6989,6 +6999,7 @@
+ 			</ability>
+ 			<ability lvl="0" name="Laughter" id="194">
+ 				<duration const="">5</duration>
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\laughter.png</icon>
+ 				<entities/>
+@@ -7007,6 +7018,7 @@
+ 			</ability>
+ 			<ability lvl="0" name="Provocation" id="195">
+ 				<duration const="">4</duration>
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\provocation.png</icon>
+ 				<entities/>
+@@ -7024,6 +7036,7 @@
+ 			</ability>
+ 			<ability lvl="0" name="Honor" id="196">
+ 				<duration const="">2</duration>
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\the_return_of_honor.png</icon>
+ 				<entities/>
+@@ -7042,6 +7055,7 @@
+ 			</ability>
+ 			<ability lvl="0" name="Welcome" id="197">
+ 				<duration const="">3.5</duration>
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\welcome.png</icon>
+ 				<entities/>
+@@ -7060,6 +7074,7 @@
+ 			</ability>
+ 			<ability lvl="0" name="Indication" id="198">
+ 				<duration const="">3</duration>
++				<applyAbilityDurationMod>0</applyAbilityDurationMod>
+ 				<ability_exp>0</ability_exp>
+ 				<icon>art\2D\skills\abilities\pointing_finger.png</icon>
+ 				<entities/>
+@@ -8504,6 +8519,7 @@
+ 							<ent_req type="object_type_id">1702 1703 1704 1705 1706 1707 1708 1709 1710 1711 2224</ent_req>
+ 							<ent_req type="state">incomplete</ent_req>
+ 							<ent_req type="claim" usage_type="build"/>
++							<ent_req type="distance">0</ent_req>
+ 						</ent_reqs>
+ 					</entity>
+ 				</entities>
